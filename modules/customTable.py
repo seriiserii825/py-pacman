@@ -13,7 +13,10 @@ def customTable(title = '', columns = [], rows = []):
 
     if len(rows) > 0:
         for row in rows:
-            table.add_row(row)
+            if type(row) == list:
+                table.add_row(*row)
+            else:
+                table.add_row(row)
     else:
         table.add_row("No data")
 

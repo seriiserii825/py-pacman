@@ -8,14 +8,12 @@ def menuTable():
     table.add_column("Title")
 
     table.add_row("1)", "[green]Install")
-    table.add_row("2)", "[blue]Search")
+    table.add_row("2)", "[blue]Search in pacman")
+    table.add_row("2.1)", "[blue]Search in yay")
     table.add_row("3)", "[magenta]Uninstall")
     table.add_row("4)", "[green]Find throw pacman installed")
     table.add_row("5)", "[green]Find throw yay installed")
-    table.add_row("6)", "[yellow]Export installed to file")
-    table.add_row("6.1)", "[yellow]Show all packages")
-    table.add_row("6.2)", "[yellow]Diff installed packages")
-    table.add_row("6.3)", "[yellow]Install diff packages")
+    table.add_row("6)", "[yellow]Packages")
     table.add_row("7)", "[magenta]Exit")
 
     console = Console()
