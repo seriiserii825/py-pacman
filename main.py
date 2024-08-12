@@ -10,7 +10,7 @@ def menu():
     if menu_option == 1:
         package = input("Enter package name: ")
         os.system(f"sudo pacman -S {package}")
-        exportToFile()
+        exportToFile(package)
         menu()
     elif menu_option == 2:
         package = input("Enter package name: ")
@@ -33,11 +33,11 @@ def menu():
         exportToFile()
         menu()
     elif menu_option == 6.1:
-        diffInstalled()
-        menu()
-    elif menu_option == 6.2:
         command = f"pacman -Qe | awk '{{print $1}}' | less"
         os.system(command)
+        menu()
+    elif menu_option == 6.2:
+        diffInstalled()
         menu()
     elif menu_option == 6.3:
         installDiff()
