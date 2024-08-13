@@ -1,9 +1,5 @@
 import os
 from modules.customTable import customTable
-from modules.diffInstalled import diffInstalled
-from modules.exportToFile import exportToFile
-from modules.installDiff import installDiff
-from modules.menuTable import menuTable
 from modules.packagesMenu import packagesMenu
 from modules.searchPackage import searchPackage
 user = os.getlogin()
