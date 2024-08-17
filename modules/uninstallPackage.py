@@ -2,6 +2,7 @@ import os
 from pyfzf.pyfzf import FzfPrompt
 
 from modules.exportToFile import exportToFile
+from modules.removePackageFromFile import removePackageFromFile
 fzf = FzfPrompt()
 user = os.getlogin()
 def uninstallPackage(pacman = True, prop_package = ''):
@@ -19,7 +20,9 @@ def uninstallPackage(pacman = True, prop_package = ''):
             return
     if pacman:
         os.system(f"sudo pacman -R {package}")
+        removePackageFromFile(file_path, package)
     else:
         os.system(f"yay -R {package}")
+        removePackageFromFile(file_path, package)
     print(f"{package} has been uninstalled")
     exportToFile(pacman)
