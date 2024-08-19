@@ -2,6 +2,7 @@ import os
 from modules.customTable import customTable
 from modules.diffInstalled import diffInstalled
 from modules.exportToFile import exportToFile
+from modules.getPackageFilePath import getPackageFilePath
 from modules.installDiff import installDiff
 from modules.installPackage import installPackage
 from modules.menuTable import menuTable
@@ -40,8 +41,7 @@ def packagesMenu(pacman):
         diffInstalled(pacman)
         packagesMenu(pacman)
     elif menu_option == '5':
-        file_name = "pacman_list.txt" if pacman else "yay_list.txt"
-        file_path = f"/home/{user}/xubuntu/{file_name}"
+        file_path = getPackageFilePath(pacman)
         os.system(f"less {file_path}")
         packagesMenu(pacman)
     elif menu_option == '6':

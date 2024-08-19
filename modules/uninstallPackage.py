@@ -2,12 +2,12 @@ import os
 from pyfzf.pyfzf import FzfPrompt
 
 from modules.exportToFile import exportToFile
+from modules.getPackageFilePath import getPackageFilePath
 from modules.removePackageFromFile import removePackageFromFile
 fzf = FzfPrompt()
 user = os.getlogin()
 def uninstallPackage(pacman = True, prop_package = ''):
-    file_name = "pacman_list.txt" if pacman else "yay_list.txt"
-    file_path = f"/home/{user}/xubuntu/{file_name}"
+    file_path = getPackageFilePath(pacman)
     if prop_package:
         package = prop_package
     else:
