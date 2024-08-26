@@ -1,0 +1,4 @@
+browserpass-chrome
+google-chrome
+yay
+yay-debug

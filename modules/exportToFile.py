@@ -3,8 +3,8 @@ from rich import print
 
 from modules.getPackageFilePath import getPackageFilePath
 user = os.getlogin()
-def exportToFile(pacman):
+def exportToFile(package_name, pacman):
     file_path = getPackageFilePath(pacman)
-    command = f"pacman -Qe | awk '{{print $1}}' > {file_path}" if pacman else f"pacman -Qm | awk '{{print $1}}' > {file_path}"
-    print(f"[green]Exporting to {file_path}...")
-    os.system(command)
+    with open(file_path, "a") as f:
+        f.write(package_name + "\n")
+    print(f"[bold green]Package {package_name} added to {file_path}[/bold green]")

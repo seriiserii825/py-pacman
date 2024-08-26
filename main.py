@@ -3,6 +3,7 @@ from modules.customTable import customTable
 from modules.installPackage import installPackage
 from modules.packagesMenu import packagesMenu
 from modules.searchPackage import searchPackage
+from modules.uninstallPackage import uninstallPackage
 user = os.getlogin()
 
 def mainMenu():
@@ -20,6 +21,8 @@ def mainMenu():
         exit()
     if menu_option == '1':
        installPackage()
+    elif menu_option == '2':
+        uninstallPackage()
     
     # packagesMenu(pacman)
 

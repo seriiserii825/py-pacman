@@ -1,5 +1,6 @@
 import os
 
+from modules.exportToFile import exportToFile
 from modules.searchPackage import searchPackage
 from appSettings import appSettings
 PACMAN_SEARCH_PATH = appSettings()["SEARCH_PACMAN_PATH"]
@@ -23,7 +24,7 @@ def installPackage():
         read = input("Do you want to continue? (y/n): ")
         if read == "y":
             os.system(command)
-            # exportToFile(package_name)
+            exportToFile(package_name, True)
         else:
             print("Installation cancelled!")
             return
@@ -34,7 +35,7 @@ def installPackage():
         read = input("Do you want to continue? (y/n): ")
         if read == "y":
             os.system(command)
-            # exportToFile(package_name)
+            exportToFile(package_name, True)
         else:
             print("Installation cancelled!")
             return
