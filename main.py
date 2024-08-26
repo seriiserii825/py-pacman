@@ -9,8 +9,7 @@ def mainMenu():
     customTable('Main Menu', ['Id', 'Option'], 
                    [
                        ['1', '[green]Install'],
-                       ['2', '[blue]Search'],
-                       ['3', '[yellow]Uninstall'],
+                       ['2', '[blue]Uninstall'],
                        ['4', '[red]Exit']
                    ]
                    )
@@ -22,7 +21,7 @@ def mainMenu():
     if menu_option == '1':
        installPackage()
     
-    packagesMenu(pacman)
+    # packagesMenu(pacman)
 
 # def mainMenu():
 #     customTable('Main Menu', ['Id', 'Option'], 

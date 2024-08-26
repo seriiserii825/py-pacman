@@ -15,7 +15,7 @@ def getPackageByName(package_file):
 
 def installPackage():
     searchPackage()
-    choose = input("Search in pacman or yay? (p/y): ")
+    choose = input("Install in pacman or yay? (p/y): ")
     if choose == "p":
         package_name = getPackageByName(PACMAN_SEARCH_PATH)
         command = f"sudo pacman -S {package_name}"
