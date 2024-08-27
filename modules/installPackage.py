@@ -1,10 +1,12 @@
 import os
 
 from modules.exportToFile import exportToFile
+from modules.saveInstalledPackagesToFiles import saveInstalledPackagesToFiles
 from modules.searchPackage import searchPackage
 from appSettings import appSettings
-PACMAN_SEARCH_PATH = appSettings()["SEARCH_PACMAN_PATH"]
-YAY_SEARCH_PATH = appSettings()["SEARCH_YAY_PATH"]
+from config import CONFIG
+PACMAN_SEARCH_PATH = CONFIG.SEARCH_PACMAN_PATH
+YAY_SEARCH_PATH = CONFIG.SEARCH_YAY_PATH
 from pyfzf.pyfzf import FzfPrompt
 fzf = FzfPrompt()
 def getPackageByName(package_file):
@@ -24,7 +26,7 @@ def installPackage():
         read = input("Do you want to continue? (y/n): ")
         if read == "y":
             os.system(command)
-            exportToFile(package_name, True)
+            saveInstalledPackagesToFiles()
         else:
             print("Installation cancelled!")
             return
@@ -35,7 +37,7 @@ def installPackage():
         read = input("Do you want to continue? (y/n): ")
         if read == "y":
             os.system(command)
-            exportToFile(package_name, True)
+            saveInstalledPackagesToFiles()
         else:
             print("Installation cancelled!")
             return
