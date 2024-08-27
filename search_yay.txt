@@ -1,18 +1,78 @@
-aur/osxiv-git 0.r1.c622573-1 (+0 0.00) (Out-of-date: 2024-01-07) 
-    Overly Simple X Image Viewer
-aur/nsxiv-git 30.r0.g33a5d54-1 (+4 0.00) 
-    Neo (or New or Not) Simple (or Small or Suckless) X Image Viewer (GIT VERSION)
-aur/subtube-wayland-git 1-2 (+0 0.00) 
-    youtube viewer made of mpv/youtube-dl and sxiv
-aur/subtube-git 1-2 (+1 0.00) (Out-of-date: 2023-10-19) 
-    youtube viewer made of mpv/youtube-dl and sxiv
-aur/sxiv-photoorg-git 0.r907.e907737-1 (+1 0.00) 
-    Simple X Image Viewer, photo organiser version
-aur/sxiv-grfreire 27-1 (+1 0.00) 
-    GRFreire's Simple X Image Viewer fork
-aur/sxiv-git 2016.08.08-1 (+35 0.00) 
-    Simple (or small or suckless) X Image Viewer
-extra/nsxiv 32-4 (47.0 KiB 97.9 KiB) 
-    Neo (or New or Not) Simple (or Small or Suckless) X Image Viewer
-extra/sxiv 26-2 (38.4 KiB 77.3 KiB) (Installed)
-    Simple X Image Viewer
+aur/fastfrog-git 2.9.1-1 (+0 0.00) 
+    Like Neofetch, but much faster because written in C
+aur/sigmafetch 1.0.r6.076cf2a-1 (+0 0.00) 
+    a Neofetch-like program written in Rust
+aur/windfetch 0.2.1-2 (+0 0.00) 
+    OS information tool. Fork of Neofetch
+aur/freshfetch 0.2.0-2 (+0 0.00) 
+    A fresh take on Neofetch
+aur/ghfetch-git 1.2.5-5 (+1 0.00) 
+    A nice way to display CLI Github user / repo / organization info inspired in neofetch
+aur/ghfetch 1.7.0-1 (+1 0.00) 
+    A nice way to display CLI Github user / repo / organization info inspired in neofetch
+aur/ppfetch-git 1.09.8fd1ae9-2 (+1 0.00) 
+    Info script written in BASH, alternative for ufetch and neofetch.
+aur/albafetch-git 4.1.r91.g34d31704-1 (+1 0.00) 
+    Neofetch, but written in C; both faster and worse than the original (latest commit)
+aur/albafetch-bin 4.2-1 (+1 0.00) 
+    Neofetch, but written in C; both faster and worse than the original (binary build)
+aur/hyfetch-extra-legal-git v1.4.15-1 (+1 0.43) 
+    Neofetch with LGBTQ pride flags. (extra flags, sans paedophelic)
+aur/freshfetch-git 0.2.0.r7.gace04ea-1 (+3 0.00) (Out-of-date: 2024-02-24) 
+    A fresh take on Neofetch
+aur/zeitfetch-git r46.caeecaf-1 (+0 0.00) 
+    a neofetch implementation in Rust aiming to be near instantaneous, with the least amount of dependencies possible
+aur/albafetch 4.2-1 (+2 0.87) 
+    Neofetch, but written in C; both faster and worse than the original
+aur/freshfetch-bin 0.2.0-2 (+4 0.00) 
+    A fresh take on Neofetch
+aur/fetchfetch a4c9f16-1 (+0 0.00) 
+    A neofetch-like tool to get all the neofetch-like tools installed on your computer, written in python.
+aur/beerfetch 0.1-1 (+0 0.00) 
+    A very basic bash version of neofetch
+aur/ipfetch-git r10.ef082d5-1 (+2 0.00) (Orphaned) 
+    Neofetch like tool that can lookup IPs
+aur/akkufetch-git 20230924-3 (+1 0.00) 
+    Neofetch for laptop batteries
+aur/pridefetch-git r79.9ed33d7-1 (+1 0.00) 
+    Neofetch clone written in Python with the ability to display pride flags
+aur/paleofetch-git r185.f5340ca-1 (+2 0.00) 
+    neofetch, but written in C
+aur/pridefetch 1.1.0-2 (+1 0.00) 
+    Neofetch clone written in Python with the ability to display pride flags
+aur/hyfetch-git 1.3.0.r34.g64a997ed-2 (+4 0.01) (Orphaned) 
+    Neofetch with LGBTQ pride flags.
+aur/fastfetch-git 2.10.2.r14.g74c89cc0-2 (+15 0.18) 
+    Like neofetch, but much faster because written in c
+aur/sysfex-git c8c29f7-1 (+1 0.00) 
+    Another neofetch-like system information fetching tool for linux-based systems written in C++
+aur/neowofetch-git r37.55c749c-1 (+2 0.00) 
+    a combination of neofetch and uwufetch written in go
+aur/mekfetch-git r20.9b87193-1 (+0 0.00) 
+    Simple neofetch alternative written in C
+aur/wayfetch-git 0.00.01.e9b0693d-1 (+0 0.00) 
+    A CLI system information tool written in C. A neofetch clone.
+aur/binfetch-git 0.1.r0.g4c63508-1 (+2 0.00) (Orphaned) 
+    Neofetch inspired utility for binaries. CC0
+aur/neofetch-port r4.118e0f6-1 (+0 0.00) 
+    A port that just reponse with the output of neofetch...
+aur/mycfetch 1.4.1-1 (+0 0.00) 
+    Small neofetch in C
+aur/gitfetch 0.1.1-1 (+1 1.00) 
+    A command-line GitHub contribution visualization tool written in Rust inspired by Neofetch
+aur/susfetch-git 0.1.1-1 (+1 0.00) 
+    Neofetch, but sus
+aur/unifetch-git 1:r5419.4587679e-1 (+0 0.00) 
+    An unofficial inheritor of neofetch, fresh version.
+aur/unifetch 1.3.3-1 (+2 0.00) 
+    An unofficial inheritor of neofetch.
+aur/neofetch-extended 7.2.0-2 (+0 0.00) 
+    Neofetch is discounted. This project resumes it!
+aur/neofetch-git 3.2.0.r28.g2eca41d-1 (+31 0.00) 
+    A CLI system information tool written in BASH that supports displaying images.
+extra/fastfetch 2.21.3-1 (564.3 KiB 2.5 MiB) 
+    Like Neofetch, but much faster because written in C
+extra/hyfetch 1.4.11-3 (306.2 KiB 2.6 MiB) 
+    Neofetch with LGBTQ+ pride flags!
+extra/neofetch 7.1.0-2 (83.1 KiB 339.1 KiB) 
+    A CLI system information tool written in BASH that supports displaying images.

@@ -1,4 +1,6 @@
-extra/nsxiv 32-4
-    Neo (or New or Not) Simple (or Small or Suckless) X Image Viewer
-extra/sxiv 26-2 [installed]
-    Simple X Image Viewer
+extra/fastfetch 2.21.3-1
+    Like Neofetch, but much faster because written in C
+extra/hyfetch 1.4.11-3
+    Neofetch with LGBTQ+ pride flags!
+extra/neofetch 7.1.0-2
+    A CLI system information tool written in BASH that supports displaying images.

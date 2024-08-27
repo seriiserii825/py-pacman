@@ -47,6 +47,7 @@ lxsession
 maim
 mariadb-lts
 mousepad
+neofetch
 neovim
 networkmanager
 parole
