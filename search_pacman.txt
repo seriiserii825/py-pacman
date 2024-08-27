@@ -1,2 +1,2 @@
-extra/feh 3.10.3-1 [installed]
-    Fast and light imlib2-based image viewer
+extra/maim 5.8.0-2 [installed]
+    Utility to take a screenshot using imlib2

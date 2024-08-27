@@ -1,26 +1,10 @@
-aur/tbg 0.3.0-0 (+0 0.00) 
-    Use feh to randomize desktop backgrounds from a directory
-aur/wallepy 0.05-1 (+0 0.00) 
-    An automatic wallpaper getter and setter using feh
-aur/sdorfehs-git 1670.fb30a72-1 (+1 0.00) 
-    sdorfehs is a tiling window manager descended from ratpoison.
-aur/waypaper 2.2-1 (+4 0.95) 
-    GUI wallpaper setter for Wayland and Xorg window managers. It works as a frontend for popular wallpaper backends like swaybg, swww, wallutils, hyprpaper and feh.
-aur/todotxt-git v2.11.0.r37.g2d70a0a-1 (+6 0.03) 
-    lifehacker.com's todo.sh script for maintaining a todo.txt file
-aur/giblib 1.2.4-9 (+7 0.28) 
-    A library that feh uses as a wrapper to imlib2
-aur/waypaper-git 2.2.r0.g86578b8-1 (+8 0.70) 
-    GUI wallpaper setter for Wayland and Xorg window managers. It works as a frontend for popular wallpaper backends like swaybg, swww, wallutils, hyprpaper and feh.
-aur/feh-preload-next-image-git r419.g44efa94-1 (+0 0.00) (Out-of-date: 2023-08-24) 
-    preload-next-image fork of Feh
-aur/fehbg-mgr 2013.7.10-4 (+0 0.00) 
-    Save and restore named fehbg states.
-aur/setroot 2.0.2-1 (+15 0.28) 
-    simple program that sets your (X11) wallpaper. inspired by the *setroots and feh.
-aur/fehashmac 2.1-1 (+0 0.00) (Out-of-date: 2021-03-02) 
-    Generic Hash and HMAC Program
-aur/feh-git 3.3.r0.g7774f62-1 (+0 0.00) 
-    Fast and light imlib2-based image viewer
-extra/feh 3.10.3-1 (182.2 KiB 431.7 KiB) (Installed)
-    Fast and light imlib2-based image viewer
+aur/transformers_ocr 0.18-1 (+1 0.00) 
+    An OCR tool for manga using maim with Transformers.
+aur/i3-maim-clpimg 1.0.0-0 (+0 0.00) 
+    create a screenshot and then immediately copy it into the clipboard
+aur/maim-vst3 1.0.0-1 (+0 0.00) 
+    Audio plugin for custom MP3 distortion and digital glitches.
+aur/maim-git v5.4.68.r2.gf0c5de9-1 (+9 0.00) 
+    maim (make image) makes an image out of the given area on the given X screen. Defaults to the whole screen.
+extra/maim 5.8.0-2 (95.6 KiB 261.9 KiB) (Installed)
+    Utility to take a screenshot using imlib2

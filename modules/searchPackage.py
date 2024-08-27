@@ -1,9 +1,9 @@
 import os
 from rich import print
 from rich.panel import Panel
-from appSettings import appSettings
-PACMAN_SEARCH_PATH = appSettings()["SEARCH_PACMAN_PATH"]
-YAY_SEARCH_PATH = appSettings()["SEARCH_YAY_PATH"]
+from config import CONFIG
+PACMAN_SEARCH_PATH = CONFIG.SEARCH_PACMAN_PATH
+YAY_SEARCH_PATH = CONFIG.SEARCH_YAY_PATH
 print(f"Pacman search path: {PACMAN_SEARCH_PATH}")
 print(f"Yay search path: {YAY_SEARCH_PATH}")
 def searchPackage():
