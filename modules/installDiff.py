@@ -4,6 +4,7 @@ from rich import print
 from modules.getAllInstalledPackages import getAllInstalledPackages
 from modules.installPackage import installPackage
 from modules.saveInstalledPackagesToFiles import saveInstalledPackagesToFiles
+from modules.uninstallPackage import uninstallPackage
 user = os.getlogin()
 from config import CONFIG
 def installDiff():
@@ -19,13 +20,13 @@ def installDiff():
     if not diff_packages_from_installed:
         print("[red]No diff packages from installed")
     else:
-        print(f"Packages to install: {diff_packages_from_installed}")
-        choose = input("Do you want to install these packages? [y/n]: ")
+        print(f"Packages to uninstall: {diff_packages_from_installed}")
+        choose = input("Do you want to uninstall? [y/n]: ")
         if choose == "y":
             for package in diff_packages_from_installed:
-                agree = input(f"Install {package}? [y/n]: ")
+                agree = input(f"Uninstall {package}? [y/n]: ")
                 if agree == "y":
-                    installPackage(package)
+                    uninstallPackage(package)
     diff_packages_from_diff_file = list(set(diff_packages) - set(all))
     if not diff_packages_from_diff_file:
         print("[red]No diff packages from diff file")

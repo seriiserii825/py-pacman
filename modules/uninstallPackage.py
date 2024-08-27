@@ -5,7 +5,7 @@ from modules.getAllInstalledPackages import getAllInstalledPackages
 from modules.saveInstalledPackagesToFiles import saveInstalledPackagesToFiles
 fzf = FzfPrompt()
 user = os.getlogin()
-def uninstallPackage():
+def uninstallPackage(package_name = None):
     saveInstalledPackagesToFiles()
     packages = getAllInstalledPackages()
     all = packages["all"]
@@ -13,7 +13,10 @@ def uninstallPackage():
     if not packages:
         print("[red]No packages to uninstall")
         return
-    package = fzf.prompt(all)
+    if (package_name):
+        package = [package_name]
+    else:
+        package = fzf.prompt(all)
     if not package:
         return
     print(f"Uninstalling {package[0]}")

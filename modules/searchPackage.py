@@ -6,8 +6,11 @@ PACMAN_SEARCH_PATH = CONFIG.SEARCH_PACMAN_PATH
 YAY_SEARCH_PATH = CONFIG.SEARCH_YAY_PATH
 print(f"Pacman search path: {PACMAN_SEARCH_PATH}")
 print(f"Yay search path: {YAY_SEARCH_PATH}")
-def searchPackage():
-    package = input("Enter package name: ")
+def searchPackage(package_name = None):
+    if package_name:
+        package = package_name
+    else:
+        package = input("Enter package name: ")
     if not package:
         print(Panel("Package name is required!"))
         return
