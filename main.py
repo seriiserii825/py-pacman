@@ -1,9 +1,8 @@
 import os
 from modules.customTable import customTable
+from modules.installDiff import installDiff
 from modules.installPackage import installPackage
-from modules.packagesMenu import packagesMenu
 from modules.saveInstalledPackagesToFiles import saveInstalledPackagesToFiles
-from modules.searchPackage import searchPackage
 from modules.uninstallPackage import uninstallPackage
 user = os.getlogin()
 
@@ -13,7 +12,8 @@ def mainMenu():
                        ['1', '[green]Install'],
                        ['2', '[blue]Uninstall'],
                        ['3', '[yellow]Save installed packages to file'],
-                       ['4', '[red]Exit']
+                       ['4', '[green]Install diff packages'],
+                       ['5', '[red]Exit']
                    ]
                    )
     menu_option = input("[green]Enter option: ")
@@ -27,6 +27,8 @@ def mainMenu():
         uninstallPackage()
     elif menu_option == '3':
         saveInstalledPackagesToFiles()
+    elif menu_option == '4':
+        installDiff()
     
     # packagesMenu(pacman)
 

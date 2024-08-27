@@ -5,5 +5,6 @@ class CONFIG:
     SEARCH_YAY_PATH = f"{SCRIPT_PATH}/search_yay.txt"
     INSTALLED_PACMAN_PATH = f"{SCRIPT_PATH}/installed_pacman.txt"
     INSTALLED_YAY_PATH = f"{SCRIPT_PATH}/installed_yay.txt"
+    DIFF_FILE_PATH = f"{SCRIPT_PATH}/diff.txt"
     def __init__(self):
         pass
