@@ -1,8 +1,8 @@
 import os
-import subprocess
 from rich import print
 
 from modules.getAllInstalledPackages import getAllInstalledPackages
+from modules.installPackage import installPackage
 from modules.saveInstalledPackagesToFiles import saveInstalledPackagesToFiles
 user = os.getlogin()
 from config import CONFIG
@@ -15,20 +15,27 @@ def installDiff():
     diff_packages = [line.strip() for line in lines]
     print(f"[green]Total diff packages: {len(diff_packages)}")
     # get diff from all and diff_packages
-    diff_packages = list(set(all) - set(diff_packages))
-    if not diff_packages:
-        diff_packages = list(set(diff_packages) - set(all))
-    if not diff_packages:
-        print("[red]No diff packages")
-        return
-    print(f"[green]Packages to install: {diff_packages}")
-    for package in diff_packages:
-        choice = input(f"Do you want to install {package} with pacman,y/n?: ")
-        if choice == 'y':
-            if package in packages["pacman"]:
-                subprocess.run(f"sudo pacman -S {package}", shell=True)
-            else:
-                subprocess.run(f"yay -S {package}", shell=True)
-        else:
-            print(f"Skipping {package}")
+    diff_packages_from_installed = list(set(all) - set(diff_packages))
+    if not diff_packages_from_installed:
+        print("[red]No diff packages from installed")
+    else:
+        print(f"Packages to install: {diff_packages_from_installed}")
+        choose = input("Do you want to install these packages? [y/n]: ")
+        if choose == "y":
+            for package in diff_packages_from_installed:
+                agree = input(f"Install {package}? [y/n]: ")
+                if agree == "y":
+                    installPackage(package)
+    diff_packages_from_diff_file = list(set(diff_packages) - set(all))
+    if not diff_packages_from_diff_file:
+        print("[red]No diff packages from diff file")
+    else:
+        print(f"Packages to install: {diff_packages_from_diff_file}")
+        choose = input("Do you want to install these packages? [y/n]: ")
+        if choose == "y":
+            for package in diff_packages_from_diff_file:
+                agree = input(f"Install {package}? [y/n]: ")
+                if agree == "y":
+                    installPackage(package)
+    
     saveInstalledPackagesToFiles()

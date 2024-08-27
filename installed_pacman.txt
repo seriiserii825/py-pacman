@@ -31,7 +31,6 @@ git
 gnome-keyring
 google-chrome
 gparted
-guake
 i3-wm
 id3v2
 imagemagick
@@ -47,6 +46,7 @@ lxsession
 maim
 mariadb-lts
 mousepad
+neofetch
 neovim
 networkmanager
 parole
