@@ -6,10 +6,8 @@ local-by-flywheel-bin
 local-by-flywheel-bin-debug
 ncurses5-compat-libs
 ncurses5-compat-libs-debug
-skypeforlinux-bin
-ttf-font-awesome-5
-ttf-meslo-nerd-font-powerlevel10k
-xfce-polkit
-xfce-polkit-debug
+thonny
+visual-studio-code-bin
+visual-studio-code-bin-debug
 yay
 yay-debug
