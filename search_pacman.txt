@@ -1,8 +1,2 @@
-extra/code 1.92.1-1
-    The Open Source build of Visual Studio Code (vscode) editor
-extra/vscode-css-languageserver 1.91.0-1
-    CSS/LESS/SCSS language server
-extra/vscode-html-languageserver 1.91.0-1
-    HTML language server
-extra/vscode-json-languageserver 1.91.0-1
-    JSON language server
+extra/jpegoptim 1.5.5-2
+    Jpeg optimisation utility
