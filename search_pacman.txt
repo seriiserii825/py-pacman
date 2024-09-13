@@ -1,6 +1,2 @@
-extra/fastfetch 2.21.3-1
-    Like Neofetch, but much faster because written in C
-extra/hyfetch 1.4.11-3
-    Neofetch with LGBTQ+ pride flags!
-extra/neofetch 7.1.0-2
-    A CLI system information tool written in BASH that supports displaying images.
+extra/atac 0.18.0-1
+    A simple API client (postman like) in your terminal
