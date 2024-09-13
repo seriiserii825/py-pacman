@@ -17,6 +17,6 @@ def searchPackage(package_name = None):
     os.system(f"sudo pacman -Ss {package} > {PACMAN_SEARCH_PATH}")
     os.system(f"yay -Ss {package} > {YAY_SEARCH_PATH}")
     print(Panel("Pacman", title="Pacman"))
-    os.system(f"bat {PACMAN_SEARCH_PATH}")
+    os.system(f"cat {PACMAN_SEARCH_PATH}")
     print(Panel("Yay", title="Yay"))
-    os.system(f"bat {YAY_SEARCH_PATH}")
+    os.system(f"cat {YAY_SEARCH_PATH}")
