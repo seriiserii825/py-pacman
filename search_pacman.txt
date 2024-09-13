@@ -1,2 +1,2 @@
-extra/jpegoptim 1.5.5-2
-    Jpeg optimisation utility
+extra/atac 0.18.0-1
+    A simple API client (postman like) in your terminal

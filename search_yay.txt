@@ -1,2 +1,34 @@
-extra/jpegoptim 1.5.5-2 (31.8 KiB 77.3 KiB) 
-    Jpeg optimisation utility
+aur/newman 6.1.3-1 (+1 0.00) 
+    Newman is a command-line collection runner for Postman
+aur/grpcui 1.4.1-1 (+1 0.00) 
+    An interactive web UI for gRPC, along the lines of postman
+aur/grpcui-bin 1.4.1-1 (+2 0.00) 
+    An interactive web UI for gRPC, along the lines of postman (binary release)
+aur/apifox-bin 2.6.12-1 (+2 0.00) 
+    Apifox=Postman+Swagger+Mock+JMeter.API 文档、API 调试、API Mock、API 自动化测试
+aur/firecamp-appimage 3.3.0_beta.3-1 (+0 0.00) 
+    Developer-first OpenSource API DevTool, Postman/Insomnia alternative
+aur/socketwrench 0.0.1-1 (+0 0.00) 
+    Socket Wrench is to Websockets what Postman/Insomnia is to HTTP connections (kinda).
+aur/doomguy-git r8.02daaac-1 (+0 0.00) 
+    An Electron postman like application, without bloat features
+aur/ain-bin 1.5.0-1 (+0 0.00) 
+    A HTTP API client for the terminal. An alternative to postman, paw or insomnia.
+aur/protoman-bin 0.4.1-6 (+0 0.00) 
+    A Postman-like API client for protobuf-based messages.
+aur/pororoca-bin 3.5.0-1 (+0 0.00) 
+    Pororoca is a HTTP testing tool, inspired by Postman, but with many improvements.
+aur/postman2openapi-bin 1.2.1-1 (+0 0.00) 
+    Convert a Postman collection to an OpenAPI definition, binary release
+aur/postman-bin-zh 9.12.2-1 (+1 0.00) (Out-of-date: 2022-03-17) 
+    Build, test, and document your APIs faster
+aur/postman-agent 0.4.17-1 (+4 0.00) 
+    The Postman agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers, and facilitates API request sending from your browser version of Postman. Using the system electron
+aur/postman-cli 1.9.0-1 (+0 0.00) 
+    The Postman CLI is the command-line companion that is developed, supported, and signed by Postman. All test results will be automatically pushed to the app.
+aur/postman9-bin 9.31.0-1 (+5 0.01) 
+    Build, test, and document your APIs faster
+aur/postman-bin 11.10.0-1 (+286 1.86) 
+    Build, test, and document your APIs faster
+extra/atac 0.18.0-1 (4.2 MiB 12.4 MiB) 
+    A simple API client (postman like) in your terminal

@@ -6,8 +6,16 @@ local-by-flywheel-bin
 local-by-flywheel-bin-debug
 ncurses5-compat-libs
 ncurses5-compat-libs-debug
+postman-bin
+sendemail
+sendmail
+skypeforlinux-bin
+smtp-cli
+st
+st-debug
 thonny
 visual-studio-code-bin
 visual-studio-code-bin-debug
+warp-terminal
 yay
 yay-debug
