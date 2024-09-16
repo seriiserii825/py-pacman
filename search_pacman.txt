@@ -1,2 +1,2228 @@
-extra/atac 0.18.0-1
-    A simple API client (postman like) in your terminal
+core/b43-fwcutter 019-5
+    firmware extractor for the b43 kernel module
+core/bison 3.8.2-6 [installed]
+    The GNU general-purpose parser generator
+core/gc 8.2.6-1 [installed]
+    A garbage collector for C and C++
+core/glib2 2.80.5-1 [installed]
+    Low level core library
+core/iputils 20240905-1 [installed]
+    Network monitoring tools, including ping
+core/lemon 3.46.1-1
+    A parser generator
+core/libedit 20240517_3.1-1 [installed]
+    Command line editor library providing generic line editing, history, and tokenization functions
+core/libldap 2.6.8-2 [installed]
+    Lightweight Directory Access Protocol (LDAP) client libraries
+core/libsecret 0.21.4-1 [installed]
+    Library for storing and retrieving passwords and other secrets
+core/libsecret-docs 0.21.4-1
+    Library for storing and retrieving passwords and other secrets (documentation)
+core/mdadm 4.3-2 [installed]
+    A tool for managing/monitoring Linux md device arrays, also known as Software RAID
+core/nano 8.1-1
+    Pico editor clone with enhancements
+core/openldap 2.6.8-2
+    Lightweight Directory Access Protocol (LDAP) client and server
+core/perl 5.40.0-1 [installed]
+    A highly capable, feature-rich programming language
+core/procps-ng 4.0.4-3 [installed]
+    Utilities for monitoring your system and its processes
+core/readline 8.2.013-1 [installed]
+    GNU readline library
+core/sed 4.9-3 [installed]
+    GNU stream editor
+core/tar 1.35-2 [installed]
+    Utility used to store, backup, and transport files
+core/vi 1:070224-6 [installed]
+    The original ex/vi text editor
+core/wireless-regdb 2024.07.04-2
+    Central Regulatory Domain Database
+extra/0ad a26-16
+    Cross-platform, 3D and historically-based real-time strategy game
+extra/0ad-data a26-2
+    Cross-platform, 3D and historically-based real-time strategy game (data files)
+extra/389-ds-base 3.1.0-2
+    389 Directory Server (base)
+extra/4ti2 1.6.10-3
+    A software package for algebraic, geometric and combinatorial problems on linear spaces
+extra/accessibility-inspector 24.08.0-1 (kde-applications kde-accessibility)
+    Inspect your application accessibility tree
+extra/aegisub 3.3.3-10
+    A general-purpose subtitle editor with ASS/SSA support
+extra/aeolus 0.10.4-3 (pro-audio)
+    Synthesised pipe organ emulator
+extra/aj-snapshot 0.9.9-3 (pro-audio)
+    Command line utility to store/restore ALSA and/or JACK connections to/from an XML file
+extra/akregator 24.08.0-1 (kde-applications kde-pim)
+    A Feed Reader by KDE
+extra/alacarte 1:3.52.0-2
+    Menu editor for gnome
+extra/alacritty 0.13.2-2 [installed]
+    A cross-platform, GPU-accelerated terminal emulator
+extra/alembic 1.8.6-3
+    An open framework for storing and sharing scene data
+extra/alex 3.2.7.4-2
+    Lexical analyser generator for Haskell
+extra/alicloud-vault 1.3.4-3
+    Vault for securely storing and accessing Alibaba Cloud credentials in development environments
+extra/alligator 24.08.0-1 (kde-applications kde-network)
+    Kirigami-based RSS reader
+extra/antlr4 4.13.2-1
+    Parser generator for reading, processing, executing, or translating structured text or binary files
+extra/apache-orc 2.0.1-3
+    Columnar storage for Hadoop workloads.
+extra/apko 0.17.0-1
+    Declarative APK-based container building tool with support for sigstore signatures
+extra/apparmor 3.1.7-4
+    Mandatory Access Control (MAC) using Linux Security Module (LSM)
+extra/appstream 1.0.3-1 [installed]
+    Provides a standard for creating app stores across distributions
+extra/appstream-generator 0.9.1-5
+    A fast AppStream metadata generator
+extra/argbash 2.10.0-3
+    Bash argument parsing code generator
+extra/aria2 1.37.0-1
+    Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink
+extra/arpwatch 3.6-1
+    Ethernet/FDDI station activity monitor
+extra/arti 1.2.7-1
+    An implementation of Tor in Rust
+extra/asciidoctor 2.0.23-2
+    An implementation of AsciiDoc in Ruby
+extra/asymptote 2.91-2
+    A vector graphics language (like metapost)
+extra/atop 2.11.0-1
+    A system and process level monitor
+extra/atuin 18.3.0-1
+    Magical shell history
+extra/aurpublish r43.g3b978be-2
+    PKGBUILD management/upload framework for the Arch User Repository
+extra/auth-tarball-from-git 0.2.0-2
+    Authenticate a tarball through a signed tag in a git repository (with reproducible builds)
+extra/autorandr 1.15-1
+    Auto-detect connected display hardware and load appropiate X11 setup using xrandr
+extra/aws-vault 7.2.0-2
+    Vault for securely storing and accessing AWS credentials in development environments
+extra/axel 2.17.14-1
+    Light command line download accelerator
+extra/ayatana-ido 0.10.4-1
+    Ayatana Indicator Display Objects
+extra/azote 1.13.0-1
+    Wallpaper & color manager for wlroots-based compositors and some X11 WMs
+extra/babeld 1.13-1
+    A loop-avoiding distance-vector routing protocol
+extra/baobab 46.0-1 (gnome)
+    A graphical directory tree analyzer
+extra/bashtop 0.9.25-2
+    Linux resource monitor
+extra/bc 1.07.1-5
+    An arbitrary precision calculator language
+extra/bees 0.10-2
+    Best-Effort Extent-Same, a btrfs deduplicator daemon
+extra/bemenu-wayland 0.6.23-1
+    Wayland (wlroots-based compositors) renderer for bemenu
+extra/bettercap 2.32.0-3
+    Swiss army knife for network attacks and monitoring
+extra/birdfont 2.33.5-1
+    Font editor which can generate fonts in TTF, EOT and SVG formats
+extra/bless 0.6.3-2
+    High-quality, full-featured hex editor
+extra/blop 0.2.8-6 (ladspa-plugins pro-audio)
+    Bandlimited LADSPA Oscillator Plugins
+extra/blosc2 2.15.1-1
+    A fast, compressed, persistent binary data store library for C.
+extra/bluefish 2.2.15-2
+    A powerful HTML editor for experienced web designers and programmers
+extra/bmon 4.0-5
+    Portable bandwidth monitor and rate estimator
+extra/bnfc 2.9.5-4
+    A compiler front-end generator.
+extra/boost-libs 1.86.0-2 [installed]
+    Free peer-reviewed portable C++ source libraries (runtime libraries)
+extra/booster 0.11-2
+    Fast and secure initramfs generator
+extra/bottom 0.10.2-1
+    A graphical process/system monitor
+extra/bpytop 1.0.68-2
+    Resource monitor that shows usage and stats for processor, memory, disks, network and processes
+extra/btfs 2.24-4
+    A bittorrent filesystem based on FUSE
+extra/btop 1.3.2-1
+    A monitor of system resources, bpytop ported to C++
+extra/bwm-ng 0.6.3-3
+    A small and simple console-based live bandwidth monitor
+extra/byacc 20240109-1
+    Berkeley reimplementation of the Unix parser generator Yacc
+extra/cage 0.1.5+r36+ge7d8780-2
+    A kiosk compositor for Wayland
+extra/caja-xattr-tags 1.28.0-1 (mate-extra)
+    A Caja extension to see tags stored on xattrs
+extra/calc 2.15.1.0-1
+    Arbitrary precision console calculator
+extra/cantor 24.08.0-1 (kde-applications kde-education)
+    KDE Frontend to Mathematical Software
+extra/cargo-generate 0.22.0-1
+    Use pre-existing git repositories as templates
+extra/cargo-supply-chain 0.3.2-2
+    Gather author, contributor and publisher data on crates in your dependency graph
+extra/catdoc 0.95-6
+    A convertor for Microsoft Word, Excel, PowerPoint and RTF Files to text
+extra/cdemu-daemon 3.2.7-1
+    CD/DVD-ROM device emulator daemon
+extra/cern-vdt 0.4.4-2
+    A vectorised math library from CERN
+extra/certbot-dns-cloudflare 2.11.0-1
+    Cloudflare DNS Authenticator plugin for Certbot
+extra/certbot-dns-digitalocean 2.11.0-1
+    DigitalOcean DNS Authenticator plugin for Certbot
+extra/certbot-dns-dnsimple 2.11.0-1
+    DNSimple DNS Authenticator plugin for Certbot
+extra/certbot-dns-dnsmadeeasy 2.11.0-1
+    DNS Made Easy DNS Authenticator plugin for Certbot
+extra/certbot-dns-gehirn 2.11.0-1
+    Gehirn DNS Authenticator plugin for Certbot
+extra/certbot-dns-google 2.11.0-1
+    Google Cloud DNS Authenticator plugin for Certbot
+extra/certbot-dns-inwx 2.2.0-4
+    INWX DNS authenticator plugin for certbot
+extra/certbot-dns-linode 2.11.0-1
+    Linode DNS Authenticator plugin for Certbot
+extra/certbot-dns-luadns 2.11.0-1
+    LuaDNS DNS Authenticator plugin for Certbot
+extra/certbot-dns-nsone 2.11.0-1
+    NS1 DNS Authenticator plugin for Certbot
+extra/certbot-dns-ovh 2.11.0-1
+    OVH DNS Authenticator plugin for Certbot
+extra/certbot-dns-rfc2136 2.11.0-1
+    RFC2136 DNS Authenticator plugin for Certbot
+extra/certbot-dns-route53 2.11.0-1
+    Route53 DNS Authenticator plugin for Certbot
+extra/certbot-dns-sakuracloud 2.11.0-1
+    Sakura Cloud DNS Authenticator plugin for Certbot
+extra/chewing-editor 0.1.1-11
+    Cross platform chewing user phrase editor
+extra/chitose 0.0.7-1
+    An iftop alternative for cumulated network traffic monitoring
+extra/chntpw 140201-5
+    Offline NT Password Editor - reset passwords in a Windows NT SAM user database file
+extra/cobalt 0.19.6-1
+    Static site generator written in Rust
+extra/cockpit-storaged 324-1
+    Cockpit user interface for storage, using udisks
+extra/code 1.93.0-1
+    The Open Source build of Visual Studio Code (vscode) editor
+extra/coin 4.0.3-1
+    3D graphics library compatible with Open Inventor
+extra/committed 1.0.20-5
+    Nitpicking your commit history
+extra/communicator 4.0.0-1 (maui)
+    Contacts and dialer application
+extra/conky 1.21.5-1
+    Light-weight system monitor for X, Wayland, and other things, too
+extra/conmon 1:2.1.12-1
+    OCI container runtime monitor
+extra/consul 1.19.2-1
+    A tool for service discovery, monitoring and configuration.
+extra/contractor 0.3.5-3 (pantheon)
+    A desktop-wide extension service
+extra/convertlit 1.8-12
+    An extractor/converter for .LIT eBooks
+extra/cool-retro-term 1.2.0-4
+    A good looking terminal emulator which mimics the old cathode display
+extra/copyq 9.0.0-1 [installed]
+    Clipboard manager with searchable and editable history
+extra/cosign 2.2.4-1
+    Container Signing with support for ephemeral keys and Sigstore signing
+extra/cosmic-comp 1.0.0.alpha.1-1 (cosmic)
+    Compositor for the COSMIC desktop environment
+extra/cosmic-store 1.0.0.alpha.1-1 (cosmic)
+    Cosmic App Store
+extra/cosmic-terminal 1.0.0.alpha.1-2 (cosmic)
+    Cosmic Terminal Emulator
+extra/cosmic-text-editor 1.0.0.alpha.1-1 (cosmic)
+    Text editor for the COSMIC desktop
+extra/cotp 1.9.0-1
+    Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
+extra/cotp-converters 1.9.0-1
+    Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
+extra/coxeter git.20180226-4
+    A library for the study of combinatorial aspects of Coxeter group theory
+extra/criu 3.19-1
+    Utilities to checkpoint and restore processes in userspace
+extra/crosstool-ng 1.26.0-1
+    A versatile (cross-)toolchain generator
+extra/cutefish-calculator 0.4-2 (cutefish)
+    CutefishOS Calculator
+extra/cutefish-terminal 0.7-1 (cutefish)
+    A terminal emulator for Cutefish
+extra/d-containers 0.8.0-10
+    Containers for D backed by std.experimental.allocator
+extra/d-stdx-allocator 3.0.2-22
+    Extracted std.experimental.allocator
+extra/dbeaver 24.2.0-1
+    Free universal SQL Client for developers and database administrators (community edition)
+extra/dconf-editor 45.0.1-1 (gnome-extra)
+    GSettings editor for GNOME
+extra/ddcutil 2.1.4-1
+    Query and change Linux monitor settings using DDC/CI and USB.
+extra/deepin-calculator 5.8.24-7 (deepin-extra)
+    An easy to use calculator for ordinary users
+extra/deepin-clone 5.0.15-2 (deepin-extra)
+    Disk and partition backup/restore tool
+extra/deepin-editor 6.0.17-3 (deepin-extra)
+    Simple editor for Deepin
+extra/deepin-image-editor 1.0.44-1
+    Public library for deepin-image-viewer and deepin-album
+extra/deepin-qt-dbus-factory 6.0.0-10
+    A repository stores auto-generated Qt5 dbus code (libdframeworkdbus)
+extra/deepin-store 1.2.5-1
+    Third party app store for DDE built with DTK
+extra/deepin-system-monitor 6.0.16-4 (deepin)
+    A more user-friendly system monitor
+extra/deluge 1:2.1.1-6
+    BitTorrent client with multiple user interfaces in a client/server model
+extra/desmume 0.9.13-1
+    Nintendo DS emulator
+extra/dgedit 0.10.0-3 (pro-audio)
+    The DrumGizmo drumkit editor
+extra/dgen-sdl 1.33-5
+    An emulator for Sega Genesis/Mega Drive systems ported to SDL
+extra/dhex 0.69-4
+    A ncurses-based hex editor with a diff mode
+extra/dht 0.27-5
+    BitTorrent DHT library
+extra/diffoscope 277-1
+    Tool for in-depth comparison of files, archives, and directories
+extra/diskonaut 0.11.0-3
+    TUI disk space navigator written in rust
+extra/distorm 3.5.2.b-3
+    Powerful disassembler library for x86/AMD64
+extra/dleyna 0.8.3-1
+    Services and D-Bus APIs to access UPnP and DLNA media devices
+extra/dolphin-emu 1:2407-2
+    A Gamecube and Wii emulator
+extra/dolphin-emu-tool 1:2407-2
+    A Gamecube and Wii emulator
+extra/dosbox 0.74.3-3
+    Emulator with builtin DOS for running DOS Games
+extra/dosemu 1:1.4.0.8+753+g18f6f5cd-3
+    DOS emulator
+extra/dua-cli 2.29.2-1
+    A tool to conveniently learn about the disk usage of directories, fast!
+extra/e3 2.82-7
+    Tiny text editor written in Assembly
+extra/ecrire 0.2.0-2
+    EFL Simple Text editor
+extra/ed 1.20.2-2
+    A POSIX-compliant line-oriented text editor
+extra/editorconfig-checker 3.0.3-1
+    A tool to verify that your files are in harmony with your .editorconfig
+extra/editorconfig-core-c 0.12.9-1
+    EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)
+extra/eigen 3.4.0-2
+    Lightweight C++ template library for vector and matrix math, a.k.a. linear algebra
+extra/elementary-icon-theme 8.0.0-1 (pantheon)
+    Named, vector icons for elementary OS
+extra/emacs 29.4-2
+    The extensible, customizable, self-documenting real-time display editor
+extra/emacs-nativecomp 29.4-2
+    The extensible, customizable, self-documenting real-time display editor with native compilation enabled
+extra/emacs-nox 29.4-2
+    The extensible, customizable, self-documenting real-time display editor without X11 support
+extra/emacs-wayland 29.4-2
+    The extensible, customizable, self-documenting real-time display editor with native compilation and PGTK enabled
+extra/emptyepsilon 2024.05.16-1
+    Open source spaceship bridge simulator
+extra/espeakup 0.90-3
+    A light weight connector for espeak-ng and speakup
+extra/etckeeper 1.18.21-2
+    Collection of tools to let /etc be stored in a git, hg or bzr repository
+extra/etherape 0.9.20-2
+    Graphical network monitor for various OSI layers and protocols
+extra/etl 1.4.5-1
+    VoriaETL: C++ STL complementory multiplatform template library
+extra/ettercap 0.8.3.1-3
+    Network sniffer/interceptor/logger for ethernet LANs - console
+extra/ettercap-gtk 0.8.3.1-3
+    Network sniffer/interceptor/logger for ethernet LANs - GTK frontend
+extra/eva 0.3.1-2
+    simple calculator REPL, similar to bc(1)
+extra/evtest 1.35-2
+    Input device event monitor and query tool
+extra/fasd 1.0.2-2
+    Command-line productivity booster, offers quick access to files and directories
+extra/fatsort 1.6.5.640-2
+    Sorts directory structures of FAT16 and FAT32 file systems
+extra/fceux 2.6.6-2
+    Fast and ultra-compatible NES/Famicom emulator
+extra/fdupes 1:2.2.1-3
+    a program for identifying or deleting duplicate files residing within specified directories
+extra/featherpad 1.5.1-1
+    Lightweight Qt plain text editor
+extra/ffmpegthumbs 24.08.0-1 (kde-applications kde-multimedia)
+    FFmpeg-based thumbnail creator for video files
+extra/findomain 9.0.4-1
+    The fastest and cross-platform subdomain enumerator, do not waste your time
+extra/fingerterm 1.4.8-1
+    A terminal emulator with a custom virtual keyboard
+extra/fio 3.37-2
+    Scriptable I/O tool for storage benchmarks and drive testing
+extra/flowblade 2.16.2-1
+    Multitrack non-linear video editor
+extra/fonteditfs 1.2-7
+    console font editor
+extra/fontforge 20230101-4
+    Outline and bitmap font editor
+extra/foot 1.18.1-1
+    Fast, lightweight, and minimalistic Wayland terminal emulator
+extra/foot-terminfo 1.18.1-1
+    Extra non-standard terminfo files for foot, a Wayland terminal emulator
+extra/fragments 3.0.1-2
+    BitTorrent client for GNOME
+extra/freehdl 0.0.8-13
+    An open-source (C++ generating) VHDL simulator
+extra/frescobaldi 3.3.0-3
+    A LilyPond sheet music text editor
+extra/fs-uae 3.1.66-3
+    An Amiga emulator based on UAE/WinUAE with a focus on emulating games
+extra/fs-uae-launcher 3.1.68-4
+    Graphical user interface for the fs-uae Amiga emulator
+extra/fuzzel 1.10.2-1
+    Application launcher for wlroots based Wayland compositors
+extra/fwknop 2.6.11-1
+    FireWall KNock OPerator: Single Packet Authorization and Port Knocking
+extra/galculator 2.1.4-9
+    GTK+ based scientific calculator
+extra/gambas3-gb-eval-highlight 3.19.3-2 (gambas3)
+    Expression evaluator highlight component (deprecated)
+extra/gambas3-gb-form-editor 3.19.3-2 (gambas3)
+    Editor component
+extra/gambas3-gb-inotify 3.19.3-2 (gambas3)
+    Filesystem events monitoring component
+extra/gambas3-gb-web-feed 3.19.3-2 (gambas3)
+    Web feed parser and generator component
+extra/gambas3-gb-xml-html 3.19.3-2 (gambas3)
+    HTML generator component
+extra/gap-packages 4.13.1-1
+    Extra packages for GAP
+extra/gaupol 1.15-2
+    Editor for text-based subtitles
+extra/gdal 3.9.2-1
+    A translator library for raster and vector geospatial data formats
+extra/gedit 47.0-1 (gnome-extra)
+    GNOME Text Editor
+extra/gedit-plugins 47.1-1
+    Collection of plugins for the gedit Text Editor
+extra/genact 1.4.2-1
+    A nonsense activity generator
+extra/gfold 4.5.0-1
+    A CLI tool to help keep track of Git repositories
+extra/ghc-libs 9.2.8-1
+    The Glasgow Haskell Compiler - Dynamic Libraries
+extra/ghex 46.0-1 (gnome-extra)
+    A simple binary editor for the Gnome desktop
+extra/ghex-docs 46.0-1
+    A simple binary editor for the Gnome desktop (documentation)
+extra/ghostwriter 24.08.0-1 (kde-applications kde-office)
+    Aesthetic, distraction-free Markdown editor
+extra/ghq 1.6.2-1
+    Remote repository management made easy
+extra/gi-docgen 2024.1-1
+    Documentation generator for GObject-based libraries
+extra/gigedit 1.2.1-1 (pro-audio)
+    Gigasampler instrument editor
+extra/giggle 0.7-13
+    Git repository viewer
+extra/git-cinnabar 0.7.0beta1-1
+    Git remote helper to interact with Mercurial repositories
+extra/git-cliff 2.5.0-1
+    A highly customizable changelog generator
+extra/git-filter-repo 2.38.0-3
+    Quickly rewrite git repository history (filter-branch replacement)
+extra/git-grab 3.0.0-1
+    A tool to clone git repositories to a standard location organised by domain and path
+extra/git-repair 1.20230814-52
+    Repairs a damaged git repository
+extra/git-sizer 1.5.0-3
+    Compute various size metrics for a Git repository
+extra/git-warp-time 0.8.4-1
+    reset timestamps of Git repository files to the time of the last modifying commit
+extra/gitg 2:44-2 (gnome-extra)
+    GNOME GUI client to view git repositories
+extra/gitsign 0.10.2-1
+    Keyless Git signing using Sigstore
+extra/gkrellm 2.3.11-4
+    System monitor package for GTK2
+extra/glacier-calc 0.3.3-2
+    Nemo calculator
+extra/glad 2.0.7-2
+    Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs
+extra/glances 4.1.2.1-1
+    CLI curses-based monitoring tool
+extra/glewlwyd 2.7.6-2
+    Single-Sign-On (SSO) server with multiple factor authentication
+extra/glslang 14.2.0-1 [installed]
+    OpenGL and OpenGL ES shader front end and validator
+extra/gmp-ecm 7.0.6-1
+    Elliptic Curve Method for Integer Factorization
+extra/gnome-browser-connector 42.1-5
+    Native browser connector for integration with extensions.gnome.org
+extra/gnome-calculator 46.1-1 (gnome)
+    GNOME Scientific calculator
+extra/gnome-console 46.0-2 (gnome)
+    A simple user-friendly terminal emulator for the GNOME desktop
+extra/gnome-keyring 1:46.2-1 (gnome) [installed]
+    Stores passwords and encryption keys
+extra/gnome-latex 3.46.0-4
+    LaTeX editor for the GNOME desktop
+extra/gnome-shell-extension-appindicator 1:59-1
+    AppIndicator/KStatusNotifierItem support for GNOME Shell
+extra/gnome-shell-extension-vitals 67.0.0-1
+    GNOME Shell extension to display computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats
+extra/gnome-subtitles 1.8-2
+    Video subtitle editor for GNOME
+extra/gnome-system-monitor 46.0-2 (gnome)
+    View current processes and monitor system state
+extra/gnome-terminal 3.52.2-1 (gnome-extra)
+    The GNOME Terminal Emulator
+extra/gnome-text-editor 46.3-2 (gnome)
+    A simple text editor for the GNOME desktop
+extra/go-md2man 2.0.4-1
+    A markdown to manpage generator
+extra/gobby 1:0.6.0-2
+    A collaborative text editor
+extra/gperf 3.1-5
+    Perfect hash function generator
+extra/gprename 20230429-2
+    GTK batch renamer for files and directories
+extra/gpsim 0.31.0-3
+    Full-featured software simulator for Microchip PIC microcontrollers
+extra/gpx-viewer 0.4.0-5
+    Simple tool to visualize tracks and waypoints stored in a gpx file
+extra/grafana 11.2.0-2
+    Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
+extra/grafana-agent 0.40.2-1
+    Grafana Agent is a telemetry collector for sending metrics, logs, and trace data to the opinionated Grafana observability stack
+extra/grantlee-editor 24.08.0-1 (kde-applications kde-pim)
+    Editor for Grantlee themes
+extra/grobi 0.6.0-4
+    Automatically configure monitors/outputs for Xorg via RANDR
+extra/gtop 1.1.5-2
+    System monitoring dashboard for terminal
+extra/gtranslator 46.1-1
+    An enhanced gettext po file editor for the GNOME desktop environment
+extra/gummi 2:0.8.3-2
+    Simple LaTeX editor
+extra/gvim 9.1.0707-1
+    Vi Improved, a highly configurable, improved version of the vi text editor (with advanced features, such as a GUI)
+extra/gxkb 0.9.5-1
+    X11 keyboard indicator and switcher
+extra/happy 1.20.1.1-2
+    The Parser Generator for Haskell
+extra/haskell-adjunctions 4.4.2-99
+    Adjunctions and representable functors
+extra/haskell-apply-refact 0.11.0.0-17
+    Perform refactorings specified by the refact library.
+extra/haskell-assoc 1.0.2-276
+    swap and assoc: Symmetric and Semigroupy Bifunctors
+extra/haskell-attoparsec 0.14.4-76
+    Fast combinator parsing for bytestrings and text
+extra/haskell-base-unicode-symbols 0.2.4.2-14
+    Unicode alternatives for common functions and operators
+extra/haskell-bifunctors 5.6-87
+    Bifunctors
+extra/haskell-bitvec 1.1.3.0-99
+    Space-efficient bit vectors
+extra/haskell-blaze-html 0.9.2.0-2
+    A blazingly fast HTML combinator library for Haskell
+extra/haskell-blaze-markup 0.8.3.0-12
+    A blazingly fast markup combinator library for Haskell
+extra/haskell-bv-sized 1.0.5-85
+    A bitvector datatype that is parameterized by the vector width
+extra/haskell-bytestring-to-vector 0.3.0.1-44
+    Convert between ByteString and Vector.Storable without copying
+extra/haskell-casa-client 0.0.1-700
+    Content Addressable Storage Archive client
+extra/haskell-casa-types 0.0.2-438
+    Content Addressable Storage Archive types
+extra/haskell-ci 0.14.3-24
+    Cabal package script generator for Travis-CI
+extra/haskell-clientsession 0.9.2.0-27
+    Securely store session data in a client-side cookie.
+extra/haskell-configurator 0.3.0.0-402
+    Configuration management
+extra/haskell-configurator-pg 0.2.9-3
+    Reduced parser for configurator-ng config files
+extra/haskell-containers-unicode-symbols 0.3.1.3-4
+    Unicode alternatives for common functions and operators
+extra/haskell-contravariant 1.5.5-4
+    Contravariant functors
+extra/haskell-crypto-enigma 0.1.1.6-102
+    An Enigma machine simulator with display.
+extra/haskell-crypton-x509-store 1.6.9-30
+    X.509 collection accessing and storing methods
+extra/haskell-crypton-x509-system 1.6.7-30
+    Handle per-operating-system X.509 accessors and storage
+extra/haskell-data-functor-logistic 0.0-43
+    Updatable analogue of Distributive functors
+extra/haskell-data-hash 0.2.0.1-25
+    Combinators for building fast hashing functions.
+extra/haskell-data-memocombinators 0.5.1-2
+    Combinators for building memo tables.
+extra/haskell-dir-traverse 0.2.3.0-2
+    Simple directory traversal library
+extra/haskell-distributive 0.6.2.1-211
+    Distributive functors -- Dual to Traversable
+extra/haskell-edit-distance-vector 1.0.0.4-349
+    Calculate edit distances and edit scripts between vectors
+extra/haskell-filemanip 0.3.6.3-154
+    Expressive file and directory manipulation for Haskell.
+extra/haskell-filestore 0.6.5-51
+    Interface for versioning file stores.
+extra/haskell-findbin 0.0.5-20
+    Locate directory of original program
+extra/haskell-generic-random 1.5.0.1-88
+    Generic random generators for QuickCheck
+extra/haskell-ghc-paths 0.1.0.12-13
+    Knowledge of GHC's installation directories
+extra/haskell-gi-cairo-connector 0.1.1-134
+    GI friendly Binding to the Cairo library.
+extra/haskell-gtk-sni-tray 0.1.8.1-172
+    A standalone StatusNotifierItem/AppIndicator tray
+extra/haskell-hls-refactor-plugin 1.1.0.0-180
+    Exactprint refactorings for Haskell Language Server
+extra/haskell-hslua-objectorientation 2.3.0-54
+    Object orientation tools for HsLua
+extra/haskell-hsopenssl-x509-system 0.1.0.4-56
+    Use the system's native CA certificate store with HsOpenSSL
+extra/haskell-hspec-expectations 0.8.3-43
+    Catchy combinators for HUnit
+extra/haskell-html 1.0.1.2-26
+    HTML combinator library
+extra/haskell-indexed-profunctors 0.1.1.1-2
+    Utilities for indexed profunctors
+extra/haskell-indexed-traversable 0.1.3-79
+    FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
+extra/haskell-indexed-traversable-instances 0.1.1.2-49
+    More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
+extra/haskell-invariant 0.6.3-11
+    Haskell98 invariant functors
+extra/haskell-io-storage 0.3-13
+    A key-value store in the IO monad
+extra/haskell-keys 3.12.3-312
+    Keyed functors and containers
+extra/haskell-megaparsec 9.5.0-12
+    Monadic parser combinators
+extra/haskell-monad-par-extras 0.3.3-218
+    Combinators and extra features for Par monads
+extra/haskell-optparse-applicative 0.17.1.0-33
+    Utilities and combinators for parsing command line options
+extra/haskell-parser-combinators 1.3.0-5
+    Lightweight package providing commonly useful parser combinators
+extra/haskell-parsers 0.12.11-124
+    Parsing combinators
+extra/haskell-path-io 1.8.1-64
+    Interface to ‘directory’ package for users of ‘path’
+extra/haskell-pcg-random 0.1.4.0-25
+    Haskell bindings to the PCG random number generator.
+extra/haskell-polyparse 1.13-12
+    A variety of alternative parser combinator libraries.
+extra/haskell-profunctors 5.6.2-178
+    Profunctors
+extra/haskell-quickcheck-unicode 1.0.1.0-240
+    Generator and shrink functions for testing Unicode-related software.
+extra/haskell-rank2classes 1.5.3.1-3
+    Standard type constructor class hierarchy, only with methods of rank 2 types
+extra/haskell-refact 0.3.0.2-26
+    Specify refactorings to perform with apply-refact
+extra/haskell-retry 0.9.3.1-40
+    Retry combinators for monadic actions that may fail
+extra/haskell-selective 0.6-10
+    Selective applicative functors
+extra/haskell-semialign 1.2.0.1-165
+    Align and Zip type-classes from the common Semialign ancestor.
+extra/haskell-servant 0.20.1-17
+    A family of combinators for defining webservices APIs
+extra/haskell-servant-server 0.20-31
+    A family of combinators for defining webservices APIs and serving them
+extra/haskell-show-combinators 0.2.0.0-10
+    Combinators to write Show instances
+extra/haskell-split 0.2.5-8
+    Combinator library for splitting lists.
+extra/haskell-status-notifier-item 0.3.1.0-140
+    A wrapper over the StatusNotifierItem/libappindicator dbus specification
+extra/haskell-storable-complex 0.2.3.0-243
+    Storable instance for Complex
+extra/haskell-storable-record 0.0.7-32
+    Elegant definition of Storable instances for records
+extra/haskell-storable-tuple 0.1-31
+    Storable instance for pairs and triples
+extra/haskell-storablevector 0.2.13.2-22
+    Fast, packed, strict storable arrays with a list interface like ByteString
+extra/haskell-store 0.7.18-21
+    Fast binary serialization
+extra/haskell-store-core 0.4.4.7-6
+    Fast and lightweight binary serialization
+extra/haskell-system-filepath 0.4.14-251
+    High-level, byte-based file and directory path manipulations
+extra/haskell-temporary 1.3-592
+    Portable temporary file and directory support
+extra/haskell-text-zipper 0.13-28
+    A text editor zipper library
+extra/haskell-tf-random 0.5-707
+    High-quality splittable pseudorandom number generator
+extra/haskell-torrent 10000.1.3-26
+    BitTorrent file parser and generater
+extra/haskell-trifecta 2.1.4-19
+    A modern parser combinator library with convenient diagnostics
+extra/haskell-type-errors-pretty 0.0.1.2-105
+    Combinators for writing pretty type errors easily
+extra/haskell-validation-selective 0.2.0.0-20
+    Lighweight pure data validation based on Applicative and Selective functors.
+extra/haskell-vault 0.3.1.5-187
+    A persistent store for values of arbitrary types
+extra/haskell-vector 0.13.1.0-36
+    Efficient Arrays
+extra/haskell-vector-algorithms 0.9.0.2-8
+    Efficient algorithms for vector arrays
+extra/haskell-vector-binary-instances 0.2.5.2-120
+    Instances of Data.Binary for vector
+extra/haskell-vector-builder 0.3.8.5-29
+    Vector builder
+extra/haskell-vector-hashtables 0.1.2.0-7
+    Efficient vector-based mutable hashtables implementation.
+extra/haskell-vector-instances 3.4.2-51
+    Orphan Instances for 'Data.Vector'
+extra/haskell-vector-sized 1.6.1-16
+    Size tagged vectors
+extra/haskell-vector-space 0.16-48
+    Vector & affine spaces, linear maps, and derivatives
+extra/haskell-vector-stream 0.1.0.1-2
+    Efficient Streams
+extra/haskell-vector-th-unbox 0.2.2-256
+    Deriver for Data.Vector.Unboxed using Template Haskell
+extra/haskell-xdg-basedir 0.2.2-13
+    A basic implementation of the XDG Base Directory specification
+extra/hatari 2.5.0-1
+    An Atari ST and STE emulator
+extra/hdf5 1.14.4.3-1
+    General purpose library and file format for storing scientific data
+extra/hdf5-openmpi 1.14.4.3-1
+    General purpose library and file format for storing scientific data (openmpi version)
+extra/hefur 1.0-14
+    A standalone and lightweight BitTorrent tracker
+extra/helix 24.07-2
+    A post-modern modal text editor
+extra/hepmc 3.2.6-11
+    A particle physics package for storing collision events from Monte Carlo generators
+extra/hepmc-docs 3.2.6-11
+    A particle physics package for storing collision events from Monte Carlo generators - documentation
+extra/hepmc2 2.06.11-4
+    A particle physics package for storing collision events from Monte Carlo generators
+extra/hevea 2.36-2
+    A quite complete and fast LATEX to HTML translator
+extra/hexer 1.0.6-2
+    Multi buffer editor for binary files with vi-like interface
+extra/hexpatch 1.9.0-1
+    A binary patcher and editor with a TUI
+extra/hey 0.1.4-6
+    HTTP load generator
+extra/highway 1.2.0-1 [installed]
+    A C++ library that provides portable SIMD/vector intrinsics
+extra/hitori 44.0-2 (gnome-extra)
+    GTK+ application to generate and let you play games of Hitori
+extra/hostapd 2.11-4
+    IEEE 802.11 AP, IEEE 802.1X/WPA/WPA2/EAP/RADIUS Authenticator
+extra/hugo 0.134.1-1
+    Fast and Flexible Static Site Generator in Go
+extra/hyprland 0.42.0-2
+    a highly customizable dynamic tiling Wayland compositor
+extra/imath 3.1.11-3 [installed]
+    A C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics
+extra/incidenceeditor 24.08.0-1
+    KDE PIM incidence editor
+extra/indicator-china-weather 3.0.4-2 (ukui)
+    Indicator that displays China weather information
+extra/influxdb 2.7.10-1
+    Scalable datastore for metrics, events, and real-time analytics
+extra/inkscape 1.3.2-10
+    Professional vector graphics editor
+extra/intellij-idea-community-edition 4:2024.2.0.2-2
+    IDE for Java, Groovy and other programming languages with advanced refactoring features
+extra/iotop-c 1.26-2
+    simple top-like I/O monitor (implemented in C)
+extra/iptraf-ng 1.2.1-2
+    Console-based network monitoring utility
+extra/istio 1.23.0-1
+    Istio configuration command line utility for service operators to debug and diagnose their Istio mesh
+extra/josm 19039-1
+    An editor for OpenStreetMap written in Java
+extra/jpeg-archive 2.2.0-4
+    Utilities for archiving JPEGs for long term storage
+extra/kakoune 2024.05.18-2
+    Multiple-selection, UNIX-flavored modal editor
+extra/kalgebra 24.08.0-1 (kde-applications kde-education)
+    Graph Calculator
+extra/kalk 24.08.0-1 (kde-applications kde-utilities)
+    A powerful cross-platform calculator application built with the Kirigami framework
+extra/kapptemplate 24.08.0-1 (kde-applications kde-sdk)
+    KDE Template Generator
+extra/kate 24.08.0-1 (kde-applications kde-utilities)
+    Advanced text editor
+extra/kbackup 24.08.0-1 (kde-applications kde-utilities)
+    A program that lets you back up any directories or files
+extra/kbibtex 1:0.10.0-6
+    A BibTeX editor for KDE
+extra/kcalc 24.08.0-1 (kde-applications kde-utilities)
+    Scientific Calculator
+extra/kcharselect 24.08.0-1 (kde-applications kde-utilities)
+    Character Selector
+extra/kde-inotify-survey 24.08.0-1 (kde-applications kde-system)
+    Tooling for monitoring inotify limits and informing the user when they have been or about to be reached
+extra/kdenetwork-filesharing 24.08.0-1 (kde-applications kde-network)
+    Properties dialog plugin to share a directory with the local network
+extra/kdenlive 24.08.0-1 (kde-applications kde-multimedia)
+    A non-linear video editor for Linux using the MLT video framework
+extra/kdevelop-pg-qt 2.3.0-1
+    KDevelop Parser Generator, a LL(1) parser generator used by KDevelop language plugins
+extra/kdiff3 1.11.2-1
+    A file comparator/merge tool
+extra/keditbookmarks 24.08.0-1 (kde-applications kde-utilities)
+    Bookmark Organizer and Editor
+extra/keepalived 2.3.1-1
+    Failover and monitoring daemon for LVS clusters
+extra/kexi 3.2.0-5
+    A visual database applications creator
+extra/kgamma 6.1.4-1 (plasma)
+    Adjust your monitor gamma settings
+extra/kglobalacceld 6.1.4-1 (plasma)
+    Daemon providing Global Keyboard Shortcut (Accelerator) functionality
+extra/kid3 3.9.5-4
+    An MP3, Ogg/Vorbis and FLAC tag editor, KDE version
+extra/kid3-common 3.9.5-4
+    An MP3, Ogg/Vorbis and FLAC tag editor, CLI version and common files
+extra/kid3-qt 3.9.5-4
+    An MP3, Ogg/Vorbis and FLAC tag editor, Qt version
+extra/kidletime 6.5.0-1 (kf6)
+    Monitoring user activity
+extra/kidletime5 5.116.0-1 (kf5)
+    Monitoring user activity
+extra/kimageannotator 0.7.1-3
+    Tool for annotating images
+extra/kimageannotator-qt5 0.7.1-3
+    Tool for annotating images
+extra/kimagemapeditor 24.08.0-1 (kde-applications kde-graphics)
+    HTML Image Map Editor
+extra/kio-admin 24.08.0-1 (kde-applications kde-system)
+    Manage files as administrator using the admin:// KIO protocol
+extra/kio-zeroconf 24.08.0-1 (kde-applications kde-network)
+    Network Monitor for DNS-SD services (Zeroconf)
+extra/kismet 2023_07_R1-10
+    802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+extra/kitty 0.36.2-1 [installed]
+    A modern, hackable, featureful, OpenGL-based terminal emulator
+extra/kitty-shell-integration 0.36.2-1 [installed]
+    Shell integration scripts for kitty, an OpenGL-based terminal emulator
+extra/kitty-terminfo 0.36.2-1 [installed]
+    Terminfo for kitty, an OpenGL-based terminal emulator
+extra/klavaro 3.14-2
+    Free touch typing tutor program
+extra/klayout 0.29.1-1
+    High Performance Layout Viewer And Editor. Support of GDS and OASIS files.
+extra/kmbox 24.08.0-1
+    Library for accessing mail storages in MBox format
+extra/kmenuedit 6.1.4-1 (plasma)
+    KDE menu editor
+extra/kmidimon 1.4.0-1 (pro-audio)
+    A MIDI monitor for Linux using ALSA sequencer
+extra/kmon 1.6.5-1
+    Linux kernel manager and activity monitor
+extra/konsole 24.08.0-1 (kde-applications kde-utilities)
+    KDE terminal emulator
+extra/konsolepart5 23.08.5-2
+    KDE terminal emulator
+extra/kproperty 3.2.0-4
+    A property editing framework with editor widget similar to what is known from Qt Designer
+extra/kquickimageeditor 0.3.0-2
+    QML image editing components
+extra/kquickimageeditor5 0.3.0-2
+    QML image editing components
+extra/ksystemstats 6.1.4-1 (plasma)
+    A plugin based system monitoring daemon
+extra/ktexteditor 6.5.0-1 (kf6)
+    Advanced embeddable text editor
+extra/ktexteditor5 5.116.0-1 (kf5)
+    Advanced embeddable text editor
+extra/ktorrent 24.08.0-1 (kde-applications kde-network)
+    A powerful BitTorrent client for KDE
+extra/ktouch 24.08.0-1 (kde-applications kde-education)
+    Touch Typing Tutor
+extra/ktuberling 24.08.0-1 (kde-applications kde-games)
+    A simple constructor game suitable for children and adults alike
+extra/kubeconform 0.6.4-1
+    FAST Kubernetes manifests validator, with support for Custom Resources!
+extra/kubetui 1.5.3-1
+    A TUI for real-time monitoring and exploration of Kubernetes resources
+extra/kwave 24.08.0-1 (kde-applications kde-multimedia)
+    A sound editor
+extra/kylin-nm 3.0.2-2 (ukui)
+    Kylin network monitor used in ubuntu-kylin operation system
+extra/l3afpad 0.8.18.1.11-8
+    Simple plain text editor for GTK 3
+extra/lapce 0.4.2-1
+    Lightning-fast and Powerful Code Editor
+extra/latex2html 2024-1
+    a convertor written in Perl that converts LaTeX documents to HTML
+extra/legba 0.9.0-1
+    A multiprotocol credentials bruteforcer / password sprayer and enumerator
+extra/libappindicator-gtk2 12.10.0.r298-4
+    Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 2 library)
+extra/libappindicator-gtk3 12.10.0.r298-4
+    Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library)
+extra/libayatana-appindicator 0.5.93-1
+    Ayatana Application Indicators shared library
+extra/libayatana-indicator 0.9.4-1
+    Ayatana Indicators shared library
+extra/libchardet 1.0.6-2
+    Mozilla's Universal Charset Detector C/C++ API
+extra/libcloudproviders 0.3.6-1 [installed]
+    DBus API that allows cloud storage sync clients to expose their services
+extra/libepubgen 0.1.1-5
+    an EPUB generator for librevenge
+extra/libextractor 1.13-1
+    A library used to extract meta-data from files of arbitrary type
+extra/libgedit-tepl 6.10.0-3
+    Library that eases the development of GtkSourceView-based text editors and IDEs
+extra/libgirepository 1.80.1-3
+    Introspection system for GObject-based libraries - runtime library
+extra/libgtop 2.41.3-2 [installed]
+    Library for collecting system monitoring data
+extra/libindicator-gtk2 12.10.1-10
+    Set of symbols and convenience functions for Ayatana indicators (GTK+ 2 library)
+extra/libindicator-gtk3 12.10.1-10
+    Set of symbols and convenience functions for Ayatana indicators (GTK+ 3 library)
+extra/libinfinity 0.7.2-3
+    A library to build collaborative text editors. Includes the infinoted server
+extra/libisofs 1.5.6-1
+    Library to pack up hard disk files and directories into a ISO 9660 disk image
+extra/libktorrent 24.08.0-1
+    A BitTorrent protocol implementation
+extra/liblouis 3.31.0-1
+    Braille translator and back-translator library
+extra/libmysofa 1.3.2-1
+    C library to read HRTFs if they are stored in the AES69-2015 SOFA format
+extra/libpam-google-authenticator 1.10-1
+    PAM module for google authenticator app
+extra/libprocps 3.3.17-4
+    procps 3.x libraries for monitoring your system and its processes
+extra/libqalculate 5.2.0.1-1
+    Multi-purpose desktop calculator
+extra/libreoffice-extension-texmaths 0.52.2-1
+    A LaTeX equation editor for LibreOffice
+extra/libsieve 2.3.1-5
+    sieve interpretator lib
+extra/libslirp 4.8.0-1
+    General purpose TCP-IP emulator
+extra/libsolv 0.7.30-3
+    Library for solving packages and reading repositories
+extra/libsvm 3.32-2
+    A library for Support Vector Machines classification (includes binaries and bindings for python and java)
+extra/libtorrent 0.13.8-4
+    BitTorrent library with a focus on high performance and good code
+extra/libtorrent-rasterbar 1:2.0.10-3 [installed]
+    A C++ BitTorrent library that aims to be a good alternative to all the other implementations around
+extra/libtransmission 4.0.6-2
+    Fast, easy, and free BitTorrent client (shared library)
+extra/libu2f-server 1.1.0-6
+    Yubico Universal 2nd Factor (U2F) Server C Library
+extra/libutempter 1.2.1-4
+    Interface for terminal emulators such as screen and xterm to record user sessions to utmp and wtmp files
+extra/libutp r99.fda9f4b-2
+    uTorrent Transport Protocol library
+extra/libvirt-storage-gluster 1:10.7.0-2
+    Libvirt Gluster storage backend
+extra/libvirt-storage-iscsi-direct 1:10.7.0-2
+    Libvirt iSCSI-direct storage backend
+extra/libvoikko 4.3.2-3
+    A spelling and grammar checker, hyphenator and collection of related linguistic data for Finnish language
+extra/libvolk 2:3.1.2-2
+    The Vector-Optimized Library of Kernels from Gnuradio
+extra/libvterm 0.3.3-2 [installed]
+    Abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator
+extra/libwmf 0.2.13-3
+    A library for reading vector images in Microsoft's native Windows Metafile Format (WMF)
+extra/libwnck 2.31.0-4
+    Window Navigator Construction Kit
+extra/libxcvt 0.1.2-2 [installed]
+    library providing a standalone version of the X server implementation of the VESA CVT standard timing modelines generator
+extra/libxdg-basedir 1.2.3-2 [installed]
+    An implementation of the XDG Base Directory specification
+extra/liferea 1.14.6-1
+    A desktop news aggregator for online news feeds and weblogs
+extra/lightdm-gtk-greeter-settings 1.2.3-2
+    Settings editor for the LightDM GTK+ Greeter
+extra/lite-xl 2.1.5-1
+    A lightweight text editor written in Lua
+extra/lm_sensors 1:3.6.0.r41.g31d1f125-3 [installed]
+    Collection of user space tools for general SMBus access and hardware monitoring
+extra/lowdown 1.0.2-2
+    A simple Markdown translator
+extra/lrcalc 2.1-5
+    Littlewood-Richardson calculator
+extra/lua-mediator 1.1.2-7
+    Event handling through channels
+extra/lua51-mediator 1.1.2-7
+    Event handling through channels
+extra/lua52-mediator 1.1.2-7
+    Event handling through channels
+extra/lua53-mediator 1.1.2-7
+    Event handling through channels
+extra/luit 20240102-2
+    Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
+extra/luksmeta 9-6
+    Library for storing metadata in the LUKSv1 header
+extra/lxhotkey 0.1.1-3 (lxde)
+    Keyboard shortcuts configurator (part of LXDE)
+extra/lxhotkey-gtk3 0.1.1-3 (lxde-gtk3)
+    Keyboard shortcuts configurator (part of LXDE) (GTK+ 3 version)
+extra/lxrandr 0.3.2-4 (lxde)
+    Monitor configuration tool (part of LXDE)
+extra/lxrandr-gtk3 0.3.2-4 (lxde-gtk3)
+    Monitor configuration tool (part of LXDE) (GTK+ 3 version)
+extra/lxterminal 0.4.0-1 (lxde lxde-gtk3)
+    VTE-based terminal emulator (part of LXDE)
+extra/magpie-wm 0.9.3-3
+    Budgie's X11 window manager and compositor library forked from Mutter
+extra/mame 0.269-1
+    Port of the popular Multiple Arcade Machine Emulator using SDL with OpenGL support
+extra/mame-tools 0.269-1
+    Port of the popular Multiple Arcade Machine Emulator using SDL with OpenGL support (tools)
+extra/mangohud 0.7.2-1
+    A Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more.
+extra/mariadb-libs 11.5.2-1 [installed]
+    MariaDB libraries
+extra/mariadb-lts-libs 11.4.3-1
+    MariaDB libraries (LTS)
+extra/marker 2023.05.02-1
+    Simple yet robust Markdown editor made with GTK
+extra/marksman 20231209-1
+    Write Markdown with code assist and intelligence in the comfort of your favourite editor.
+extra/mate-calc 1.28.0-1 (mate-extra)
+    Calculator for the MATE desktop environment
+extra/mate-system-monitor 1.28.1-1 (mate-extra)
+    A system monitor for MATE
+extra/mate-terminal 1.28.1-1 (mate-extra)
+    The MATE Terminal Emulator
+extra/maui-nota 4.0.0-1 (maui)
+    Multi-platform text editor
+extra/maui-station 4.0.0-1 (maui)
+    Convergent terminal emulator
+extra/mauikit-texteditor 4.0.0-1
+    MauiKit Text Editor components
+extra/maxcso 1.13.0-3
+    A fast ISO to CSO compression program for use with PSP and PS2 emulators
+extra/mcfly 0.9.2-1
+    Fly through your shell history
+extra/media-player-info 26-1
+    Data files describing media player capabilities, mostly of mass-storage devices
+extra/mednafen 1.32.1-1
+    Command-line multi-system gaming emulator
+extra/meld 3.22.2-3
+    Compare files, directories and working copies
+extra/menumaker 0.99.14-3
+    Heuristics-driven menu generator for Deskmenu, FluxBox, IceWM, OpenBox, WindowMaker and XFCE
+extra/merkaartor 0.19.0-9
+    OpenStreetMap editor
+extra/mgba-qt 0.10.3-2
+    A Nintendo Gameboy Advance Emulator focusing on both speed and accuracy. Qt5 UI.
+extra/mgba-sdl 0.10.3-2
+    A Nintendo Gameboy Advance Emulator focusing on both speed and accuracy
+extra/micro 2.0.14-1
+    Modern and intuitive terminal-based text editor
+extra/mimalloc 2.1.7-1
+    General-purpose allocator with excellent performance characteristics
+extra/mimir 2.12.0-1
+    A scalable long-term storage for Prometheus
+extra/minio 2024.08.29-1
+    Object storage server compatible with Amazon S3
+extra/minio-client 2024.08.26-1
+    Replacement for ls, cp, mkdir, diff and rsync commands for filesystems and object storage
+extra/mktorrent 1.1-7
+    Simple command line utility to create BitTorrent metainfo files
+extra/modclean 3.0.0beta.1-4
+    Remove unwanted files and directories from your node_modules folder
+extra/monit 5.34.0-1
+    Utility for managing and monitoring, processes, files, directories and devices on a *NIX system
+extra/monitoring-plugins 2.4.0-1
+    Plugins for Icinga, Naemon, Nagios, Shinken, Sensu and other monitoring applications
+extra/motion 4.6.0-2
+    Monitor and record video signals from many types of cameras
+extra/mousepad 0.6.2-2 (xfce4-goodies) [installed]
+    Simple text editor for Xfce
+extra/mp3info 0.8.5a-8
+    An MP3 technical info viewer and ID3 1.x tag editor
+extra/munin 2.0.76-1
+    A distributed monitoring/graphing tool
+extra/munin-node 2.0.76-1
+    A distributed monitoring/graphing tool
+extra/mupen64plus 2.6.0-1
+    Nintendo64 Emulator
+extra/mutter 46.4-1
+    Window manager and compositor for GNOME
+extra/mutter-docs 46.4-1
+    Window manager and compositor for GNOME (documentation)
+extra/myrepos 1.20180726-8
+    Multiple Repository management tool
+extra/nano-syntax-highlighting 2020.10.10-2
+    Nano editor syntax highlighting enhancements
+extra/netdata 1.47.0-1
+    Real-time performance monitoring, in the greatest possible detail, over the web
+extra/netwatch 1.3.1_2-4
+    monitor network connections
+extra/nextcloud 29.0.6-1
+    A cloud server to store your files centrally on a hardware controlled by you
+extra/nextcloud-app-news 25.0.0.alpha7-1
+    An RSS/Atom feed aggregator
+extra/nginx-mod-modsecurity 1:1.0.3-9
+    ModSecurity v3 Nginx Connector (module for nginx)
+extra/ngspice 43-1
+    Mixed-level/Mixed-signal circuit simulator based on Spice3f5, Ciber1b1, and Xspice
+extra/nikola 8.3.1-1
+    A static site and blog generator
+extra/niri 0.1.8-1
+    A scrollable-tiling Wayland compositor
+extra/nload 0.7.4-8
+    Monitors network traffic and bandwidth usage
+extra/nm-connection-editor 1.36.0-1
+    NetworkManager GUI connection editor and widgets
+extra/nmon 16q-1
+    AIX & Linux Performance Monitoring tool
+extra/nomad 1.8.3-1
+    A simple and flexible workload orchestrator
+extra/normaliz 3.10.3-2
+    A tool for computations in affine monoids, vector configurations, lattice polytopes, and rational cones
+extra/notepadqq 2.0.0beta-2
+    Notepad++-like text editor for Linux
+extra/nrpe 4.1.0-4
+    Nagios Remote Plugin Executor
+extra/nsgenbind 0.9-1
+    NetSurf JavaScript binding generator
+extra/nut 2.8.2-1
+    A collection of programs which provide a common interface for monitoring and administering UPS, PDU and SCD hardware
+extra/nvtop 3.1.0-1
+    GPUs process monitoring for AMD, Intel and NVIDIA
+extra/nwg-bar 0.1.6-2
+    GTK3-based button bar for sway and other wlroots-based compositors
+extra/nwg-displays 0.3.20-2
+    Output management utility for sway and Hyprland Wayland compositors
+extra/nwg-dock 0.4.1-2
+    GTK3-based dock for sway Wayland compositor
+extra/nwg-dock-hyprland 0.3.0-1
+    GTK3-based dock for Hyprland Wayland compositor
+extra/nwg-drawer 0.4.9-2
+    Application drawer for sway and other wlroots-based compositors
+extra/nwg-look 0.2.7-1
+    GTK3 settings editor adapted to work on wlroots-based compositors
+extra/nwg-menu 0.1.4-1
+    MenuStart for sway and other wlroots-based compositors
+extra/nwg-panel 0.9.38-1
+    GTK3-based panel for sway and Hyprland Wayland compositors
+extra/nyx 2.1.0-8
+    Command-line status monitor for tor
+extra/ocaml-cairo 0.6.4-7
+    OCaml binding to Cairo, a 2D Vector Graphics Library
+extra/ocaml-fmt 0.9.0-5
+    OCaml Format pretty-printer combinators
+extra/offlineimap 8.0.0-5
+    Synchronizes emails between two repositories
+extra/offroad 0.5-4
+    Offline vector map display ported from OsmAnd
+extra/oha 1.4.6-1
+    Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation
+extra/okteta 1:0.26.16-1
+    KDE hex editor for viewing and editing the raw data of files
+extra/onefetch 2.21.0-1
+    Git repository summary on your terminal
+extra/onionshare 2.6.2-2
+    Share a file over Tor Hidden Services anonymously and securely
+extra/openapi-generator 7.8.0-1
+    Generation of API client libraries, server stubs, documentation and configuration
+extra/openbve 1.10.1.1-1
+    Free-as-in-freedom train simulator placed in the public domain
+extra/opensearch-mapper-murmur3-plugin 2.16.0-1
+    The Mapper Murmur3 plugin allows to compute hashes of a field\'s values at index-time and to store them in the index.
+extra/opensearch-repository-azure-plugin 2.16.0-1
+    The Azure Repository plugin adds support for Azure storage repositories.
+extra/opensearch-repository-gcs-plugin 2.16.0-1
+    The GCS repository plugin adds Google Cloud Storage support for repositories.
+extra/opensearch-repository-hdfs-plugin 2.16.0-1
+    The HDFS repository plugin adds support for Hadoop Distributed File-System (HDFS) repositories.
+extra/opensearch-repository-s3-plugin 2.16.0-1
+    The S3 repository plugin adds S3 repositories
+extra/opensearch-store-smb-plugin 2.16.0-1
+    The Store SMB plugin adds support for SMB stores.
+extra/openshot 3.2.1-1
+    An award-winning free and open-source video editor
+extra/opentimelineio 0.17.0-1
+    Open Source API and interchange format for editorial timeline information
+extra/openvdb 11.0.0-5
+    A large suite of tools for the efficient storage and manipulation of sparse volumetric data discretized on three-dimensional grids
+extra/operator-sdk 1.33.0-1
+    SDK for building Kubernetes applications
+extra/orbiton 2.67.0-1
+    Fast and configuration-free text editor and IDE limited by VT100
+extra/orbiton-gtk3 2.67.0-1
+    Fast and configuration-free text editor and IDE limited by VT100 (GTK3/VTE3)
+extra/orbiton-nano 2.67.0-1
+    Fast and configuration-free text editor and IDE limited by VT100 (Nano/Pico Mode)
+extra/osquery 5.12.2-3
+    SQL powered operating system instrumentation, monitoring, and analytics
+extra/ouch 0.5.1-1
+    A command line utility for easily compressing and decompressing files and directories
+extra/oxygen-icons-svg 1:6.0.0-2
+    The Oxygen Icon Theme (Scalable Vector Graphics)
+extra/packeth 3.0-1
+    Linux GUI packet generator tool for ethernet
+extra/pacman-bintrans-tools 0.5.0-1
+    Binary transparency for pacman (sign/monitor tools)
+extra/pageedit 2.3.1-1
+    Simple Single Page XHTML Visual Editor, split from Sigil’s BookView
+extra/pam-u2f 1.3.0-2
+    Universal 2nd Factor (U2F) PAM authentication module from Yubico
+extra/pantheon-calculator 8.0.0-1 (pantheon)
+    The Pantheon Calculator
+extra/pantheon-code 7.3.0-1 (pantheon)
+    The Pantheon Text Editor
+extra/pantheon-print 0.1.3-3
+    Simple shim for printing support via Contractor
+extra/pantheon-terminal 6.2.0-1 (pantheon)
+    The Pantheon Terminal Emulator
+extra/partclone 0.3.32-1
+    Utilities to save and restore used blocks on a partition
+extra/pass 1.7.4-5 [installed]
+    Stores, retrieves, generates, and synchronizes passwords securely
+extra/pdfpc 4.6.0-2
+    Presenter console with multi-monitor support for PDF files
+extra/peg 0.1.19-1
+    recursive-descent parser generators for C
+extra/percona-server 8.4.0_1-1
+    Drop-in replacement for MySQL that provides improved performance, diagnostics, instrumentation and MyRocks storage engine
+extra/perl-app-borgrestore 3.4.5-3
+    Restore paths from borg backups
+extra/perl-bit-vector 7.4-17
+    Efficient bit vector, set of integers and "big int" math library
+extra/perl-class-factory-util 1.7-12
+    Provide utility methods for factory classes
+extra/perl-class-inspector 1.36-8
+    Get information about a class and its structure
+extra/perl-crypt-openssl-random 0.17-2
+    Routines for accessing the OpenSSL pseudo-random number generator
+extra/perl-cwd-guard 0.05-11
+    Temporary changing working directory (chdir)
+extra/perl-datetime-timezone 2.62-1
+    Time zone object base class and factory
+extra/perl-dir-self 0.11-11
+    a __DIR__ constant for the directory your source file is in
+extra/perl-djabberd-rosterstorage-sqlite 1.00-14
+    DJabberd sqlite roster storage module
+extra/perl-email-mime 1.954-1
+    Easy MIME message parsing
+extra/perl-email-simple 2.218-3
+    simple parsing of RFC2822 message format and headers
+extra/perl-file-basedir 0.09-5
+    Use the Freedesktop.org base directory specification
+extra/perl-file-chdir 0.1011-6
+    a more sensible way to change directories
+extra/perl-file-copy-recursive 0.45-8
+    Perl extension for recursively copying files and directories
+extra/perl-file-copy-recursive-reduced 0.008-3
+    Recursive copying of files and directories within Perl 5 toolchain
+extra/perl-file-homedir 1.006-6
+    Find your home and other directories on any platform
+extra/perl-file-listing 6.16-4
+    parse directory listing
+extra/perl-file-next 1.18-7 [installed]
+    File-finding iterator
+extra/perl-file-pushd 1.016-8
+    Change directory temporarily for a limited scope
+extra/perl-file-remove 1.61-3
+    Remove files and directories
+extra/perl-file-sharedir-projectdistdir 1.000009-8
+    Simple set-and-forget using of a '/share' directory in your projects root
+extra/perl-graphics-toolkit-color 1.71-2
+    A color palette constructor
+extra/perl-mime-lite 3.033-5 [installed]
+    Perl module that provides lightweight MIME generator
+extra/perl-mozilla-ca 20240730-2
+    Mozilla's CA cert bundle in PEM format (using system CA store)
+extra/perl-params-validationcompiler 0.31-4
+    Build an optimized subroutine parameter validator once, use it forever
+extra/perl-parse-recdescent 1.967015-4
+    Recursive descent parser generator
+extra/perl-perl4-corelibs 0.005-2
+    Libraries historically supplied with Perl 4
+extra/perl-text-csv 2.04-2
+    comma-separated values manipulator
+extra/pg_auto_failover 2.1-1
+    extension and service for PostgreSQL that monitors and manages automated failover for a Postgres cluster.
+extra/phoc 0.41.0-1
+    Display compositor designed for phones
+extra/photoflare 1.6.13-1
+    Quick, simple but powerful Qt-based image editor inspired by PhotoFiltre
+extra/php-legacy-redis 6.0.2-3
+    An API for communicating with the Redis key-value store
+extra/php-redis 6.0.2-3
+    An API for communicating with the Redis key-value store
+extra/picom 11.2-1
+    A lightweight compositor for X11
+extra/pim-sieve-editor 24.08.0-1 (kde-applications kde-pim)
+    Mail sieve editor
+extra/pint 0.64.0-1
+    Rule linter/validator for Prometheus
+extra/pipe-rename 1.6.5-2
+    Rename your files using your favorite text editor
+extra/pipewire-v4l2 1:1.2.3-1
+    Low-latency audio/video router and processor - V4L2 interceptor
+extra/pitivi 2023.03-5
+    Editor for audio/video projects using the GStreamer framework
+extra/plasma-disks 6.1.4-1 (plasma)
+    Monitors S.M.A.R.T. capable devices for imminent failure
+extra/plasma-systemmonitor 6.1.4-1 (plasma)
+    An interface for monitoring system sensors, process information and other system resources
+extra/pluma 1.28.0-3 (mate-extra)
+    A powerful text editor for MATE
+extra/poedit 1:3.4.2-3
+    Cross-platform gettext catalogs (.po files) editor
+extra/poke 4.2-1
+    Interactive, extensible editor for binary data.
+extra/polyphone 2.3.0-5 (pro-audio)
+    A soundfont editor for quickly designing musical instruments
+extra/ponyc 0.43.1-1
+    An actor model, capabilities, high performance programming language
+extra/postorius 1.3.12-1
+    The New Mailman Web UI
+extra/pppusage 0.2.5-16
+    Utility to monitor pppd connections
+extra/ppsspp 1.17.1-1
+    A PSP emulator written in C++
+extra/ppsspp-assets 1.17.1-1
+    A PSP emulator written in C++
+extra/primesieve 12.4-1
+    Fast prime number generator
+extra/prometheus 2.54.1-1
+    An open-source systems monitoring and alerting toolkit
+extra/protege 5.6.4-1
+    Free, open source ontology editor and knowledge-base framework
+extra/prusa-slicer 2.8.0-1
+    G-code generator for 3D printers (Prusa fork of Slic3r)
+extra/psensor 1.2.1-4
+    Graphical hardware temperature monitoring application
+extra/pstoedit 4.01-2
+    Translates PostScript and PDF graphics into other vector formats
+extra/pv 1.8.13-1
+    A terminal-based tool for monitoring the progress of data through a pipeline
+extra/pwgen 2.08-3
+    Password generator for creating easily memorable passwords
+extra/pythia8 8.3.10-5
+    High-energy physics events generator
+extra/python-aiohttp-socks 0.9.0-1
+    SOCKS proxy connector for aiohttp. SOCKS4(a) and SOCKS5 are supported.
+extra/python-aiostream 0.6.2-1
+    Generator-based operators for asynchronous iteration
+extra/python-ana 0.06-4
+    Python module to provide easy distributed data storage
+extra/python-apispec 6.0.2-4
+    A pluggable API specification generator. Currently supports the OpenAPI Specification.
+extra/python-asteval 0.9.33-1
+    Minimalistic evaluator of python expression using ast module
+extra/python-astor 0.8.1-7
+    Read/rewrite/write Python ASTs
+extra/python-atpublic 5.0-1
+    @public decorator for Python
+extra/python-aws-sam-translator 1.91.0-1
+    AWS Serverless Application Model (AWS SAM) prescribes rules for expressing Serverless applications on AWS
+extra/python-b2sdk 2.4.1-1
+    Python module to access B2 cloud storage
+extra/python-barectf 3.1.1-4
+    Generator of ANSI C tracers which output CTF
+extra/python-bowler 0.9.0-8
+    Safe code refactoring for modern Python.
+extra/python-cachetools 5.3.3-1
+    Extensible memoizing collections and decorators
+extra/python-cchardet 2.1.7-6
+    Universal encoding detector faster than chardet.
+extra/python-certifi 2024.08.30-1 [installed]
+    Python package for providing Mozilla's CA Bundle (using system CA store)
+extra/python-cheetah3 3.3.3-2
+    A Python powered template engine and code generator
+extra/python-cheetah3-docs 3.3.3-2
+    A Python powered template engine and code generator (documentation)
+extra/python-cinderclient 9.6.0-1
+    OpenStack Block Storage API Client Library
+extra/python-cligj 0.7.2-5
+    Click-based argument and option decorators for Python GIS command line programs
+extra/python-cogapp 3.3.0-5
+    A code generator for executing Python snippets in source files
+extra/python-cssbeautifier 1.15.1-2
+    CSS unobfuscator and beautifier
+extra/python-cssselect 1.2.0-6
+    A Python3 library that parses CSS3 Selectors and translates them to XPath 1.0
+extra/python-cssselect2 0.7.0-4
+    CSS selectors for Python ElementTree
+extra/python-datrie 0.8.2-5
+    Fast, efficiently stored Trie for Python. Uses libdatrie
+extra/python-debtcollector 3.0.0-2
+    A collection of Python deprecation patterns and strategies that help you collect your technical debt in a non-destructive manner.
+extra/python-decorator 5.1.1-4
+    Python Decorator module
+extra/python-deprecated 1.2.14-3
+    Python @deprecated decorator to deprecate old python classes, functions or methods
+extra/python-distorm 3.5.2.b-3
+    Powerful disassembler library for x86/AMD64
+extra/python-django-environ 0.11.2-2
+    Utilize 12factor inspired environment variables to configure your Django application
+extra/python-editor 1.0.4-10
+    Programmatically open an editor, capture the result
+extra/python-editorconfig 0.12.4-1
+    EditorConfig File Locator and Interpreter for Python
+extra/python-elementpath 4.4.0-2
+    XPath 1.0/2.0 parsers and selectors for ElementTree and lxml
+extra/python-email-validator 2.1.1-2
+    A robust email address syntax and deliverability validation library
+extra/python-euclid3 0.01-7
+    2D and 3D vector, matrix, quaternion and geometry module
+extra/python-factory-boy 3.3.0-4
+    A versatile test fixtures replacement based on thoughtbot's factory_bot for Ruby
+extra/python-fastjsonschema 2.20.0-1 [installed]
+    Fast JSON schema validator for Python
+extra/python-feedgenerator 2.1.0-4
+    Standalone version of django.utils.feedgenerator (python3).
+extra/python-flake8-black 0.3.6-4
+    Flake8 plugin to call black as a code style validator
+extra/python-flask-cors 5.0.0-1
+    A Flask extension adding a decorator for CORS support
+extra/python-flex 6.14.1-12
+    Swagger schema validator
+extra/python-flufl.bounce 4.0-5
+    Email bounce detectors
+extra/python-funcparserlib 1.0.1-3
+    Recursive descent parsing library based on functional combinators
+extra/python-gitpython 3.1.42-4
+    A python library used to interact with Git repositories
+extra/python-googleapis-common-protos 1.63.2-1
+    Python classes generated from the common protos in the googleapis repository
+extra/python-grpcio-tools 1.65.5-1
+    Python protobuf generator for GRPC
+extra/python-hs-dbus-signature 0.7-7
+    dbus signature hypothesis strategy generator
+extra/python-icalendar 5.0.13-1
+    A parser/generator of iCalendar files (RFC 2445)
+extra/python-inflection 0.5.1-7
+    A port of Ruby on Rails inflector to Python
+extra/python-iterable-io 1.0.0-2
+    Adapt generators and other iterables to a file-like interface
+extra/python-js2py 0.72-5
+    JavaScript to Python Translator & JavaScript interpreter written in 100% pure Python
+extra/python-jsbeautifier 1.15.1-2
+    JavaScript unobfuscator and beautifier
+extra/python-kaitaistruct 0.10-4
+    Kaitai Struct declarative parser generator for binary data: runtime library for Python
+extra/python-keyring 25.2.1-1
+    Store and access your passwords safely
+extra/python-memory-allocator 0.1.4-2
+    An extension class to allocate memory easily with cython
+extra/python-minidb 2.0.8-1
+    Simple SQLite3 store for Python objects
+extra/python-minio 7.2.8-1
+    MinIO Python Library for Amazon S3 Compatible Cloud Storage
+extra/python-mutatormath 3.0.1-5
+    Piecewise linear interpolation of multiple, arbitrarily placed, masters
+extra/python-mysql-connector 9.0.0-1
+    A standardized database driver for Python platforms and development
+extra/python-nspektr 0.5.0-2
+    A distribution package dependency inspector
+extra/python-numexpr 2.10.1-1
+    Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas
+extra/python-openapi-schema-validator 0.6.2-2
+    OpenAPI schema validation for Python
+extra/python-openapi-spec-validator 0.7.1-2
+    OpenAPI 2.0 (aka Swagger) and OpenAPI 3 spec validator
+extra/python-osqp 0.6.7.post1-1
+    Python wrapper for OSQP: the Operator Splitting QP Solver
+extra/python-overrides 7.7.0-2
+    A decorator to automatically detect mismatch when overriding a method
+extra/python-parsel 1.8.1-3
+    Library to extract data from HTML and XML using XPath and CSS selectors
+extra/python-partd 1.4.1-2
+    Concurrent appendable key-value storage
+extra/python-pasta 0.2.0-8
+    Library to refactor python code through AST manipulation
+extra/python-phitigra 0.2.6-3
+    A graph editor for SageMath/Jupyter
+extra/python-phonenumbers 8.13.44-1
+    Python version of Google's common library for parsing, formatting, storing and validating international phone numbers
+extra/python-platformdirs 4.2.2-1 [installed]
+    A library to determine platform-specific system directories
+extra/python-portend 3.2.0-1
+    Use portend to monitor TCP ports for bound or unbound states.
+extra/python-profilestats 2.0-14
+    Decorator for profiling individual functions and converting profiling data to the kcachegrind/qcachegrind format.
+extra/python-pycparser 2.22-2 [installed]
+    C parser and AST generator written in Python
+extra/python-pydyf 0.11.0-1
+    A low-level PDF generator
+extra/python-pyinotify 0.9.6-14
+    Python module used for monitoring filesystems events on Linux platforms with inotify.
+extra/python-pykka 4.0.2-2
+    Easy to use concurrency abstractions for Python using the actor model
+extra/python-pyogrio 0.9.0-1
+    Vectorized vector I/O using OGR
+extra/python-pyqrcode 1.2.1-7
+    QR code generator written purely in Python with SVG, EPS, PNG and terminal output
+extra/python-pyte 0.8.2-3
+    Simple VTXXX-compatible terminal emulator
+extra/python-pytest-datadir 1.5.0-2
+    pytest plugin for test data directories and files
+extra/python-pytest-datafiles 3.0.0-3
+    py.test plugin to create a 'tmpdir' containing predefined files/directories.
+extra/python-pytest-expect 1.1.0-11
+    py.test plugin to store test expectations and mark tests based on them
+extra/python-pytest-home 0.6.0-1
+    Home directory fixtures
+extra/python-pytest-param-files 0.6.0-3
+    Create pytest parametrize decorators from external files
+extra/python-pytest-tornado 0.8.1-8
+    A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.
+extra/python-pytest-tornasync 0.6.0.post2-6
+    py.test plugin for testing Python 3.5+ Tornado code
+extra/python-pytorch 2.3.1-5
+    Tensors and Dynamic neural networks in Python with strong GPU acceleration
+extra/python-pytorch-cuda 2.3.1-5
+    Tensors and Dynamic neural networks in Python with strong GPU acceleration (with CUDA)
+extra/python-pytorch-opt 2.3.1-5
+    Tensors and Dynamic neural networks in Python with strong GPU acceleration (with AVX2 CPU optimizations)
+extra/python-pytorch-opt-cuda 2.3.1-5
+    Tensors and Dynamic neural networks in Python with strong GPU acceleration (with CUDA and AVX2 CPU optimizations)
+extra/python-pytorch-opt-rocm 2.3.1-5
+    Tensors and Dynamic neural networks in Python with strong GPU acceleration (with ROCm and AVX2 CPU optimizations)
+extra/python-pytorch-rocm 2.3.1-5
+    Tensors and Dynamic neural networks in Python with strong GPU acceleration (with ROCm)
+extra/python-qdldl 0.1.7.post4-2
+    Python interface to the QDLDL free LDL factorization routine for quasi-definite linear systems
+extra/python-qiniu 7.13.2-1
+    Qiniu Resource Storage SDK for Python
+extra/python-redis 5.0.8-1
+    The Python interface to the Redis key-value store
+extra/python-remoto 1.2.1-5
+    A very simplistic remote-command-executor using connections to hosts
+extra/python-rencode 1.0.6-9
+    A Module similar to bencode from the BitTorrent project
+extra/python-repoze.lru 0.7-11
+    A tiny LRU cache implementation and decorator
+extra/python-rfc3339-validator 0.1.4-6
+    A pure python RFC3339 validator
+extra/python-rfc3986-validator 0.1.1-4
+    A pure python RFC3986 validator
+extra/python-rope 1.13.0-1
+    Refactoring library
+extra/python-scikit-build 0.17.6-3
+    Improved build system generator for CPython C, C++, Cython and Fortran extensions
+extra/python-scikit-build-core 0.9.3-1
+    Next generation Python CMake adaptor and Python API for plugins
+extra/python-secretstorage 3.3.3-5
+    Securely store passwords and other private data using the SecretService DBus API
+extra/python-soupsieve 2.6-1
+    A CSS4 selector implementation for Beautiful Soup
+extra/python-sphinx 8.0.2-1
+    Python documentation generator
+extra/python-sphinx-autorun 1.1.1-7
+    Sphinx extension to execute the code output it into a document.
+extra/python-stem 1.8.3-2
+    Python controller library for Tor
+extra/python-stestr 4.1.0-5
+    A test runner runner similar to testrepository
+extra/python-tensorflow-estimator 2.15.0-2
+    A high-level TensorFlow API that greatly simplifies machine learning programming
+extra/python-terminado 0.18.1-2
+    Terminals served to term.js using Tornado websockets
+extra/python-testrepository 0.0.21-1
+    A repository of test results.
+extra/python-threadloop 1.0.2-8
+    Tornado IOLoop Backed Concurrent Futures
+extra/python-torchvision 0.18.1-1
+    Datasets, transforms, and models specific to computer vision
+extra/python-torchvision-cuda 0.18.1-1
+    Datasets, transforms, and models specific to computer vision (with GPU support)
+extra/python-tornado 6.4.1-1
+    open source version of the scalable, non-blocking web server and tools
+extra/python-torrentool 1.2.0-2
+    The tool to work with torrent files
+extra/python-truststore 0.9.2-1
+    Verify certificates using OS trust stores
+extra/python-txtorcon 23.11.0-3
+    A Twisted-based Python asynchronous controller library for Tor
+extra/python-unicorn 2.0.1.post1-2
+    Lightweight, multi-platform, multi-architecture CPU emulator framework based on QEMU
+extra/python-validators 0.20.2-2
+    Python Data Validation for Humans
+extra/python-vector 1.3.1-2
+    A library for 2D, 3D, and Lorentz vectors, especially arrays of vectors, to solve common physics problems in a NumPy-like way.
+extra/python-venusian 3.1.0-5
+    A library for deferring decorator actions
+extra/python-visitor 0.1.3-11
+    A tiny pythonic visitor implementation
+extra/python-volume_key 0.3.12-9
+    A library for manipulating storage volume encryption keys and storing them separately from volumes to handle forgotten passphrases - Python bindings
+extra/python-watchdog 2.3.0-3
+    Python API and shell utilities to monitor file system events
+extra/python-webrtcvad 2.0.10-4
+    Python interface to the Google WebRTC Voice Activity Detector
+extra/python-wrapt 1.16.0-3
+    A Python module for decorators, wrappers and monkey patching
+extra/python-wsaccel 0.6.6-2
+    Accelerator for ws4py and AutobahnPython
+extra/python-xmlschema 1:2.5.1-2
+    An XML Schema validator and decoder
+extra/python-ypy-websocket 0.12.4-2
+    WebSocket connector for Ypy
+extra/python-zipstream-ng 1.7.1-3
+    A modern and easy to use streamable zip file generator
+extra/python-zxcvbn 4.4.28-4
+    Python implementation of Dropbox's realistic password strength estimator
+extra/qbittorrent 4.6.6-1 [installed]
+    An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
+extra/qbittorrent-nox 4.6.6-1
+    An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar, w/o gui
+extra/qemu-common 9.0.2-1
+    A generic and open source machine emulator and virtualizer
+extra/qemu-docs 9.0.2-1
+    A generic and open source machine emulator and virtualizer - documentation
+extra/qemu-emulators-full 9.0.2-1
+    All QEMU user mode and system emulators
+extra/qemu-system-aarch64 9.0.2-1
+    QEMU system emulator for AARCH64
+extra/qemu-system-alpha 9.0.2-1
+    QEMU system emulator for Alpha
+extra/qemu-system-alpha-firmware 9.0.2-1
+    Firmware for QEMU system emulator for Alpha
+extra/qemu-system-arm 9.0.2-1
+    QEMU system emulator for ARM
+extra/qemu-system-arm-firmware 9.0.2-1
+    Firmware for QEMU system emulator for ARM
+extra/qemu-system-avr 9.0.2-1
+    QEMU system emulator for AVR
+extra/qemu-system-cris 9.0.2-1
+    QEMU system emulator for CRIS
+extra/qemu-system-hppa 9.0.2-1
+    QEMU system emulator for HPPA
+extra/qemu-system-hppa-firmware 9.0.2-1
+    Firmware for QEMU system emulator for HPPA
+extra/qemu-system-loongarch64 9.0.2-1
+    QEMU system emulator for LoongArch64
+extra/qemu-system-m68k 9.0.2-1
+    QEMU system emulator for ColdFire (m68k)
+extra/qemu-system-microblaze 9.0.2-1
+    QEMU system emulator for Microblaze
+extra/qemu-system-microblaze-firmware 9.0.2-1
+    Firmware for QEMU system emulator for Microblaze
+extra/qemu-system-mips 9.0.2-1
+    QEMU system emulator for MIPS
+extra/qemu-system-nios2 9.0.2-1
+    QEMU system emulator for nios2
+extra/qemu-system-or1k 9.0.2-1
+    QEMU system emulator for OpenRisc32
+extra/qemu-system-ppc 9.0.2-1
+    QEMU system emulator for PPC
+extra/qemu-system-ppc-firmware 9.0.2-1
+    Firmware for QEMU system emulator for PPC
+extra/qemu-system-riscv 9.0.2-1
+    QEMU system emulator for RISC-V
+extra/qemu-system-riscv-firmware 9.0.2-1
+    Firmware for QEMU system emulator for RISC-V
+extra/qemu-system-rx 9.0.2-1
+    QEMU system emulator for RX
+extra/qemu-system-s390x 9.0.2-1
+    QEMU system emulator for S390
+extra/qemu-system-s390x-firmware 9.0.2-1
+    Firmware for QEMU system emulator for S390
+extra/qemu-system-sh4 9.0.2-1
+    QEMU system emulator for SH4
+extra/qemu-system-sparc 9.0.2-1
+    QEMU system emulator for SPARC
+extra/qemu-system-sparc-firmware 9.0.2-1
+    Firmware for QEMU system emulator for SPARC
+extra/qemu-system-tricore 9.0.2-1
+    QEMU system emulator for tricore
+extra/qemu-system-x86 9.0.2-1
+    QEMU system emulator for x86
+extra/qemu-system-x86-firmware 9.0.2-1
+    Firmware for QEMU system emulator for x86
+extra/qemu-system-xtensa 9.0.2-1
+    QEMU system emulator for Xtensa
+extra/qgis 3.38.2-1
+    Geographic Information System (GIS) that supports vector, raster & database formats
+extra/qgo 2.1.1-2
+    Go client and full featured SGF editor
+extra/qhexedit2 0.8.9-2
+    Hex editor widget written in C++ for the Qt framework
+extra/qmidiarp 0.7.1-1
+    A MIDI arpeggiator, phrase generator and controller LFO for the ALSA sequencer.
+extra/qmidiarp-lv2 0.7.1-1 (lv2-plugins pro-audio)
+    A MIDI arpeggiator, phrase generator and controller LFO for the ALSA sequencer. - LV2 plugin
+extra/qmidiarp-standalone 0.7.1-1 (pro-audio)
+    A MIDI arpeggiator, phrase generator and controller LFO for the ALSA sequencer. - standalone
+extra/qreator 20.02.1-5
+    Graphical utility for creating QR codes
+extra/qscintilla-qt5 2.14.1-3
+    A port to Qt5 of Neil Hodgson's Scintilla C++ editor class
+extra/qscintilla-qt6 2.14.1-3
+    A port to Qt6 of Neil Hodgson's Scintilla C++ editor class
+extra/qt5-location 5.15.15+kde+r7-1 (qt5)
+    Provides access to position, satellite and area monitoring classes
+extra/qt5-lottie 5.15.15-1 (qt5)
+    A family of player software for a certain json-based file format for describing 2d vector graphics animations
+extra/qt6-lottie 6.7.2-1 (qt6)
+    A family of player software for a certain json-based file format for describing 2d vector graphics animations
+extra/qt6-positioning 6.7.2-1 (qt6)
+    Provides access to position, satellite and area monitoring classes
+extra/qtcreator 14.0.1-1
+    Lightweight, cross-platform integrated development environment
+extra/qtcreator-devel 14.0.1-1
+    Lightweight, cross-platform integrated development environment (development files)
+extra/qterminal 2.0.1-1 (lxqt)
+    A lightweight Qt-based terminal emulator
+extra/qtkeychain-qt5 0.14.3-1
+    Provides support for secure credentials storage
+extra/qtkeychain-qt6 0.14.3-1
+    Provides support for secure credentials storage
+extra/qtmpris 1.0.6-1
+    Qt and QML MPRIS interface and adaptor
+extra/qtpbfimageplugin-qt5 3.1-2
+    Qt image plugin for displaying Mapbox vector tiles
+extra/qtpbfimageplugin-qt6 3.1-2
+    Qt image plugin for displaying Mapbox vector tiles
+extra/qtractor 1.2.0-1 (pro-audio)
+    Audio/MIDI multitrack sequencer
+extra/qxmledit 0.9.18-1
+    Simple XML editor and XSD viewer
+extra/rapidjson 1.1.0-6
+    Fast JSON parser/generator for C++ with both SAX/DOM style API
+extra/raptor 2.0.16-5 [installed]
+    A C library that parses RDF/XML/N-Triples into RDF triples
+extra/rclone 1.67.0-1
+    Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage
+extra/read-edid 3.0.2-5
+    Program that can get information from a PNP monitor
+extra/rebuild-detector 4.4.3-3
+    Detects which packages need to be rebuilt
+extra/redland-storage-mysql 1:1.0.17-9
+    MySQL storage support for Redland
+extra/redland-storage-postgresql 1:1.0.17-9
+    PostgreSQL storage support for Redland
+extra/redland-storage-sqlite 1:1.0.17-9
+    SQLite storage support for Redland
+extra/redland-storage-virtuoso 1:1.0.17-9
+    Virtuoso storage support for Redland
+extra/reflector 2023-2
+    A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+extra/rekor 1.3.6-1
+    Signature Transparency Log -- Sigstore client and server tools
+extra/repo 2.45-2
+    The Multiple Git Repository Tool from the Android Open Source Project
+extra/repod 0.3.1-2
+    Tooling to maintain binary package repositories
+extra/reprepro 5.4.3-1
+    Debian package repository producer
+extra/retext 8.0.2-2
+    A simple editor for Markdown and ReStructuredText markup languages
+extra/rfc 20221112-2
+    RFCs from rfc-editor.org
+extra/rhvoice-voice-victoria 1.8.0-1 (rhvoice)
+    Rhvoice victoria voice for russian language
+extra/rio 0.1.11-1
+    A hardware-accelerated GPU terminal emulator powered by WebGPU
+extra/river 0.3.5-2
+    A dynamic tiling wayland compositor
+extra/rlwrap 0.46.1-2
+    Adds readline-style editing and history to programs
+extra/rng-tools 6.17-1
+    Random number generator related utilities
+extra/rocksdb 9.4.0-1
+    Embedded key-value store for fast storage
+extra/rocrand 6.0.2-1
+    Pseudo-random and quasi-random number generator on ROCm
+extra/rofi-pass 2.0.2-3
+    bash script to handle pass storages in a convenient way
+extra/rosegarden 24.06-1 (pro-audio)
+    MIDI/audio sequencer and notation editor
+extra/roundcubemail-plugin-twofactor-webauthn 1.3.0-1
+    Roundcube plugin for FIDO2/WebAuthn 2-factor authentication
+extra/rqbit 7.0.1-1
+    A bittorrent client in Rust
+extra/rqbit-desktop 7.0.1-1
+    A bittorrent client in Rust (desktop app)
+extra/rst2pdf 0.102-1
+    Use a text editor. Make a PDF
+extra/rtorrent 0.9.8-6
+    Ncurses BitTorrent client based on libTorrent
+extra/ruby 3.2.5-1
+    An object-oriented language for quick and easy programming
+extra/ruby-colorator 1.1.0-8
+    Colorize your text in the terminal
+extra/ruby-concurrent 1.2.3-2
+    Modern concurrency tools including agents, futures, promises, thread pools, actors, supervisors, and more.
+extra/ruby-fiber-storage 0.1.2-1
+    Provides a compatibility shim for fiber storage
+extra/ruby-immutable-struct 2.4.1-3
+    Create struct-like classes that don't have setters, but have an awesome constructor
+extra/ruby-matrix 0.4.2-1
+    An implementation of Matrix and Vector classes
+extra/ruby-multi_test 1.1.0-3
+    Wafter-thin gem to help control rogue test/unit/autorun requires
+extra/ruby-nio4r 2.7.3-1
+    Abstract, cross-platform stateful I/O selector API for Ruby
+extra/ruby-path_expander 1.1.1-2
+    Helps pre-process command-line arguments expanding directories into their constituent file
+extra/ruby-prime 0.1.2-1
+    Prime numbers and factorization library
+extra/ruby-racc 1.6.2-1
+    LALR parser generator written in Ruby itself and generates ruby programs
+extra/ruby-rails-dom-testing 2.0.3-3
+    Dom and Selector assertions for Rails applications
+extra/ruby-rake-compiler 1.2.7-1
+    Rake-based Ruby Extension (C, Java) task generator
+extra/ruby-rdoc 6.5.1.1-2
+    Command-line documentation generator for Ruby projects
+extra/ruby-rspec-files 1.1.3-3
+    RSpec helpers for buffering and detecting file descriptor leaks
+extra/ruby-unicorn-engine 2.0.1.post1-2
+    Lightweight, multi-platform, multi-architecture CPU emulator framework based on QEMU
+extra/run-parts 5.17-1
+    run scripts or programs in a directory
+extra/rxvt-unicode 9.31-6
+    Unicode enabled rxvt-clone terminal emulator (urxvt)
+extra/s-tui 1.1.6-2
+    Terminal UI stress test and monitoring tool
+extra/sage-data-combinatorial_designs 20140630-6
+    Data for Combinatorial Designs
+extra/sakura 3.8.7-2
+    A terminal emulator based on GTK and VTE
+extra/sarg 2.4.0-4
+    Squid Analysis Report Generator
+extra/sbxkb 0.7.6-7
+    Simple tray XKB indicator
+extra/scite 5.5.0-1
+    Editor with facilities for building and running programs
+extra/scratch 1.4.0.7-8
+    Create and share your own interactive stories, games, music and art
+extra/sdedit 4.2.1-2
+    Lightweight sequence diagram editor
+extra/setzer 66-2
+    LaTeX editor written in Python with Gtk
+extra/sha3sum 1.2.3.1-1
+    Keccak-family checksum calculator, including SHA-3
+extra/shotcut 24.08-1
+    Cross-platform Qt based Video Editor
+extra/sigal 2.4-3
+    Yet another simple static gallery generator
+extra/sigil 2.3.1-1
+    multi-platform EPUB2/EPUB3 ebook editor
+extra/simh 3.12.4-1
+    simulator for assorted historical computers, from Altair to VAX
+extra/singular 4.4.0.p5-1
+    Computer Algebra System for polynomial computations
+extra/sipcalc 1.1.6-5
+    an advanced console based ip subnet calculator.
+extra/skate 0.2.2-2
+    A personal key value store
+extra/skopeo 1.16.1-1
+    A command line utility for various operations on container images and image repositories.
+extra/slurp 1.5.0-1
+    Select a region in a Wayland compositor
+extra/smartmontools 7.4-2
+    Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
+extra/smbnetfs 0.6.3-6
+    small C program that mounts Microsoft network neighborhood in single directory.
+extra/snapper 0.11.1-2
+    A tool for managing BTRFS and LVM snapshots. It can create, diff and restore snapshots and provides timelined auto-snapping.
+extra/snd 24.6-1 (pro-audio)
+    An advanced sound editor
+extra/snes9x 1.63-1
+    Portable Super Nintendo Entertainment System (TM) emulator
+extra/snes9x-gtk 1.63-1
+    Portable Super Nintendo Entertainment System (TM) emulator
+extra/sniffnet 1.3.1-1
+    Application to comfortably monitor your network traffic
+extra/softhsm 2.6.1-5
+    Software PKCS#11 store
+extra/sops 3.9.0-1
+    Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+extra/sord 0.16.16-1 [installed]
+    A lightweight C library for storing RDF data in memory
+extra/sord-docs 0.16.16-1
+    A lightweight C library for storing RDF data in memory - documentation
+extra/sound-juicer 3.40.0-3
+    A lean and friendly audio CD extractor for GNOME
+extra/speedcrunch 0.12.0-4
+    Simple but powerful calculator using Qt
+extra/spike 1.1.0-5 (risc-v)
+    Spike, a RISC-V ISA Simulator
+extra/spirv-llvm-translator 18.1.4-1
+    Tool and a library for bi-directional translation between SPIR-V and LLVM IR
+extra/spotify-launcher 0.5.4-1
+    Client for spotify's apt repository in Rust for Arch Linux
+extra/sqlitebrowser 3.12.2-4
+    SQLite Database browser is a light GUI editor for SQLite databases, built on top of Qt
+extra/sscg 3.0.5-2
+    Simple Signed Certificate Generator
+extra/sshguard 2.4.3-2
+    Brute force detector for SSH, Exim, VSFTPD and more. Blocks by ip with iptables
+extra/startup-notification 0.12-8 [installed]
+    Libary to monitor and display application startup
+extra/stella 6.7.1-1
+    Atari 2600 VCS emulator
+extra/stellarsolver 2.6-1
+    The cross platform Sextractor and Astrometry.net-Based internal astrometric solver
+extra/step 24.08.0-1 (kde-applications kde-education)
+    Interactive Physical Simulator
+extra/stow 2.4.0-1
+    Manage installation of multiple softwares in the same directory tree
+extra/stratisd 3.6.3-1
+    Easy to use local storage management for Linux.
+extra/strawberry 1.1.1-2
+    A music player aimed at audio enthusiasts and music collectors
+extra/subtitleeditor 0.54.0-5
+    A GTK+3 tool to edit subtitles for GNU/Linux/*BSD
+extra/sugar-activity-calculate 47-4 (sugar-fructose)
+    Graphing calculator for Sugar
+extra/sugar-activity-terminal 47-4 (sugar-fructose)
+    Terminal emulator for Sugar
+extra/sugar-datastore 0.120-2
+    Sugar datastore service
+extra/sway 1:1.9-5
+    Tiling Wayland compositor and replacement for the i3 window manager
+extra/swaybg 1.2.1-1
+    Wallpaper tool for Wayland compositors
+extra/swtpm 0.8.2-1
+    Libtpms-based TPM emulator with socket, character device, and Linux CUSE interface
+extra/synfig 1.4.5-1
+    Professional vector animation program (CLI renderer only)
+extra/synfigstudio 1.4.5-1
+    Professional vector animation program (GUI)
+extra/synthv1 1.1.0-1
+    Old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo fx
+extra/synthv1-lv2 1.1.0-1 (lv2-plugins pro-audio)
+    Old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo fx - LV2 plugin
+extra/synthv1-standalone 1.1.0-1 (pro-audio)
+    Old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo fx - standalone
+extra/sysstat 12.7.6-1
+    a collection of performance monitoring tools (iostat,isag,mpstat,pidstat,sadf,sar)
+extra/talhelper 3.0.5-1
+    A tool to help create Talos clusters in your GitOps repository
+extra/talloc 2.4.2-3
+    Hierarchical pool based memory allocator with destructors
+extra/tcpflow 1.6.1-2
+    Captures data transmitted as part of TCP connections then stores the data conveniently
+extra/tenacity 1.3.3-4 (pro-audio)
+    An easy-to-use multi-track audio editor and recorder, forked from Audacity
+extra/tenshi 0.18-1
+    real-time log monitor from the Gentoo Linux project
+extra/terminator 2.1.4-1
+    Terminal emulator that supports tabs and grids
+extra/terminology 1.13.0-2
+    EFL based terminal emulator
+extra/testdisk 7.2-1
+    Checks and undeletes partitions + PhotoRec, signature based recovery tool
+extra/testu01 1.2.3-4
+    A library offering a collection of utilities for the empirical statistical testing of uniform random number generators
+extra/texlive-bibtexextra 2024.2-2 (texlive)
+    TeX Live - BibTeX additional styles
+extra/texlive-context 2024.2-2 (texlive)
+    TeX Live - ConTeXt and packages
+extra/texlive-langenglish 2024.2-2 (texlive-lang)
+    TeX Live - US and UK English
+extra/texlive-latexextra 2024.2-2 (texlive)
+    TeX Live - LaTeX additional packages
+extra/texlive-latexrecommended 2024.2-2 (texlive)
+    TeX Live - LaTeX recommended packages
+extra/texlive-mathscience 2024.2-2 (texlive)
+    TeX Live - Mathematics, natural sciences, computer science packages
+extra/texlive-pictures 2024.2-2 (texlive)
+    TeX Live - Graphics, pictures, diagrams
+extra/texlive-plaingeneric 2024.2-2 (texlive)
+    TeX Live - Plain (La)TeX packages
+extra/texlive-pstricks 2024.2-2 (texlive)
+    TeX Live - PSTricks
+extra/texlive-publishers 2024.2-2 (texlive)
+    TeX Live - Publisher styles, theses, etc.
+extra/texmaker 6.0.0-1
+    Free cross-platform LaTeX editor
+extra/texworks 0.6.9-3
+    Unicode-based, TeX-aware editor with integrated PDF viewer
+extra/tiled 1.11.0-1
+    A general purpose tile map editor, built to be flexible and easy to use
+extra/tilix 1.9.6-5
+    A tiling terminal emulator for Linux using GTK+ 3
+extra/time 1.9-5
+    Utility for monitoring a program's use of system resources
+extra/timeshift 24.06.3-1
+    A system restore utility for Linux
+extra/tinyemu 2019_12_21-4 (risc-v)
+    RISC-V system emulator
+extra/tipp10 3.3.2-1
+    Intelligent touch typing tutor
+extra/tmon 6.10-2 (linux-tools)
+    Monitoring and Testing Tool for Linux kernel thermal subsystem
+extra/tor 0.4.8.12-1
+    Anonymizing overlay network.
+extra/torbrowser-launcher 0.3.7-2
+    Securely and easily download, verify, install, and launch Tor Browser in Linux
+extra/torchvision 0.18.1-1
+    Datasets, transforms, and models specific to computer vision (C++ library only)
+extra/torchvision-cuda 0.18.1-1
+    Datasets, transforms, and models specific to computer vision (C++ library only with GPU support)
+extra/torsocks 2.4.0-1
+    Wrapper to safely torify applications
+extra/tracker3 3.7.3-2 [installed]
+    SQLite-based RDF triplestore database with SPARQL interface
+extra/tracker3-docs 3.7.3-2
+    SQLite-based RDF triplestore database with SPARQL interface (documentation)
+extra/tracker3-miners 3.7.3-2 (gnome)
+    Filesystem indexer and metadata extractor
+extra/transmission-cli 4.0.6-2
+    Fast, easy, and free BitTorrent client (CLI tools, daemon and web client)
+extra/transmission-gtk 4.0.6-2
+    Fast, easy, and free BitTorrent client (GTK+ GUI)
+extra/transmission-qt 4.0.6-2
+    Fast, easy, and free BitTorrent client (Qt GUI)
+extra/transmission-remote-gtk 1.5.1-2
+    GTK remote control for the Transmission BitTorrent client
+extra/tree 2.1.3-1 [installed]
+    A directory listing program displaying a depth indented list of files
+extra/triehash 0.3.3-3
+    Generator for order-preserving minimal perfect hash functions in C
+extra/tt-rss 2:r11769.59cf21814-1
+    Web-based news feed (RSS/Atom) aggregator
+extra/ttf-victor-mono-nerd 3.2.1-2 (nerd-fonts)
+    Patched font Victor Mono from nerd fonts library
+extra/uchardet 0.0.8-3 [installed]
+    Encoding detector library ported from Mozilla
+extra/udisks2 2.10.1-5 [installed]
+    Daemon, tools and libraries to access and manipulate disks, storage devices and technologies
+extra/udisks2-btrfs 2.10.1-5
+    Daemon, tools and libraries to access and manipulate disks, storage devices and technologies - BTRFS module
+extra/udisks2-docs 2.10.1-5
+    Daemon, tools and libraries to access and manipulate disks, storage devices and technologies - documentation
+extra/udisks2-lvm2 2.10.1-5
+    Daemon, tools and libraries to access and manipulate disks, storage devices and technologies - LVM2 module
+extra/ukui-panel 3.0.6.4-4 (ukui)
+    Launcher and docking facility for UKUI
+extra/ukui-system-monitor 1.0.4-2 (ukui)
+    Monitor for UKUI desktop environment
+extra/unicode-cldr 42.0-2
+    Unicode Common Locale Data Repository
+extra/unicode-cldr-annotations 42.0-2
+    Unicode Common Locale Data Repository (annotations only)
+extra/unicorn 2.0.1.post1-2
+    Lightweight, multi-platform, multi-architecture CPU emulator framework based on QEMU
+extra/upower 1.90.5-2
+    Abstraction for enumerating power devices, listening to device events and querying history and statistics
+extra/urlscan 1.0.3-1
+    Mutt and terminal url selector
+extra/urlwatch 2.28-4
+    Tool for monitoring webpages for updates
+extra/varnish 7.5.0-1
+    High-performance HTTP accelerator
+extra/vbam-sdl 2.1.9-3
+    Nintendo GameBoy Advance emulator
+extra/vbam-wx 2.1.9-3
+    Nintendo GameBoy Advance emulator
+extra/vc 1.4.5-1
+    A library to ease explicit vectorization of C++ code
+extra/vco-plugins 0.3.0-7 (ladspa-plugins pro-audio)
+    LADSPA anti-aliased oscillator plugins
+extra/vcsh 2.0.10-1
+    Version Control System for $HOME that manages multiple Git repositories
+extra/vde2 2.3.3-5
+    Virtual Distributed Ethernet for emulators like qemu
+extra/vector 0.40.1-1
+    A high-performance observability data pipeline
+extra/vector-blf 2.4.2-1
+    A library to access Binary Log File (BLF) files from Vector Informatik
+extra/verilator 5.028-1
+    The fastest free Verilog HDL simulator
+extra/vice 3.8-3
+    Versatile Commodore Emulator
+extra/vim 9.1.0707-1
+    Vi Improved, a highly configurable, improved version of the vi text editor
+extra/vim-runtime 9.1.0707-1
+    Vi Improved, a highly configurable, improved version of the vi text editor (shared runtime)
+extra/vim-seti 1.0-6 (vim-plugins)
+    Colorscheme based on Jesse Weed's Seti theme for the Atom editor
+extra/vis 0.9-2
+    modern, legacy free, simple yet efficient vim-like editor
+extra/visitors 0.7-7
+    A very fast web log analyzer
+extra/vnstat 2.12-2
+    A console-based network traffic monitor
+extra/vokoscreen 4.1.0-1
+    Easy to use screencast creator
+extra/volume_key 0.3.12-9 [installed]
+    A library for manipulating storage volume encryption keys and storing them separately from volumes to handle forgotten passphrases
+extra/vpnc 1:0.5.3.r539.r239-1
+    VPN client for cisco3000 VPN Concentrators
+extra/vte-common 0.76.4-1
+    Virtual Terminal Emulator widget (common files)
+extra/vte-docs 0.76.4-1
+    Virtual Terminal Emulator widget (documentation)
+extra/vte3 0.76.4-1
+    Virtual Terminal Emulator widget (GTK3)
+extra/vte4 0.76.4-1
+    Virtual Terminal Emulator widget (GTK4)
+extra/wakatime 1:1.60.4-2
+    Command line interface used by all WakaTime text editor plugins
+extra/warpinator 1.8.5-1
+    LAN file sender, send and receive files across the network
+extra/wavemon 0.9.5-1
+    Ncurses-based monitoring application for wireless network devices
+extra/waybar 0.10.4-2
+    Highly customizable Wayland bar for Sway and Wlroots based compositors
+extra/waycheck 1.3.1-1
+    Simple GUI that displays the protocols implemented by a Wayland compositor
+extra/wayland-utils 1.2.0-2
+    Wayland tools to display information about current compositor
+extra/waylock 1.2.0-1
+    A simple screenlocker for wayland compositors
+extra/wayvnc 0.8.0-2
+    VNC server for wlroots-based Wayland compositors
+extra/weston 13.0.1-1
+    Reference implementation of a Wayland compositor
+extra/wezterm 20240203.110809.5046fc22-2
+    A GPU-accelerated cross-platform terminal emulator and multiplexer
+extra/wf-recorder 0.5.0-1
+    Screen recorder for wlroots-based compositors such as sway
+extra/wingpanel-indicator-a11y 1.0.2-1 (pantheon)
+    Wingpanel Universal Access Indicator
+extra/wingpanel-indicator-bluetooth 7.0.1-1 (pantheon)
+    Wingpanel Bluetooth Indicator
+extra/wingpanel-indicator-datetime 2.4.1-4 (pantheon)
+    Date & Time indicator for Wingpanel
+extra/wingpanel-indicator-keyboard 2.4.1-3 (pantheon)
+    Wingpanel Keyboard Indicator
+extra/wingpanel-indicator-network 7.1.0-1 (pantheon)
+    Wingpanel Network Indicator
+extra/wingpanel-indicator-nightlight 2.1.2-1 (pantheon)
+    Winganel Nightlight Indicator
+extra/wingpanel-indicator-notifications 7.1.0-1 (pantheon)
+    Notifications indicator for Wingpanel
+extra/wingpanel-indicator-power 6.2.1-1 (pantheon)
+    Wingpanel Power Indicator
+extra/wingpanel-indicator-session 2.3.1-3 (pantheon)
+    Session indicator for Wingpanel
+extra/wingpanel-indicator-sound 7.0.0-1 (pantheon)
+    Wingpanel Sound Indicator
+extra/wlr-protocols r106.2b8d433-1
+    Wayland protocols designed for use in wlroots (and other compositors).
+extra/wlr-randr 0.4.1-4
+    Utility to manage outputs of a Wayland compositor
+extra/wlroots 0.18.0-1
+    Modular Wayland compositor library
+extra/wlroots0.17 0.17.4-3
+    Modular Wayland compositor library
+extra/wlsunset 0.4.0-1
+    Day/night gamma adjustments for Wayland compositors
+extra/wmenu 0.1.9-1
+    Efficient dynamic menu for Wayland and wlroots based Wayland compositors
+extra/wofi 1.4.1-1
+    launcher for wlroots-based wayland compositors
+extra/wolf-shaper 1.0.2-2
+    A waveshaper plugin with a graph editor
+extra/wolf-shaper-clap 1.0.2-2 (clap-plugins)
+    A waveshaper plugin with a graph editor - CLAP plugin
+extra/wolf-shaper-dssi 1.0.2-2 (dssi-plugins pro-audio)
+    A waveshaper plugin with a graph editor - DSSI plugin
+extra/wolf-shaper-lv2 1.0.2-2 (lv2-plugins pro-audio)
+    A waveshaper plugin with a graph editor - LV2 plugin
+extra/wolf-shaper-standalone 1.0.2-2
+    A waveshaper plugin with a graph editor - standalone
+extra/wolf-shaper-vst 1.0.2-2 (pro-audio vst-plugins)
+    A waveshaper plugin with a graph editor - VST2 plugin
+extra/wolf-shaper-vst3 1.0.2-2 (pro-audio vst3-plugins)
+    A waveshaper plugin with a graph editor - VST3 plugin
+extra/wpmeta 0.1.0-1
+    Wallpaper metadata generator
+extra/xandikos 0.2.11-2
+    Lightweight yet complete CardDAV/CalDAV server that backs onto a Git repository
+extra/xdg-user-dirs 0.18-2
+    Manage user directories like ~/Desktop and ~/Music
+extra/xed 3.6.6-1 (x-apps)
+    A small and lightweight text editor. X-Apps Project.
+extra/xfce4-battery-plugin 1.1.5-2 (xfce4-goodies)
+    A battery monitor plugin for the Xfce panel
+extra/xfce4-fsguard-plugin 1.1.3-2 (xfce4-goodies)
+    File system usage monitor plugin for the Xfce4 panel
+extra/xfce4-genmon-plugin 4.2.0-2 (xfce4-goodies)
+    plugin that monitors customizable programs stdout for the Xfce4 panel
+extra/xfce4-terminal 1.1.3-1 (xfce4)
+    A modern terminal emulator primarily for the Xfce desktop environment
+extra/xfce4-wavelan-plugin 0.6.3-2 (xfce4-goodies)
+    Plugin to monitor wifi connectivity for the Xfce4 panel
+extra/xfconf 4.18.3-1 (xfce4) [installed]
+    D-Bus-based configuration storage system
+extra/xmonad-dbus 0.1.0.2-63
+    XMonad DBus monitor application and library to easily connect XMonad with Polybar
+extra/xorg-xcalc 1.1.2-2
+    Scientific calculator for X
+extra/xorg-xconsole 1.1.0-1
+    Monitor system console messages with X
+extra/xorg-xedit 1.2.4-2
+    Simple text editor for X
+extra/xorg-xgamma 1.0.7-2 (xorg-apps xorg) [installed]
+    Alter a monitor's gamma correction
+extra/xorg-xvinfo 1.1.5-2 (xorg-apps xorg) [installed]
+    Prints out the capabilities of any video adaptors associated with the display that are accessible through the X-Video extension
+extra/xterm 394-1
+    X Terminal Emulator
+extra/xxkb 1.11.1-4
+    keyboard layout switcher/indicator
+extra/yabause-qt 0.9.15-4
+    A Sega Saturn emulator
+extra/yakuake 24.08.0-1 (kde-applications kde-utilities)
+    A drop-down terminal emulator based on KDE konsole technology
+extra/yamdi 1.9-5
+    A metadata injector for FLV files
+extra/yubikey-touch-detector 1.11.0-2
+    A tool that can detect when your YubiKey is waiting for a touch
+extra/yubioath-desktop 5.1.0-3
+    Yubico Authenticator for Desktop
+extra/z 1.12-1
+    Tracks your most used directories, based on 'frecency'
+extra/zabbix-agent 7.0.3-3
+    Monitoring agent for Zabbix
+extra/zabbix-agent2 7.0.3-3
+    Monitoring agent for Zabbix (version 2)
+extra/zabbix-server 7.0.3-3
+    Monitoring software for networks and applications
+extra/zbus_xmlgen 4.1.0-1
+    D-Bus XML interface code generator
+extra/zed 0.151.2-1
+    A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
+extra/zeitgeist-explorer 0.2-13
+    Graphical interface to monitor and inspect Zeitgeist's log at a low level
+extra/zenith 0.14.1-1
+    Terminal system monitor with histograms
+extra/zettlr 3.2.0-1
+    A Markdown Editor for the 21st century
+extra/zim 0.75.2-5
+    A WYSIWYG text editor that aims at bringing the concept of a wiki to the desktop
+extra/zita-mu1 0.3.3-4 (pro-audio)
+    A simple JACK app used to organise stereo monitoring
+extra/zola 0.19.2-1
+    An opinionated static site generator
+extra/zram-generator 1.1.2-1 [installed]
+    Systemd unit generator for zram devices
+extra/zsh-history-substring-search 1.1.0-2
+    ZSH port of Fish history search (up arrow)
+extra/zutty 0.16-1
+    Terminal emulator

@@ -1,9 +1,7 @@
 browserpass-chrome
 chromedriver
 chromedriver-debug
-figma-linux
 google-chrome
-hsqldb2-java
 local-by-flywheel-bin
 local-by-flywheel-bin-debug
 ncurses5-compat-libs
