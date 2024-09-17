@@ -2,6 +2,7 @@ ack
 alacritty
 alsa-plugins
 alsa-utils
+android-file-transfer
 awesome-terminal-fonts
 base
 base-devel
@@ -31,6 +32,7 @@ gnome-keyring
 google-chrome
 gpick
 gvfs
+gvfs-gphoto2
 i3-wm
 i3blocks
 i3lock
@@ -38,6 +40,7 @@ i3status
 intel-ucode
 jpegoptim
 jq
+kio-extras
 kitty
 lazygit
 libnotify
@@ -52,6 +55,7 @@ mariadb
 mousepad
 msmtp
 mutt
+ncdu
 neovim
 networkmanager
 ntfs-3g
