@@ -34,8 +34,10 @@ gimp
 git
 gnome-keyring
 google-chrome
+gpick
 hsqldb2-java
 i3-wm
+i3lock
 id3v2
 imagemagick
 inotify-tools
