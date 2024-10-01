@@ -1,2 +1,4 @@
-extra/i3lock 2.15-2 (i3)
-    Improved screenlocker based upon XCB and PAM
+extra/curlftpfs 0.9.2-9
+    A filesystem for acessing FTP hosts based on FUSE and libcurl.
+extra/lftp 4.9.2-2
+    Sophisticated command line based FTP client

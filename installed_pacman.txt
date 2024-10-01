@@ -45,6 +45,7 @@ intel-ucode
 jpegoptim
 kitty
 lazygit
+lftp
 libreoffice-still
 linux
 linux-firmware
