@@ -53,6 +53,7 @@ local-by-flywheel-bin
 lxsession
 maim
 mariadb-lts
+meld
 mousepad
 msmtp
 mutt
@@ -84,6 +85,7 @@ rsync
 sddm
 skypeforlinux-bin
 smplayer
+sshpass
 st
 sxiv
 telegram-desktop
