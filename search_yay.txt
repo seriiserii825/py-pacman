@@ -1,0 +1,196 @@
+aur/ml4w-hyprland-git 2.9.6.2.r4.g0a89f07-1 (+0 0.00) 
+    The ML4W Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland including an easy to use installation script for Arch based Linux distributions.
+aur/wallock-git r41.6bf9f5e-1 (+0 0.00) 
+    wallock is a wallpaper and lock screen that enables macos like lock screens and wallapers on wayland. It is designed to work with wlroots based wayland compositors (sway, hyprland, etc..).
+aur/iio-hyprland-git r27.5c79b99-2.0 (+1 0.00) 
+    Reads iio-proxy-sensor output to enable automatic touchscreen rotation in Hyprland
+aur/ags-hyprpanel-git r292.f2985e7-2 (+1 1.00) 
+    A Bar/Panel for Hyprland with extensive customizability
+aur/yambar-hyprland-wses 0.2.0_alpha.1-3 (+1 0.06) 
+    Enable Yambar to show Hyprland workspaces
+aur/ml4w-hyprland 2.9.6.2-1 (+3 2.19) 
+    The ML4W Dotfiles for Hyprland - An advanced and full-featured configuration for the dynamic tiling window manager Hyprland including an easy to use installation script for Arch based Linux distributions.
+aur/colorconvert 0.0.1-1 (+2 0.09) 
+    Hyprland сolor сonverter with color picker. Format like: 0x+opacity+hex. Example: 0x9C0DFF00
+aur/hpr-scratcher 0.6.1-1 (+0 0.00) 
+    Easy scratchpads / drop downs for Hyprland
+aur/libastal-hyprland-git r250.2927230-1 (+1 0.14) 
+    Library and cli tool for Hyprland IPC sockets
+aur/focal-sway-git r42.4c86317-1 (+0 0.00) 
+    Rofi menu for capturing and copying screenshots or videos on hyprland / sway.
+aur/focal-hyprland-git r42.4c86317-1 (+0 0.00) 
+    Rofi menu for capturing and copying screenshots or videos on hyprland / sway.
+aur/ashell-git r174.8f57e68-1 (+0 0.00) 
+    A ready to go Wayland status bar for Hyprland
+aur/hdisplays r72.515c2b0-1 (+0 0.00) 
+    GUI display configurator for wlroots compositors **Maintained for Hyprland ***
+aur/gophrland 0.0.9-1 (+0 0.00) 
+    Gophrland is a set of tools to manage windows on Hyprland.
+aur/ashell 0.1.1-1 (+0 0.00) 
+    A ready to go Wayland status bar for Hyprland
+aur/hyde-cli-git v0.5.0.r43.7929e50-1 (+0 0.00) 
+    CLI for Hyde, an Aesthetic, dynamic and minimal dots for hyprland
+aur/hyprforest-installer-bin 0.1.2-1 (+0 0.00) 
+    Everforest Theme Installer for Hyprland on Arch Linux
+aur/grimblast-git r89.fe26a90-1 (+15 1.08) 
+    A helper for screenshots within Hyprland.
+aur/hyprshade-rewrite-git r703.87f984e-1 (+0 0.00) 
+    (WIP rewrite) Hyprland shader configuration tool
+aur/hyprland-plugin-borders-plus-plus 0.44.0-1 (+0 0.00) 
+    A Hyprland plugin that adds one or two additional borders to your windows
+aur/hyprland-plugin-borders-plus-plus-git r92.b225987-1 (+0 0.00) (Orphaned) 
+    Hyprland plugin that allows you to add one or two additional borders to your windows
+aur/hyprland-plugin-csgo-vulkan-fix 0.44.0-1 (+0 0.00) 
+    A Hyprland plugin that fixes custom resolutions on CS:GO with -vulkan
+aur/hyprland-plugin-csgo-vulkan-fix-git r92.b225987-1 (+0 0.00) (Orphaned) 
+    Hyprland plugin that allows you to pick any resolution in CS:GO when using Vulkan
+aur/xdg-desktop-portal-hyprland-git 1.3.5.r0.g4880c501-1 (+25 1.55) 
+    xdg-desktop-portal backend for hyprland
+aur/hyprland-interactive-screenshot 1.0.0-1 (+1 0.00) 
+    Take screenshot easly on Hyprland
+aur/hyprland-relative-workspace-bin 1.1.8-1 (+1 0.00) 
+    A tool to switch Hyprland workspaces relatively to monitor
+aur/hycov-git 0.34.0.1.r95.84b9f00-1 (+0 0.00) 
+    Hyprland overview mode plugin, a new tile window workflow
+aur/hyprsources-git 1.0.r4.a9a697e-1 (+0 0.00) 
+    A tool for managing sourcefiles in hyprland
+aur/hyprland-plugin-hyprwinwrap 0.44.0-1 (+0 0.00) 
+    A Hyprland clone of xwinwrap that allows you to put any app as a wallpaper
+aur/hyprland-plugin-hyprtrails 0.44.0-1 (+0 0.00) 
+    A Hyprland plugin that adds smooth trails behind moving windows
+aur/hyprwayland-scanner-git 0.4.2.r1.g500c81a9-1 (+6 1.94) 
+    A Hyprland implementation of wayland-scanner, in and for C++
+aur/hyprfreeze-git 0.2.0.r0.ga1a0fa2-1 (+0 0.00) 
+    Utility to suspend a game process (and other programs) in Hyprland
+aur/hyprland-monitor-attached 0.1.6-2 (+0 0.00) 
+    Run bash script when you attach the monitor on Hyprland
+aur/hyprland-plugin-hyprexpo 0.44.0-1 (+0 0.00) 
+    A Hyprland plugin that adds an expo-like workspace overview
+aur/hyprland-plugin-hyprbars 0.44.0-1 (+0 0.00) 
+    A Hyprland plugin that adds simple title bars to windows
+aur/hyprland-plugin-hyprtrails-git r92.b225987-1 (+0 0.00) (Orphaned) 
+    Hyprland plugin that adds trails behind windows
+aur/hypr-trans-git r8.0033fb6-1 (+0 0.00) 
+    hypr-trans is a tiny bash utility that sets alpha attribute of an Hyprland window (like picom-trans on X11)
+aur/hyprland-plugin-hyprwinwrap-git r92.b225987-1 (+0 0.00) (Orphaned) 
+    Hyprland plugin that acts like Xwinwrap.
+aur/hy3-git r209.65a849b-3 (+0 0.00) 
+    Hyprland plugin for i3 like tiling
+aur/hyprland-plugin-hyprbars-git r92.b225987-1 (+0 0.00) (Orphaned) 
+    Hyprland plugin that adds simple title bars to windows
+aur/hyprland-per-window-layout 2.13-1 (+2 0.00) 
+    Per window keyboard layout (language) for Hyprland wayland compositor
+aur/hyprevents-git r0.0000000-1 (+2 0.00) 
+    Invoke shell functions in response to Hyprland socket2 events.
+aur/hyprland-protocols-git 0.3.0.r2.5a11232-1 (+0 0.00) 
+    Wayland protocol extensions for Hyprland
+aur/hyprscratch 0.4.3-1 (+0 0.00) 
+    Scratchpad functiontality for Hyprland
+aur/hyprdwl-git 0.2.1-2 (+0 0.00) 
+    Split monitor workspaces for Hyprland, so it can be just like dwm
+aur/hypaper 1.2-1 (+0 0.00) 
+    Very simple Hyprland wallpaper swapper
+aur/hyprcursor-git 0.1.8.r0.gcab47461-1 (+6 1.17) 
+    The hyprland cursor format, library and utilities
+aur/hyprland-activewindow 1.0.4-1 (+0 0.00) 
+    A multi-monitor aware Hyprland active window title outputer.
+aur/hyprland-scratchpad-git 51.93b6aba-2 (+2 0.00) 
+    A helper for scratchpads within Hyprland.
+aur/hy3 0.43.0-1 (+3 0.59) (Out-of-date: 2024-10-08) 
+    Hyprland plugin for i3 like tiling
+aur/hyproled-git 0.1.0-2 (+0 0.00) 
+    A hyprland shader utility to prevent OLED burn in.
+aur/hyprswitch 2.1.3-1 (+1 0.01) 
+    A CLI/GUI that allows switching between windows in Hyprland
+aur/hyprsunset-git 0.0.1.r8.f535c18-1 (+1 1.00) 
+    An application to enable a blue-light filter on Hyprland
+aur/hyprshot-git 1.3.0.r0.054b896-1 (+1 0.00) 
+    A utility to easily take screenshots in Hyprland using your mouse
+aur/hyprcwd-git 1.d076b59-1 (+1 0.00) 
+    xcwd for Hyprland
+aur/hyprland-legacyrenderer-git 0.39.1.r119.4ed6b69b-1 (+0 0.00) 
+    A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.(upstream hyprland legacy-renderer)
+aur/hyprland-hidpi-xprop 0.41.2-1 (+0 0.00) 
+    A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
+aur/hyprland-autoname-workspaces-git v1.1.7.r2.ga3aae4f-1 (+4 0.06) 
+    Hyprland autoname workspace.
+aur/hyprtheme 1.1-1 (+0 0.00) 
+    Stupidly simple Hyprland theme swapper.
+aur/hyprland-easyfocus 0.3.0-1 (+0 0.00) 
+    A tool to help efficiently focus windows in Sway inspired by sway-easyfocus/i3-easyfocus
+aur/hyprmixer 1.0.1-1 (+0 0.00) 
+    A stylish volume mixer and media controller for your hyprland rice
+aur/hypr-zoom 0.0.2-1 (+0 0.00) 
+    A zoom feature for Hyprland
+aur/hyprland-workspaces 2.0.2-1 (+1 0.00) 
+    A multi-monitor aware Hyprland workspace widget for use with bars.
+aur/hyprland-nosystemd-git 0.41.2.r14.d7ea1b77-1 (+2 0.01) 
+    A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks. (w/o systemd)
+aur/hyprprop-git r0.0000000-1 (+4 0.00) 
+    xprop for Hyprland
+aur/hyprland-cmake-git 0.37.1.r15.g7283dde8-1 (+2 0.03) (Orphaned) (Out-of-date: 2024-04-13) 
+    a highly customizable dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+aur/hyprutils-git 0.2.2.r0.gd97af4f6-1 (+7 2.57) 
+    Hyprland utilities library used across the ecosystem
+aur/hyprdock 0.3.7-1 (+0 0.00) 
+    An automatic docking tool for hyprland.
+aur/hyprkeys 1.0.3-1 (+1 0.01) 
+    A simple, scriptable keybind retrieval utility for Hyprland
+aur/hyprnome 0.3.1-1 (+1 0.06) 
+    GNOME-like workspace switching in Hyprland.
+aur/hyprdim 2.2.6-1 (+1 0.03) 
+    Automatically dim windows in Hyprland when switching between them
+aur/hyprpanel-bin 0.2.0-1 (+0 0.00) 
+    An opinionated panel/shell for the Hyprland compositor.
+aur/hyprland-hidpi-xprop-git 0.43.0.r10.8237d7e1a499-1 (+6 0.00) 
+    Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+aur/hyprshade-git 3.2.1.r33.g43db77e-1 (+1 0.00) 
+    Hyprland shade configuration tool
+aur/hyprland-target 1.1-1 (+1 0.28) 
+    Systemd session target for Hyprland
+aur/hyprshot 1.3.0-1 (+12 0.94) 
+    A utility to easily take screenshots in Hyprland using your mouse
+aur/hyprpanel 0.2.0-1 (+0 0.00) 
+    An opinionated panel/shell for the Hyprland compositor.
+aur/hyprlux 0.1.3-1 (+1 0.75) 
+    Hyprland utility that automates vibrance and night light control
+aur/pyprland-git r958.f480253-3 (+1 0.00) 
+    Easy scratchpads, menus, smart monitor placement and more hyprland tweaks (GIT version)
+aur/hypridle-git 0.1.1.r4.gdad6ac14-1 (+14 0.55) 
+    Hyprland's idle daemon
+aur/hyprshade 3.2.1-1 (+5 0.25) 
+    Hyprland shade configuration tool
+aur/hyprland-legacyrenderer 0.40.0-1 (+0 0.00) 
+    a highly customizable dynamic tiling Wayland compositor (legacy renderer)
+aur/hyprland-asan-git 0.35.0.r104.bc3f5b94-1 (+0 0.00) (Orphaned) 
+    A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks. (with address sanitizer)
+aur/hyprlock-git 0.3.0.r21.g386a1e6f-1 (+21 1.23) 
+    Hyprland's GPU-accelerated screen locking utility
+aur/hyprland-nox 0.44.0-1 (+2 0.14) 
+    An independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. (w/o XWayland support)
+aur/hyprland-displaylink-git 0.38.1-4 (+3 0.04) (Orphaned) (Out-of-date: 2024-06-25) 
+    A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks. (DisplayLink patch)
+aur/pyprland 2.4.0-0 (+7 0.26) 
+    Customize your Hyprland with scratchpads, menus, easy monitor layout and other extensions
+aur/hyprland-git 0.42.0.r64.82c67e61-1 (+90 6.58) 
+    Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+extra/xdg-desktop-portal-hyprland 1.3.6-1 (214.2 KiB 597.6 KiB) 
+    xdg-desktop-portal backend for hyprland
+extra/nwg-dock-hyprland 0.3.0-1 (1.3 MiB 4.7 MiB) 
+    GTK3-based dock for Hyprland Wayland compositor
+extra/nwg-displays 0.3.22-1 (55.2 KiB 269.4 KiB) 
+    Output management utility for sway and Hyprland Wayland compositors
+extra/nwg-panel 0.9.40-1 (347.4 KiB 3.2 MiB) 
+    GTK3-based panel for sway and Hyprland Wayland compositors
+extra/hyprwayland-scanner 0.4.2-1 (78.6 KiB 187.7 KiB) 
+    A Hyprland implementation of wayland-scanner, in and for C++
+extra/hyprcursor 0.1.10-1 (197.2 KiB 644.6 KiB) 
+    The hyprland cursor format, library and utilities
+extra/hyprutils 0.2.3-1 (79.5 KiB 211.3 KiB) 
+    Hyprland utilities library used across the ecosystem
+extra/hypridle 0.1.2-1 (56.0 KiB 132.0 KiB) 
+    hyprland’s idle daemon
+extra/hyprlock 0.4.1-1 (183.3 KiB 456.5 KiB) 
+    hyprland’s GPU-accelerated screen locking utility
+extra/hyprland 0.43.0-1 (2.2 MiB 8.6 MiB) 
+    a highly customizable dynamic tiling Wayland compositor
