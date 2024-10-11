@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 core/coreutils 9.5-2 [installed]
     The basic file, shell and text manipulation utilities of the GNU operating system
 extra/datamash 1.8-2
@@ -130,3 +131,25 @@ extra/wasm-bindgen 0.2.93-1
     Interoperating JS and Rust code
 extra/whitedb 0.7.3-10
     Lightweight NoSQL database library operating fully in main memory
+=======
+extra/hyprcursor 0.1.10-1
+    The hyprland cursor format, library and utilities
+extra/hypridle 0.1.2-1
+    hyprland’s idle daemon
+extra/hyprland 0.43.0-1
+    a highly customizable dynamic tiling Wayland compositor
+extra/hyprlock 0.4.1-1
+    hyprland’s GPU-accelerated screen locking utility
+extra/hyprutils 0.2.3-1
+    Hyprland utilities library used across the ecosystem
+extra/hyprwayland-scanner 0.4.2-1
+    A Hyprland implementation of wayland-scanner, in and for C++
+extra/nwg-displays 0.3.22-1
+    Output management utility for sway and Hyprland Wayland compositors
+extra/nwg-dock-hyprland 0.3.0-1
+    GTK3-based dock for Hyprland Wayland compositor
+extra/nwg-panel 0.9.40-1
+    GTK3-based panel for sway and Hyprland Wayland compositors
+extra/xdg-desktop-portal-hyprland 1.3.6-1
+    xdg-desktop-portal backend for hyprland
+>>>>>>> e352beba3f70329dcf934b4f4716ebe3fa1b6e4d
