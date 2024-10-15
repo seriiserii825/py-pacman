@@ -13,6 +13,8 @@ bc
 bluez
 bluez-utils
 browserpass-chrome
+chaotic-keyring
+chaotic-mirrorlist
 chromedriver
 code
 copyq
@@ -36,6 +38,7 @@ gnome-keyring
 google-chrome
 gpick
 hsqldb2-java
+hyprland
 i3-wm
 i3lock
 id3v2
@@ -49,6 +52,8 @@ lftp
 libreoffice-still
 linux
 linux-firmware
+linux-lts
+linux-lts-headers
 local-by-flywheel-bin
 lxsession
 maim
@@ -61,7 +66,11 @@ mutt
 neofetch
 neovim
 networkmanager
+nitrogen
 noto-fonts
+nvidia-470xx-dkms
+nvidia-470xx-utils
+nvidia-settings
 parole
 pass
 pavucontrol
@@ -88,6 +97,8 @@ skypeforlinux-bin
 smplayer
 sshpass
 st
+sway
+swaylock
 sxiv
 telegram-desktop
 tesseract
@@ -97,6 +108,7 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+tig
 tk
 ttf-caladea
 ttf-carlito
@@ -110,11 +122,13 @@ unzip
 usbutils
 vi
 vifm
+waybar
 wget
+wlogout
 woff2
+wofi
 xbindkeys
 xdotool
-xf86-video-nouveau
 xf86-video-vesa
 xfburn
 xfce-polkit
