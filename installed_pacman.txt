@@ -63,6 +63,7 @@ mesa-utils
 mousepad
 msmtp
 mutt
+ncdu
 neofetch
 neovim
 networkmanager
