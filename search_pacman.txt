@@ -1,2 +1,2 @@
-extra/ncdu 2.6-1
-    Disk usage analyzer with an ncurses interface
+extra/netstat-nat 1.4.10-5 [installed]
+    Small program written in C displaying NAT connections, managed by netfilter.

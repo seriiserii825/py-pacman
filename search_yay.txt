@@ -1,4 +1,10 @@
-aur/ncduh-git 20240402-1 (+0 0.00) 
-    ncdu fork
-extra/ncdu 2.6-1 (222.4 KiB 518.3 KiB) 
-    Disk usage analyzer with an ncurses interface
+aur/r-bionetstat 1.22.0-1 (+0 0.00) 
+    Biological Network Analysis
+aur/miniss 0.0.2.r1.g7ad0621-1 (+0 0.00) 
+    Displays a list of open listening sockets. It is a minimal alternative to ss or netstat.
+aur/knetstats 2.0.0.alpha-1 (+0 0.00) (Out-of-date: 2023-11-10) 
+    Network interface and statistics viewer
+aur/netactview 0.6.4-5 (+9 0.00) 
+    A graphical network connections viewer similar in functionality to netstat
+extra/netstat-nat 1.4.10-5 (20.9 KiB 51.0 KiB) (Installed)
+    Small program written in C displaying NAT connections, managed by netfilter.
