@@ -1,2 +1,0 @@
-extra/netstat-nat 1.4.10-5 [installed]
-    Small program written in C displaying NAT connections, managed by netfilter.
