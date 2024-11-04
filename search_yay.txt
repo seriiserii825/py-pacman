@@ -1,2 +1,14 @@
-aur/apvlv 0.6.0-1 (+4 0.00) 
-    A PDF/DJVU/EPUB viewer which behaves like Vim
+aur/lib32-simplescreenrecorder 0.4.4-1 (+1 0.21) (Orphaned) (Out-of-date: 2024-06-24) 
+    Record 32-bit OpenGL applications with SimpleScreenRecorder.
+aur/lib32-simplescreenrecorder-git 0.4.2.r11.g7f26bc7-1 (+2 0.02) 
+    Record 32-bit OpenGL applications with SimpleScreenRecorder. (Git version)
+aur/ssrt 2022.06.14.1-1 (+1 0.00) (Orphaned) 
+    simplescreenreocrder - now even simpler
+aur/simplescreenrecorder-bin 0.4.4-1 (+1 0.04) (Out-of-date: 2024-06-24) 
+    A simple but powerful recording tool for X11, OpenGL and V4L2. (Git version)
+aur/simplescreenrecorder-wlroots-git 0.3.11.r23.g4b288cb-1 (+4 0.00) 
+    Experimental fork of simplescreenrecorder with added Wayland support
+aur/simplescreenrecorder-git 0.4.2.r11.g7f26bc7-1 (+22 0.02) 
+    A simple but powerful recording tool for X11, OpenGL and V4L2. (Git version)
+aur/simplescreenrecorder 0.4.4-3 (+62 5.18) 
+    A feature-rich screen recorder that supports X11 and OpenGL.
