@@ -1,0 +1,2 @@
+extra/mysql-workbench 8.0.40-2
+    A cross-platform, visual database design tool developed by MySQL
