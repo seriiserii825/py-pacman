@@ -1,22 +1,8 @@
-aur/php80-rar 4.2.0-4 (+0 0.00) 
-    PHP PECL extension for reading RAR archives using bundled unRAR library
-aur/python-unrar-cffi 0.2.2-5 (+1 0.75) 
-    Exposes unrar library functionality through a zipfile-like interface.
-aur/lib32-libunrar 6.2.10-1 (+1 0.00) (Orphaned) 
-    Library and header file for applications that use libunrar (32-bit)
-aur/python-unrar 0.4-3 (+2 1.00) 
-    Work with RAR archive files through unrar library using ctypes.
-aur/php-rar 4.2.0-1 (+2 0.00) 
-    PHP PECL extension for reading RAR archives using bundled unRAR library
-aur/unrarall-git 0.4.4.r133.8a67a83-1 (+1 0.00) 
-    unrarall is a utility to unrar and clean up various files (.e.g. rar files).
-extra/python-unrardll 0.1.7-2 (20.2 KiB 70.9 KiB) 
-    Python wrapper for UnRAR DLL
-extra/libunrar 1:7.0.9-1 (181.7 KiB 422.0 KiB) 
-    Library and header file for applications that use libunrar
-extra/clamav 1.4.1-1 (21.4 MiB 131.2 MiB) 
-    Anti-virus toolkit for Unix
-extra/unrar-free 1:0.3.1-1 (11.9 KiB 25.9 KiB) 
-    Free utility to extract files from RAR archives.
-extra/unrar 1:7.0.9-1 (181.1 KiB 405.1 KiB) 
-    The RAR uncompression program
+aur/gpicker 2.3-1 (+3 0.00) 
+    A program that allows you to quickly and conveniently pick file in a (possibly very large) project
+aur/gpick-git 0.2.6.r22.g0e858d3-1 (+1 0.00) (Out-of-date: 2024-04-18) 
+    Advanced color picker written in C++ using GTK+ toolkit
+extra/progpick 0.2.0-2 (725.9 KiB 2.3 MiB) 
+    Bruteforce with a stream of permutations of a specific pattern
+extra/gpick 0.3-2 (416.6 KiB 1.1 MiB) 
+    Advanced color picker written in C++ using GTK+ toolkit

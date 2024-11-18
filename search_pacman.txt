@@ -1,10 +1,4 @@
-extra/clamav 1.4.1-1
-    Anti-virus toolkit for Unix
-extra/libunrar 1:7.0.9-1
-    Library and header file for applications that use libunrar
-extra/python-unrardll 0.1.7-2
-    Python wrapper for UnRAR DLL
-extra/unrar 1:7.0.9-1
-    The RAR uncompression program
-extra/unrar-free 1:0.3.1-1
-    Free utility to extract files from RAR archives.
+extra/gpick 0.3-2
+    Advanced color picker written in C++ using GTK+ toolkit
+extra/progpick 0.2.0-2
+    Bruteforce with a stream of permutations of a specific pattern
