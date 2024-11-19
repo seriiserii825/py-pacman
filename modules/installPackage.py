@@ -1,6 +1,5 @@
 import os
 
-from modules.saveInstalledPackagesToFiles import saveInstalledPackagesToFiles
 from modules.searchPackage import searchPackage
 from config import CONFIG
 PACMAN_SEARCH_PATH = CONFIG.SEARCH_PACMAN_PATH
@@ -19,29 +18,15 @@ def installPackage(package = None):
     choose = input("Install in pacman or yay? (p/y): ")
     if choose == "p":
         package_name = getPackageByName(PACMAN_SEARCH_PATH)
-        command = f"sudo pacman -S {package_name}"
-        print(f"Running command: {command}")
-        read = input("Do you want to continue? (y/n): ")
-        if read == "y":
-            os.system(command)
-            saveInstalledPackagesToFiles()
-        else:
-            print("Installation cancelled!")
-            return
+        command = f"sudo pacman -S --noconfirm {package_name}"
+        os.system(command)
     elif choose == "y":
         if package:
             package_name = package
         else:
             package_name = getPackageByName(YAY_SEARCH_PATH)
         command = f"yay -S {package_name}"
-        print(f"Running command: {command}")
-        read = input("Do you want to continue? (y/n): ")
-        if read == "y":
-            os.system(command)
-            saveInstalledPackagesToFiles()
-        else:
-            print("Installation cancelled!")
-            return
+        os.system(command)
     else:
         print("Invalid input!")
         return
