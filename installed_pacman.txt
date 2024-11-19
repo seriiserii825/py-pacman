@@ -10,9 +10,11 @@ bluez-utils
 browserpass
 browserpass-chrome
 chromedriver
+clipman
 copyq
 ctags
 dmenu
+docker
 dosfstools
 dunst
 efibootmgr
@@ -57,6 +59,7 @@ php-imagick
 pipewire-pulse
 polkit-gnome
 polybar
+postman-bin
 python
 python-pynvim
 ripgrep
@@ -64,6 +67,7 @@ rofi
 rsync
 sddm
 skypeforlinux-bin
+smplayer
 sshpass
 st
 telegram-desktop
@@ -80,6 +84,7 @@ wget
 woff2
 wp-cli
 xclip
+xdotool
 xf86-video-vesa
 xorg-bdftopcf
 xorg-docs

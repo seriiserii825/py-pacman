@@ -1,4 +1,2 @@
-extra/gpick 0.3-2
-    Advanced color picker written in C++ using GTK+ toolkit
-extra/progpick 0.2.0-2
-    Bruteforce with a stream of permutations of a specific pattern
+extra/copyq 9.1.0-1
+    Clipboard manager with searchable and editable history
