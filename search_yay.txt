@@ -1,4 +1,10 @@
-aur/copyq-git 1:r6078.19e9dd1c-1 (+10 0.01) 
-    Clipboard manager with searchable and editable history.
-extra/copyq 9.1.0-1 (1.9 MiB 7.1 MiB) 
-    Clipboard manager with searchable and editable history
+aur/transformers_ocr 0.18-1 (+1 0.00) 
+    An OCR tool for manga using maim with Transformers.
+aur/i3-maim-clpimg 1.0.0-0 (+0 0.00) 
+    create a screenshot and then immediately copy it into the clipboard
+aur/maim-vst3 1.0.0-1 (+0 0.00) 
+    Audio plugin for custom MP3 distortion and digital glitches.
+aur/maim-git v5.4.68.r2.gf0c5de9-1 (+9 0.00) 
+    maim (make image) makes an image out of the given area on the given X screen. Defaults to the whole screen.
+extra/maim 5.8.0-2 (95.6 KiB 261.9 KiB) 
+    Utility to take a screenshot using imlib2

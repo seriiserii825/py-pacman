@@ -1,2 +1,2 @@
-extra/copyq 9.1.0-1
-    Clipboard manager with searchable and editable history
+extra/maim 5.8.0-2
+    Utility to take a screenshot using imlib2
