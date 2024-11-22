@@ -1,2 +1,2 @@
-extra/maim 5.8.0-2
-    Utility to take a screenshot using imlib2
+extra/composer 2.8.2-1
+    Dependency Manager for PHP
