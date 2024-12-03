@@ -1,42 +1,10 @@
-aur/estrace-git 0.2.2.r0.gd8fef85-1 (+0 0.00) 
-    A tool that traces system calls using eBPF
-aur/xmon 1.5.6-1 (+0 0.00) (Orphaned) 
-    X11 protocol tracer, akin to strace
-aur/android-x86-64-strace 5.18-1 (+0 0.00) (Orphaned) 
-    A diagnostic, debugging and instructional userspace tracer (Android, x86_64)
-aur/android-aarch64-strace 5.18-1 (+0 0.00) (Orphaned) (Out-of-date: 2024-04-21) 
-    A diagnostic, debugging and instructional userspace tracer (Android, aarch64)
-aur/latrace 0.5.11-2 (+2 0.00) 
-    trace library calls and get their statistics in a manner similar to the strace utility (syscall tracing)
-aur/intentrace 0.3.2-1 (+1 0.65) 
-    strace with intent, it goes all the way for you instead of half the way
-aur/nfstrace 0.4.3.2-2 (+4 0.00) 
-    NFS and CIFS tracing/monitoring/capturing/analyzing tool
-aur/dnstracer 1.10-1 (+5 0.00) 
-    Determines where a given DNS server gets its information from, and follows the chain of DNS servers
-aur/shh 2024.11.23-1 (+2 0.06) 
-    Automatic systemd service hardening guided by strace profiling
-aur/xtruss-git 20211024.c25bf48-1 (+0 0.00) (Orphaned) 
-    X11 protocol tracer, akin to strace
-aur/xtruss 20211025.c25bf48-1 (+2 0.00) (Orphaned) 
-    X11 protocol tracer, akin to strace
-aur/strace-parser-bin 0.7.2-1 (+0 0.00) 
-    Strace parser written in Rust
-aur/strace-parser 0.7.2-1 (+0 0.00) 
-    A tool to analyze raw strace data
-aur/stramon-bin 0.3.2-1 (+1 0.21) 
-    Process behavior monitoring utility and library based on strace
-aur/strace-analyzer 0.5.4-1 (+5 0.00) 
-    analyzes strace output
-aur/strace-grace 0.0.1-1 (+0 0.00) (Out-of-date: 2024-02-08) 
-    grace is a tool for monitoring and annotating syscalls for a given process. It's essentially a lightweight strace, in Go, with colours and pretty output.
-aur/strace-git 6.2.r12.gd3b97fce7-1 (+0 0.00) 
-    A diagnostic, debugging and instructional utility
-aur/strace-with-colors 6.0-1 (+1 0.00) (Out-of-date: 2024-08-12) 
-    A diagnostic, debugging and instructional userspace tracer (with colors)
-extra/gst-plugin-rstracers 0.13.2-1 (607.9 KiB 1.9 MiB) 
-    Multimedia graph framework - rstracers plugin
-extra/lurk 0.3.9-1 (763.1 KiB 2.4 MiB) 
-    A pretty (simple) alternative to strace
-extra/strace 6.12-1 (495.8 KiB 1.5 MiB) 
-    A diagnostic, debugging and instructional userspace tracer
+aur/phpstorm-url-handler 1.5.0-1 (+1 0.00) 
+    Open phpstorm:// URLs in PHPStorm.
+aur/phpstorm-eap-jre 243.22562.74-1 (+43 0.00) 
+    Lightning-smart PHP IDE. Early Access Program.
+aur/phpstorm-eap 243.22562.74-1 (+43 0.00) 
+    Lightning-smart PHP IDE. Early Access Program.
+aur/phpstorm-jre 2024.3-1 (+229 0.16) 
+    JBR (JetBrains Runtime) for PhpStorm - a patched JRE
+aur/phpstorm 2024.3-1 (+229 0.16) 
+    Lightweight and Smart PHP IDE

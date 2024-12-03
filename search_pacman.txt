@@ -1,6 +1,0 @@
-extra/gst-plugin-rstracers 0.13.2-1
-    Multimedia graph framework - rstracers plugin
-extra/lurk 0.3.9-1
-    A pretty (simple) alternative to strace
-extra/strace 6.12-1
-    A diagnostic, debugging and instructional userspace tracer
