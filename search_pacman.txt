@@ -1,1014 +1,220 @@
-core/amd-ucode 20241111.b5885ec5-1
-    Microcode update image for AMD CPUs
-core/autoconf 2.72-1 [installed]
-    A GNU tool for automatically configuring source code
-core/icu 75.1-1 [installed]
-    International Components for Unicode library
-core/libgcrypt 1.11.0-2 [installed]
-    General purpose cryptographic library based on the code from GnuPG
-core/libidn2 2.3.7-1 [installed]
-    Free software implementation of IDNA2008, Punycode and TR46
-core/libunistring 1.2-1 [installed]
-    Library for manipulating Unicode strings and C strings
-core/perl 5.40.0-1 [installed]
-    A highly capable, feature-rich programming language
-extra/abseil-cpp 20240722.0-1 [installed]
-    Collection of C++ library code designed to augment the C++ standard library
-extra/ack 3.7.0-4 [installed]
-    A Perl-based grep replacement, aimed at programmers with large trees of heterogeneous source code
-extra/adobe-source-code-pro-fonts 2.042u+1.062i+1.026vf-2 [installed]
-    Monospaced font family for user interface and coding environments
-extra/airspy 1.0.10-3
-    Host code for Airspy SDR
-extra/ambdec 0.7.1-3 (pro-audio)
-    An Ambisonic decoder for first and second order
-extra/aom 3.11.0-1 [installed]
-    Alliance for Open Media video codec
-extra/aom-docs 3.11.0-1
-    Alliance for Open Media video codec (documentation)
-extra/arduino-language-server 0.7.6-1
-    An Arduino Language Server based on Clangd to Arduino code autocompletion
-extra/argbash 2.10.0-3
-    Bash argument parsing code generator
-extra/astyle 3.6.2-1
-    A free, fast and small automatic formatter for C, C++, C#, and Java source code.
-extra/asunder 3.0.1-2
-    a graphical CD ripper and encoder
-extra/authenticator 4.5.0-3
-    Simple application for generating two-factor authentication (2FA) codes
-extra/autoconf2.13 2.13-8
-    A GNU tool for automatically configuring source code (Legacy 2.1x version)
-extra/autopep8 1:2.3.1-1
-    A tool that automatically formats Python code to conform to the PEP 8 style guide
-extra/avidemux-cli 2.8.1-5
-    Graphical tool to edit video (filter/re-encode/split)
-extra/avidemux-qt 2.8.1-5
-    Graphical tool to edit video (filter/re-encode/split) - Qt GUI
-extra/bacon 3.4.0-1
-    A background rust code checker
-extra/barcode 0.99-5
-    A tool to convert text strings to printed bars
-extra/bcg729 1.1.1-2
-    Encoder and decoder of the ITU G.729 Annex A/B speech codec
-extra/biber 1:2.19-4
-    A Unicode-capable BibTeX replacement for biblatex users
-extra/buildkit 0.18.0-1
-    A toolkit for converting source code to build artifacts in a repeatable manner
-extra/cargo-asm 0.1.16-2
-    Cargo subcommand showing the assembly or llvm-ir generated for Rust code
-extra/cargo-clone 1.2.1-4
-    A cargo subcommand to fetch the source code of a Rust crate
-extra/cargo-crev 0.26.0-1
-    Scalable, social, Code REView and recommendation system that we desperately need
-extra/cargo-llvm-cov 0.6.14-1
-    Cargo subcommand to easily use LLVM source-based code coverage (-Z instrument-coverage).
-extra/cargo-show-asm 0.2.42-1
-    Cargo subcommand to display ASM, LLVM-IR and MIR for Rust source code
-extra/cbindgen 0.27.0-1
-    A tool for generating C bindings to Rust code
-extra/cgrep 6.6.32-454
-    A context-aware grep for source codes
-extra/cl-json 0.6.0-3
-    JSON encoder/decoder for Common Lisp
-extra/cl-unicode 0.1.6.r11.g2790a6b-2
-    Unicode library for Common Lisp
-extra/clazy 1.12-2
-    Qt oriented code checker based on clang framework
-extra/cloc 2.02-1
-    Count lines of code
-extra/cm256cc 1.1.1-1
-    Fast GF(256) Cauchy MDS Block Erasure Codec in C++
-extra/code 1.95.1-1
-    The Open Source build of Visual Studio Code (vscode) editor
-extra/codeblocks 20.03-5
-    Cross-platform C/C++ IDE
-extra/codec2 1:1.2.0-1
-    Open source speech codec designed for communications quality speech between 450 and 3200 bit/s
-extra/codespell 2.3.0-2
-    check code for common misspellings
-extra/colord-gtk 0.3.1-1
-    Additional GTK3 support code for colord
-extra/colord-gtk-common 0.3.1-1
-    Additional GTK support code for colord - common files
-extra/colord-gtk4 0.3.1-1
-    Additional GTK4 support code for colord
-extra/comgr 6.2.4-1
-    AMDGPU GPU Code Object Manager
-extra/cppcheck 2.16.0-1
-    A tool for static C/C++ code analysis
-extra/cppcodec 0.2-4
-    Header-only C++11 library to encode/decode base64, base64url, base32, base32hex and hex
-extra/cscope 15.9-3
-    A developers tool for browsing program code
-extra/csound-plugins 1.0.2-11 (pro-audio)
-    Extra opcodes for Csound
-extra/dav1d 1.5.0-1 [installed]
-    AV1 cross-platform decoder focused on speed and correctness
-extra/dav1d-doc 1.5.0-1
-    AV1 cross-platform decoder focused on speed and correctness (documentation)
-extra/dcraw 9.28.0-5
-    Decodes any raw image from any digital camera
-extra/decoder 0.6.1-1
-    QR code scanner and generator
-extra/deepin-qt-dbus-factory 6.0.1-4
-    A repository stores auto-generated Qt5 dbus code (libdframeworkdbus)
-extra/dfmt 0.15.2-1 (dlang)
-    Dfmt is a formatter for D source code
-extra/dg 1.1.0.20160916-9
-    A simple language that compiles to CPython bytecode
-extra/dmd-docs 1:2.109.1-1 (dlang dlang-dmd)
-    Documentation and sample code for D programming language
-extra/dmidecode 3.6-1
-    Desktop Management Interface table related utilities
-extra/dscanner 0.15.2-2 (dlang)
-    Swiss-army knife for D source code
-extra/dsdcc 1.9.4-2
-    Digital Speech Decoder (DSD) rewritten as a C++ library
-extra/dummyhttp 1.1.0-1
-    Super simple HTTP server that replies a fixed body with a fixed response code
-extra/ecb 2.40.1pre-12
-    Emacs Code Browser
-extra/eclib 20241112-1
-    Includes mwrank (for 2-descent on elliptic curves over Q) and modular symbol code used to create the elliptic curve database
-extra/eclipse-ecj 4.31-2
-    Eclipse java bytecode compiler
-extra/ecm-tools 1.03-4
-    Error Code Modeler
-extra/editorconfig-core-c 0.12.9-1
-    EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)
-extra/enjarify 1.0.3-9
-    Translates Dalvik bytecode to equivalent Java bytecode
-extra/faac 1.30-5
-    Freeware Advanced Audio Coder
-extra/faad2 2.11.1-1 [installed]
-    Freeware Advanced Audio (AAC) Decoder
-extra/fdkaac 1.0.6-1
-    Command line encoder frontend for libfdk-aac
-extra/ffmpeg 2:7.1-3 [installed]
-    Complete solution to record, convert and stream audio and video
-extra/ffmpeg4.4 4.4.5-1 [installed]
-    Complete solution to record, convert and stream audio and video
-extra/ffnvcodec-headers 12.2.72.0-1
-    FFmpeg version of headers required to interface with Nvidias codec APIs
-extra/flac 1.4.3-2 [installed]
-    Free Lossless Audio Codec
-extra/flac-doc 1.4.3-2
-    Free Lossless Audio Codec documentation
-extra/flake8 1:7.1.1-1
-    The modular source code checker: pep8, pyflakes and co
-extra/flawfinder 2.0.19-2
-    Searches through source code for potential security flaws
-extra/fnlfmt 0.3.1-2
-    A formatter for Fennel code
-extra/fq 0.13.0-1
-    Tool, language and decoders for inspecting binary data
-extra/fribidi 1.0.16-1 [installed]
-    A Free Implementation of the Unicode Bidirectional Algorithm
-extra/fulcio 1.3.1-2
-    free Root-CA for code signing certs - issuing certificates based on an OIDC email address.
-extra/gengetopt 2.23-3
-    A tool to write command line option parsing code for C programs
-extra/geocode-glib 3.26.4-4
-    Helper library for geocoding services (legacy)
-extra/geocode-glib-2 3.26.4-4
-    Helper library for geocoding services
-extra/geocode-glib-common 3.26.4-4
-    Helper library for geocoding services (common files)
-extra/gifski 1.32.0-4
-    GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format.
-extra/gitlab 17.6.1-1
-    Project management and code hosting application
-extra/global 6.6.12-1
-    Source code tagging system
-extra/gnuradio 3.10.11.0-3
-    Signal processing runtime and signal processing software development toolkit
-extra/grcov 0.8.20-1
-    Rust tool to collect and aggregate code coverage data for multiple source files
-extra/gucharmap 15.1.1-1
-    Gnome Unicode Charmap
-extra/guetzli 1.0.1-5
-    Perceptual JPEG encoder
-extra/handbrake 1.8.2-1
-    Multithreaded video transcoder
-extra/handbrake-cli 1.8.2-1
-    Multithreaded video transcoder (CLI)
-extra/haskell-base-unicode-symbols 0.2.4.2-14
-    Unicode alternatives for common functions and operators
-extra/haskell-bencode 0.6.1.1-205
-    Parser and printer for bencoded data.
-extra/haskell-bytes 0.17.3-48
-    Sharing code for serialization between binary and cereal
-extra/haskell-code-page 0.2.1-6
-    Windows code page library for Haskell
-extra/haskell-containers-unicode-symbols 0.3.1.3-4
-    Unicode alternatives for common functions and operators
-extra/haskell-dependent-sum-template 0.1.1.1-160
-    Template Haskell code to generate instances of classes in dependent-sum package
-extra/haskell-djinn-lib 0.0.1.4-2
-    Generate Haskell code from a type. Library extracted from djinn package.
-extra/haskell-doctest-exitcode-stdio 0.0-143
-    Run doctest's in a Cabal.Test.exitcode-stdio environment
-extra/haskell-floskell 0.10.8-41
-    A flexible Haskell source code pretty printer
-extra/haskell-fourmolu 0.9.0.0-39
-    A formatter for Haskell source code
-extra/haskell-githash 0.1.6.3-154
-    Some handy Template Haskell splices for including the current git hash and branch in the code of your project
-extra/haskell-hasql-implicits 0.1.0.5-152
-    Implicit definitions for Hasql, such as default codecs for standard types
-extra/haskell-hls-cabal-fmt-plugin 0.1.0.0-212
-    Integration with the cabal-fmt code formatter
-extra/haskell-hls-change-type-signature-plugin 1.1.0.1-10
-    Change a declarations type signature with a Code Action
-extra/haskell-hls-code-range-plugin 1.1.0.0-212
-    HLS Plugin to support smart selection range and Folding range
-extra/haskell-hls-floskell-plugin 1.0.2.1-10
-    Integration with the Floskell code formatter
-extra/haskell-hls-fourmolu-plugin 1.1.1.0-224
-    Integration with the Fourmolu code formatter
-extra/haskell-hls-ormolu-plugin 1.0.4.0-106
-    Integration with the Ormolu code formatter
-extra/haskell-hls-stylish-haskell-plugin 1.0.1.3-10
-    Integration with the Stylish Haskell code formatter
-extra/haskell-hscolour 1.25-2
-    Colourise Haskell code.
-extra/haskell-html-entity-map 0.1.0.0-176
-    Map from HTML5 entity names to the corresponding Unicode text
-extra/haskell-http-types 0.12.4-17
-    Generic HTTP types for Haskell (for both client and server code).
-extra/haskell-hxt-charproperties 9.5.0.0-5
-    Character properties and classes for XML and Unicode
-extra/haskell-hxt-unicode 9.0.2.4-26
-    Unicode en-/decoding functions for utf8, iso-latin-* and other encodings
-extra/haskell-js-chart 2.9.4.1-7
-    Obtain minified chart.js code
-extra/haskell-js-dgtable 0.5.2-14
-    Obtain minified jquery.dgtable code
-extra/haskell-js-flot 0.8.3-25
-    Obtain minified flot code
-extra/haskell-js-jquery 3.3.1-1023
-    Obtain minified jQuery code
-extra/haskell-lambdabot-trusted 5.3.1.2-74
-    Lambdabot trusted code.
-extra/haskell-language-c 0.9.4-1
-    Analysis and generation of C code
-extra/haskell-language-haskell-extract 0.2.4-16
-    Module to automatically extract functions from the local code
-extra/haskell-language-python 0.5.8-160
-    Parsing and pretty printing of Python code.
-extra/haskell-lumberjack 1.0.3.0-53
-    Trek through your code forest and make logs
-extra/haskell-openpgp-asciiarmor 0.1.2-245
-    OpenPGP (RFC4880) ASCII Armor codec
-extra/haskell-ormolu 0.5.0.1-30
-    A formatter for Haskell source code
-extra/haskell-placeholders 0.1-25
-    Placeholders for use while developing Haskell code
-extra/haskell-postgresql-binary 0.12.5-113
-    Encoders and decoders for the PostgreSQL's binary format
-extra/haskell-quickcheck-unicode 1.0.1.0-243
-    Generator and shrink functions for testing Unicode-related software.
-extra/haskell-retrie 1.2.3-7
-    A powerful, easy-to-use codemodding tool for Haskell.
-extra/haskell-rfc5051 0.2-9
-    Simple unicode collation as per RFC5051.
-extra/haskell-rope-utf16-splay 0.3.2.0-142
-    Ropes optimised for updating using UTF-16 code units and row/column pairs
-extra/haskell-src 1.0.4-69
-    Support for manipulating Haskell source code
-extra/haskell-strict-identity 0.1.0.0-1
-    Strict Identity Monad, handy for writing fast code!
-extra/haskell-test-framework-th 0.2.4-247
-    Automagically generate the HUnit- and Quickcheck-bulk-code using Template Haskell
-extra/haskell-text-short 0.1.6-4
-    Memory-efficient representation of Unicode text strings
-extra/haskell-th-compat 0.1.5-7
-    Backward- (and forward-)compatible Quote and Code types
-extra/haskell-unicode-collation 0.1.3.6-17
-    Haskell implementation of the Unicode Collation Algorithm
-extra/haskell-unicode-data 0.4.0.1-38
-    Access Unicode Character Database (UCD)
-extra/haskell-unicode-show 0.1.1.1-71
-    Print and show in unicode
-extra/haskell-unicode-transforms 0.4.0.1-79
-    Unicode transforms (normalization NFC/NFD/NFKC/NFKD)
-extra/haskell-uri-encode 1.5.0.7-218
-    Unicode aware uri-encoding
-extra/highlight 4.14-1
-    Fast and flexible source code highlighter (CLI version)
-extra/highlight-gui 4.14-1
-    Fast and flexible source code highlighter (Qt version)
-extra/hipify-clang 6.2.4-1
-    Convert CUDA to Portable C++ Code
-extra/hlint 3.4.1-31
-    Source code suggestions
-extra/hound 0.7.1-2
-    Lightning fast code searching made easy
-extra/iec16022 0.3.1-2
-    Produce 2D barcodes often also referenced as DataMatrix
-extra/indent 2.2.13-2
-    C language source code formatting program
-extra/intel-ucode 20241112-1 [installed]
-    Microcode update files for Intel CPUs
-extra/iso-codes 4.17.0-1 [installed]
-    Lists of the country, language, and currency names
-extra/iucode-tool 2.3.1-5
-    Tool to manipulate Intel® IA-32/X86-64 microcode bundles
-extra/jadx 1.5.0-1
-    Command line and GUI tools to produce Java source code from Android Dex and APK files
-extra/jasper 4.2.4-2 [installed]
-    Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard
-extra/jasper-doc 4.2.4-2
-    Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard (documentation)
-extra/java-commons-daemon 1.4.0-1
-    Alternative invocation mechanism for unix-daemon-like java code
-extra/jbig2dec 0.20-1
-    Decoder implementation of the JBIG2 image compression format
-extra/jwt-cli 6.2.0-1
-    A super fast CLI tool to decode and encode JWTs
-extra/kcodecs 6.8.0-1 (kf6) [installed]
-    Provide a collection of methods to manipulate strings using various encodings
-extra/kcodecs5 5.116.0-1 (kf5)
-    Provide a collection of methods to manipulate strings using various encodings
-extra/kcov 43-1
-    Code coverage tester for compiled programs, Python scripts and shell scripts
-extra/kodi-addon-audioencoder-flac 1:20.2.0-10 (kodi-addons kodi-addons-audioencoder)
-    FLAC Audio Encoder add-on for Kodi
-extra/kodi-addon-audioencoder-lame 1:20.3.0-10 (kodi-addons kodi-addons-audioencoder)
-    LAME Audio Encoder add-on for Kodi
-extra/kodi-addon-audioencoder-vorbis 1:20.2.0-10 (kodi-addons kodi-addons-audioencoder)
-    Vorbis Audio Encoder add-on for Kodi
-extra/kodi-addon-audioencoder-wav 1:20.2.0-10 (kodi-addons kodi-addons-audioencoder)
-    WAV Audio Encoder add-on for Kodi
-extra/kodi-addon-imagedecoder-heif 20.1.0-12 (kodi-addons kodi-addons-imagedecoder)
-    Kodi heif/heic imagedecoder addon
-extra/kodi-addon-imagedecoder-raw 20.1.0-11 (kodi-addons kodi-addons-imagedecoder)
-    Kodi raw imagedecoder addon
-extra/ktoblzcheck 1.53-6
-    A library to check account numbers and bank codes of German banks
-extra/kvazaar 2.3.1-1
-    An open-source HEVC encoder
-extra/lame 3.100-5 [installed]
-    A high quality MPEG Audio Layer III (MP3) encoder
-extra/lapce 0.4.2-1
-    Lightning-fast and Powerful Code Editor
-extra/libcupsfilters 2.1.0-1
-    OpenPrinting CUPS Filters - contains all the code of the filters of the former cups-filters package as library functions
-extra/libde265 1.0.15-3 [installed]
-    Open h.265 video codec implementation
-extra/libdispatch 5.10-1 [installed]
-    Comprehensive support for concurrent code execution on multicore hardware
-extra/libdmtx 0.7.7-2
-    A software for reading and writing Data Matrix 2D barcodes
-extra/libdv 1.0.0-11
-    Decoder library for DV video
-extra/libfdk-aac 2.0.3-1 [installed]
-    Fraunhofer FDK AAC codec library
-extra/libfilteraudio 0.0.1-5
-    An easy to use audio filtering library made from webrtc code
-extra/libfishsound 1.0.0-5
-    A simple programming interface that wraps Xiph.Org audio codecs
-extra/libfreeaptx 0.1.1-2 [installed]
-    Open Source aptX codec library
-extra/libgcrypt15 1.5.6-6
-    General purpose cryptographic library based on the code from GnuPG
-extra/libgedit-gtksourceview 299.3.0-1
-    A source code editing widget
-extra/libgnome-games-support 1.8.2-3
-    Code shared between GNOME games
-extra/libgnome-games-support-2 2.0.0-2
-    Code shared between GNOME games
-extra/libheif 1.19.5-1 [installed]
-    An HEIF and AVIF file format decoder and encoder
-extra/libidn 1.42-1 [installed]
-    Implementation of the Stringprep, Punycode and IDNA specifications
-extra/libidn11 1.33-2
-    Implementation of the Stringprep, Punycode and IDNA specifications
-extra/libilbc 3.0.4-3
-    A friendly copy of the iLBC codec from the WebRTC project
-extra/libimobiledevice-glue 1.3.1-1 [installed]
-    A library with common code used by libraries and tools around the libimobiledevice project
-extra/libjpeg-turbo 3.0.4-1 [installed]
-    JPEG image codec with accelerated baseline compression and decompression
-extra/libkate 0.4.1-10
-    A karaoke and text codec for embedding in ogg
-extra/libkate-docs 0.4.1-10
-    A karaoke and text codec for embedding in ogg - developer documentation
-extra/libkdcraw 24.08.3-1
-    A C++ interface used to decode RAW picture
-extra/libkdcraw5 24.08.3-1
-    A C++ interface used to decode RAW picture
-extra/libkdegames 24.08.3-1
-    Common code and data for many KDE games
-extra/libkmahjongg 24.08.3-1
-    Common code, backgrounds and tile sets for games using Mahjongg tiles
-extra/liblc3 1.1.1-1 [installed]
-    Low Complexity Communication Codec library and tools
-extra/libldac 2.0.2.3-2 [installed]
-    LDAC Bluetooth encoder library
-extra/libltc 1.3.2-2
-    Linear/Logitudinal Time Code (LTC) Library
-extra/libmad 0.15.1b-10 [installed]
-    A high-quality MPEG audio decoder
-extra/libptytty 2.0-5
-    An offspring of rxvt-unicode that handles pty/tty/utmp/wtmp/lastlog handling in mostly OS-independent ways
-extra/libsigrokdecode 0.5.3-7
-    C library that provides protocol decoding for logic analyzers, protocol decoders, etc.
-extra/libsixel 1.10.3-6 [installed]
-    Provides a codec for DEC SIXEL graphics and some converter programs
-extra/libtheora 1.1.1-6 [installed]
-    Standard encoder and decoder library for the Theora video compression format
-extra/libtorrent 0.13.8-4
-    BitTorrent library with a focus on high performance and good code
-extra/libultrahdr 1.3.0-1
-    The reference codec for the Ultra HDR format
-extra/libunibreak 6.1-1 [installed]
-    An implementation of the line breaking algorithm as described in Unicode 5.2.0 Standard Annex 14, Revision 24
-extra/libunicode 0.6.0-2
-    Unicode and UTF-8 C++ library
-extra/libuninameslist 20240910-1
-    Large, sparse array mapping each unicode code point to the annotation data for it
-extra/libutf8proc 2.9.0-1 [installed]
-    C library for processing UTF-8 encoded Unicode strings
-extra/libvpx 1.14.1-1 [installed]
-    VP8 and VP9 codec
-extra/libvpx1.3 1.3.0-3
-    VP8 and VP9 codec
-extra/libwebp 1.4.0-3 [installed]
-    WebP library and conversion tools
-extra/libytnef 1:2.1.2-2
-    Yerase's TNEF stream reader library (decodes winmail.dat)
-extra/lua-cldr 0.3.0-2
-    Lua interface to Unicode CLDR data
-extra/lua-language-server 3.13.2-1
-    Lua Language Server coded by Lua
-extra/lua51-cldr 0.3.0-2
-    Lua interface to Unicode CLDR data
-extra/lua52-cldr 0.3.0-2
-    Lua interface to Unicode CLDR data
-extra/lua52-luajson 1.3.4-3
-    JSON parser/encoder for Lua 5.2
-extra/lua53-cldr 0.3.0-2
-    Lua interface to Unicode CLDR data
-extra/luacheck 1.2.0-2
-    A tool for linting and static analysis of Lua code
-extra/mac 10.76-1
-    APE codec and decompressor
-extra/marksman 20241120-1
-    Write Markdown with code assist and intelligence in the comfort of your favourite editor.
-extra/mbelib 1.3.0-3
-    Voice codecs for P25, ProVoice, Half Rate
-extra/melange 0.15.11-1
-    Build APKs from source code
-extra/mencoder 38542-4
-    Free command line video decoding, encoding and filtering tool
-extra/metasploit 6.4.36-1
-    Advanced open-source platform for developing, testing, and using exploit code
-extra/mmtf-cpp 1.1.0-2
-    The pure C++ implementation of the MMTF API, decoder and encoder
-extra/modest 0.0.6.d021b90-3
-    Fast HTML renderer implemented as a pure C99 library with no outside dependencies
-extra/mp3unicode 1.2.1-6
-    A command line utility to convert ID3 tags in mp3 files between different encodings
-extra/multimon-ng 1.3.1-1
-    An sdr decoder, supports pocsag, ufsk, clipfsk, afsk, hapn, fsk, dtmf, zvei.
-extra/nginx-mainline-src 1.27.2-1
-    Source code of nginx-mainline 1.27.2, useful for building modules
-extra/nginx-src 1.26.2-1
-    Source code of nginx 1.26.2, useful for building modules
-extra/opencore-amr 0.1.6-2 [installed]
-    Open source implementation of the Adaptive Multi Rate (AMR) speech codec
-extra/openfec 1.4.2.11-1
-    Open Forward Erasure Codecs
-extra/openh264 2.5.0-1 [installed]
-    H.264 encoder and decoder
-extra/openjpeg2 2.5.2-1 [installed]
-    An open source JPEG 2000 codec, version 2.5.2
-extra/opus 1.5.2-1 [installed]
-    Totally open, royalty-free, highly versatile audio codec
-extra/opus-docs 1.5.2-1
-    Totally open, royalty-free, highly versatile audio codec (documentation)
-extra/opus-tools 0.2-6
-    Collection of tools for Opus audio codec
-extra/ostra-cg 1:1.27-2
-    Generate call graphs from encoded traces
-extra/otf-cascadia-code 2407.24-1
-    A monospaced font by Microsoft that includes programming ligatures
-extra/otf-codenewroman-nerd 3.3.0-1 (nerd-fonts)
-    Patched font Code New Roman from nerd fonts library
-extra/otf-junicode 2.209-1
-    Font for medievalists
-extra/otf-monaspace 1.101-1
-    An innovative superfamily of fonts for code, by GitHub
-extra/pam-ihosts 1.6-2
-    A PAM module that provides access control by ip, mac-address, or country-code/region
-extra/pandoc-plot 1.9.0-3
-    A Pandoc filter to include figures generated from code blocks using your plotting toolkit of choice.
-extra/pantheon-code 7.4.0-1 (pantheon)
-    The Pantheon Text Editor
-extra/perl-b-hooks-endofscope 0.28-2
-    Execute code after a scope finished compilation
-extra/perl-config-tiny 2.30-1
-    Read/Write .ini style files with as little code as possible
-extra/perl-convert-asn1 0.34-3
-    Perl/CPAN Module Convert::ASN1 : Standard endecode of ASN1 structures
-extra/perl-devel-cover 1.44-2
-    Perl/CPAN Module Devel::Cover: Code coverage metrics for Perl
-extra/perl-digest-nilsimsa 0.06-25
-    Perl version of Nilsimsa code
-extra/perl-encode-imaputf7 1.05-10
-    Modification of UTF-7 encoding for IMAP
-extra/perl-encode-locale 1.05-13
-    Determine the locale encoding
-extra/perl-extutils-xsbuilder 0.28-11
-    Automatic Perl XS glue code generation
-extra/perl-inline-filters 0.20-8
-    Common source code filters for Inline Modules
-extra/perl-inline-java 0.67-4
-    The Inline::Java module allows you to put Java source code directly inline in a Perl script or module.
-extra/perl-io-captureoutput 1.1105-7
-    capture STDOUT and STDERR from Perl code, subprocesses or XS
-extra/perl-json 4.10-2
-    JSON (JavaScript Object Notation) encoder/decoder
-extra/perl-locale-codes 3.80-1
-    Distribution of modules to handle locale codes
-extra/perl-mail-message 3.015-2
-    container for MIME-encoded message information
-extra/perl-mime-base32 1.303-11
-    Base32 encoder / decoder
-extra/perl-mime-tools 5.515-2
-    Parses streams to create MIME entities
-extra/perl-moox-late 0.100-6
-    Easily translate Moose code to Moo
-extra/perl-net-idn-encode 2.500-8
-    Net::IDN::Encode provides an easy-to-use interface for encoding and decoding Internationalized Domain Names (IDNs).
-extra/perl-perl-critic 1.152-2
-    Critique Perl source code for best-practices
-extra/perl-perl-minimumversion 1.40-6
-    Find a minimum required version of perl for Perl code
-extra/perl-sub-identify 0.14-13
-    Retrieve names of code references
-extra/perl-test-exception 0.43-11
-    Perl/CPAN Module Test::Exception : Functions for testing exceptionbased code
-extra/perl-test-exit 0.11-8
-    Test whether code exits without terminating testing.
-extra/perl-test-fatal 0.017-4
-    Incredibly simple helpers for testing code with exceptions
-extra/perl-test-memory-cycle 1.06-3
-    Verifies code hasn't left circular references
-extra/perl-test-minimumversion 0.101083-4
-    Does your code require newer perl than you think?
-extra/perl-test-trap 0.3.5-4
-    Trap exit codes, exceptions, output, etc.
-extra/perl-test2-tools-process 0.07-4
-    Unit tests for code that calls exit, exec, system or qx()
-extra/perl-text-iconv 1.7-25
-    Interface to iconv codeset conversion
-extra/perl-text-unidecode 1.30-4
-    US-ASCII transliterations of Unicode text
-extra/perl-unicode-linebreak 2019.001-8
-    UAX #14 Unicode Line Breaking Algorithm
-extra/perl-unicode-string 2.10-9
-    String of Unicode characters for perl (UCS2/UTF16)
-extra/perl-unicode-stringprep 1.105-11
-    Preparation of Internationalized Strings (RFC 3454)
-extra/perl-unicode-utf8simple 1.06-9
-    Conversions to/from UTF8 from/to characterse
-extra/perl-yaml-tiny 1.74-4
-    Read/Write YAML files with as little code as possible
-extra/prettier 3.4.1-1
-    An opinionated code formatter
-extra/prison 6.8.0-1 (kf6)
-    A barcode API to produce QRCode barcodes and DataMatrix barcodes
-extra/prison5 5.116.0-1 (kf5)
-    A barcode API to produce QRCode barcodes and DataMatrix barcodes
-extra/protozero 1.7.1-5
-    Minimalist protocol buffer decoder and encoder in C++
-extra/protozero-docs 1.7.1-5
-    Minimalist protocol buffer decoder and encoder in C++ (documentation)
-extra/prusa-slicer 2.8.1-2
-    G-code generator for 3D printers (Prusa fork of Slic3r)
-extra/pulumi 3.142.0-1
-    Modern Infrastructure as Code
-extra/python-aiounittest 1.4.2-3
-    Test asyncio code more easily
-extra/python-ansi2html 1.9.2-1
-    Convert text with ANSI color codes to HTML
-extra/python-astroid 3.3.5-1
-    A common base representation of python source code
-extra/python-beniget 0.4.2.post1-1
-    A static analyzer for Python code
-extra/python-black 24.10.0-2
-    Uncompromising Python code formatter
-extra/python-bowler 0.9.0-8
-    Safe code refactoring for modern Python.
-extra/python-cffi 1.17.1-1
-    Foreign Function Interface for Python calling C code
-extra/python-cheetah3 3.3.3-2
-    A Python powered template engine and code generator
-extra/python-cheetah3-docs 3.3.3-2
-    A Python powered template engine and code generator (documentation)
-extra/python-cogapp 3.3.0-5
-    A code generator for executing Python snippets in source files
-extra/python-coverage 7.6.8-1
-    A tool for measuring code coverage of Python programs
-extra/python-daemonize 2.5.0-7
-    Library to enable your code run as a daemon process on Unix-like systems
-extra/python-dbus-client-gen 0.8.3-3
-    A Python Library for Generating dbus-python Client Code
-extra/python-dnslib 0.9.25-1
-    Simple library to encode/decode DNS wire-format packets
-extra/python-fastapi 0.115.5-1
-    FastAPI framework, high performance, easy to learn, fast to code, ready for production
-extra/python-fastbencode 0.3.1-1
-    Implementation of bencode with optional fast C extensions
-extra/python-flake8-black 0.3.6-4
-    Flake8 plugin to call black as a code style validator
-extra/python-gmpy2 2.2.1-1
-    Provides C-coded Python modules for fast multiple-precision arithmetic
-extra/python-hunter 3.7.0-1
-    Hunter is a flexible code tracing toolkit
-extra/python-jschema-to-python 1.2.3-6
-    Generate source code for a set of Python classes from a JSON schema
-extra/python-latexcodec 2.0.1-8
-    A lexer and codec to work with LaTeX code in Python
-extra/python-linetable 0.0.3-2
-    Library to parse and generate co_linetable attributes in Python code objects
-extra/python-linkify-it-py 2.0.3-2
-    Links recognition library with full unicode support
-extra/python-matrix-common 1.3.0-5
-    Common code for Synapse, Sydent and Sygnal
-extra/python-mitmproxy-rs 0.9.3-1
-    Python bindings for mitmproxy's Rust code
-extra/python-mongomock 4.0.0-5
-    Fake pymongo stub for testing simple MongoDB-dependent code
-extra/python-numba 0.60.0-2
-    JIT compiler that translates a subset of Python and NumPy code into fast machine code
-extra/python-okonomiyaki 1.3.2-3
-    Experimental library aimed at consolidating a lot of our low-level code used for Enthought eggs
-extra/python-oslo-concurrency 6.0.0-2
-    OpenStack library for all concurrency-related code
-extra/python-pandas-datareader 0.10.0-4
-    Data readers extracted from the pandas codebase
-extra/python-param 1.13.0-3
-    Make your Python code clearer and more reliable by declaring Parameters
-extra/python-pasta 0.2.0-8
-    Library to refactor python code through AST manipulation
-extra/python-py 1.11.0-5
-    library with cross-python path, ini-parsing, io, code, log facilities
-extra/python-pycodestyle 2.12.1-1
-    Python style guide checker
-extra/python-pyflakes 3.2.0-2
-    A lint-like tool for Python to identify common errors quickly without executing code
-extra/python-pylatexenc 2.10-4
-    Simple LaTeX parser providing latex-to-unicode and unicode-to-latex conversion
-extra/python-pylint 3.3.1-1
-    Analyzes Python code looking for bugs and signs of poor quality
-extra/python-pypcode 2.1.0-1
-    Python bindings to Ghidra's SLEIGH library for disassembly and lifting to p-code IR
-extra/python-pyqrcode 1.2.1-7
-    QR code generator written purely in Python with SVG, EPS, PNG and terminal output
-extra/python-pytest-benchmark 4.0.0-6
-    A py.test fixture for benchmarking code
-extra/python-pytest-httpbin 2.0.0-2
-    A py.test fixture for httpbining code
-extra/python-pytest-shell-utilities 1.9.7-1
-    Pytest plugin providing fixtures and code to help with running shell commands on tests
-extra/python-pytest-tornasync 0.6.0.post2-6
-    py.test plugin for testing Python 3.5+ Tornado code
-extra/python-pyuca 1.2-3
-    Python implementation of the Unicode Collation Algorithm (UCA)
-extra/python-qrcode 7.4.2-5
-    Python library to generate QR codes
-extra/python-qrencode 1.2-14
-    Simple wrapper for the C qrencode library
-extra/python-qtpy 2.4.1-4
-    Provides an uniform layer to support PyQt5 and PySide2 with a single codebase
-extra/python-reedsolo 1.7.0-3
-    A pure-python universal errors-and-erasures Reed-Solomon Codec
-extra/python-rencode 1.0.6-9
-    A Module similar to bencode from the BitTorrent project
-extra/python-rstcheck-core 1.2.1-3
-    Checks syntax of reStructuredText and code blocks nested within it
-extra/python-simplejson 3.19.2-4
-    Simple, fast and extensible JSON decoder/encoder
-extra/python-slip 0.6.5-9
-    Convenience, extension and workaround code for Python and some Python modules
-extra/python-slugify 8.0.4-2
-    A Python slugify application that handles unicode
-extra/python-sniffio 1.3.1-3
-    Sniff out which async library your code is running under
-extra/python-sphinx-autorun 1.1.1-7
-    Sphinx extension to execute the code output it into a document.
-extra/python-sphinx-copybutton 0.5.2-2
-    Sphinx extension to add a "copy" button to code blocks
-extra/python-tenacity 9.0.0-1
-    Retry code until it succeeeds
-extra/python-testpath 0.6.0-3
-    Test utilities for code working with files and commands
-extra/python-text-unidecode 1.3-11
-    The most basic Text::Unidecode port
-extra/python-tlv8 0.10.0-3
-    Python module to handle type-length-value (TLV) encoded data
-extra/python-typer 0.12.3-3
-    Build great CLIs. Easy to code. Based on Python type hints
-extra/python-uc-micro-py 1.0.3-2
-    Micro subset of unicode data files for linkify-it-py projects
-extra/python-uhi 0.5.0-1
-    Contains the code for the PlottableHistogram Protocol, to be used in type checking libraries wanting to conform to the protocol.
-extra/python-ujson 5.10.0-1
-    Ultra fast JSON encoder and decoder for Python
-extra/python-ukpostcodeparser 1.1.2-12
-    UK Postcode parser
-extra/python-unicodedata2 15.1.0-2
-    unicodedata backport/updates to Python 3
-extra/python-unidecode 1.3.8-2
-    ASCII transliterations of Unicode text
-extra/python-watchfiles 0.24.0-1
-    Simple, modern and high performance file watching and code reload in python
-extra/python-watchgod 1:0.8.2-3
-    Simple, modern file watching and code reload in python
-extra/python-wcwidth 0.2.13-2
-    Python library that measures the width of unicode strings rendered to a terminal
-extra/python-xmlschema 1:2.5.1-2
-    An XML Schema validator and decoder
-extra/python-yubico 1.3.3-5
-    Python code to talk to YubiKeys
-extra/python-zope-deferredimport 5.0-3
-    Allows you to perform imports names that will only be resolved when used in the code
-extra/qhull 2020.2-5
-    A general dimension code for computing convex hulls and related structures
-extra/qprint 1.1-3
-    Encoder and decoder for quoted-printable (RFC1521) encoding
-extra/qreator 20.02.1-5
-    Graphical utility for creating QR codes
-extra/qrencode 4.1.1-3
-    C library for encoding data in a QR Code symbol.
-extra/qrtool 0.11.6-1
-    An utility for encoding or decoding QR code
-extra/qt5-scxml 5.15.16-3 (qt5)
-    Static and runtime integration of SCXML models into Qt code
-extra/qt6-scxml 6.8.0-1 (qt6)
-    Static and runtime integration of SCXML models into Qt6 code
-extra/qtqr 2.1-6
-    Qt GUI that makes easy creating and decoding QR codes
-extra/r 4.4.2-1
-    Language and environment for statistical computing and graphics
-extra/ragel 6.10-3
-    Compiles finite state machines from regular languages into executable C, C++, Objective-C, or D code.
-extra/rav1e 0.7.1-1 [installed]
-    An AV1 encoder focused on speed and safety
-extra/recode 3.7.14-2
-    Converts files between various character sets and usages
-extra/rofimoji 6.5.0-1
-    Emoji, unicode and general character picker for rofi and rofi-likes
-extra/rstcheck 6.2.1-4
-    Checks syntax of reStructuredText and code blocks nested within it
-extra/rtl_433 24.10-2
-    Program to decode radio transmissions from devices on the ISM bands (and other frequencies)
-extra/rubocop 1.39.0-7
-    A Ruby code style checking and code formatting tool
-extra/ruby-ansi 1.5.0-6
-    Set of ANSI Code based classes and modules for Ruby
-extra/ruby-character_set 1.7.0-3
-    Build, read, write and compare sets of Unicode codepoints
-extra/ruby-coderay 1.1.3-5
-    Fast and easy syntax highlighting for selected languages
-extra/ruby-covered 0.18.5-5
-    A modern approach to code coverage
-extra/ruby-decode 0.22.0-1
-    Code analysis for documentation generation
-extra/ruby-method_source 1.0.0-4
-    retrieve the sourcecode for a method
-extra/ruby-parallel 1.26.3-3
-    Run any kind of code in parallel processes
-extra/ruby-rouge 4.3.0-2
-    Pure-ruby code highlighter that is compatible with pygments
-extra/ruby-rspec-expectations 3.13.3-1
-    Provides a readable API to express expected outcomes of a code example
-extra/ruby-rspec-support 3.13.1-4
-    Common code needed by the other RSpec gems. Not intended for direct use
-extra/ruby-rubocop-performance 1.15.1-4
-    An extension of RuboCop focused on code performance checks
-extra/ruby-rubocop-rspec 2.15.0-6
-    Code style checking for RSpec files. A plugin for the RuboCop code style enforcing & linting tool
-extra/ruby-simplecov 0.22.0-2
-    Code coverage for Ruby with a powerful configuration library and automatic merging of coverage across test suites
-extra/ruby-simplecov-html 0.13.1-3
-    Default HTML formatter for SimpleCov code coverage tool for ruby 2.4+
-extra/ruby-stackprof 0.2.26-3
-    a fast sampling profiler for ruby code, with cpu, wallclock and object allocation samplers
-extra/ruby-thread_order 1.1.1-2
-    Test helper for ordering threaded code
-extra/ruby-timecop 0.9.8-3
-    A gem providing "time travel" and "time freezing" capabilities, making it dead simple to test time-dependent code
-extra/ruby-trenni 3.14.0-5
-    A fast native templating system that compiles directly to Ruby code
-extra/ruby-typeprof 0.21.9-1
-    An experimental type-level Ruby interpreter for testing and understanding Ruby code
-extra/ruby-unf 0.2.0.beta2-10
-    Wrapper library to bring Unicode Normalization Form support to Ruby/JRuby.
-extra/ruby-unicode-display_width 2.5.0-3
-    Determines the monospace display width of a string in Ruby
-extra/ruby-unicode-emoji 3.3.2-4
-    Provides Unicode Emoji data and regexes, incorporating the latest standards
-extra/ruby-unicode-version 1.3.0-3
-    Returns Unicode/Emoji versions of current and previous Rubies
-extra/ruby-zeitwerk 2.6.18-2
-    Efficient and thread-safe code loader for Ruby
-extra/rust-src 1:1.83.0-1
-    Source code for the Rust standard library
-extra/rustlings 6.4.0-1
-    Small exercises to get you used to reading and writing Rust code
-extra/rxvt-unicode 9.31-6
-    Unicode enabled rxvt-clone terminal emulator (urxvt)
-extra/rxvt-unicode-terminfo 9.31-6
-    Terminfo files for urxvt
-extra/sagetex 3.6.1-5
-    Allows to embed code, results of computations, and plots from SageMath into LaTeX documents
-extra/sbc 2.0-2 [installed]
-    Bluetooth Subband Codec (SBC) library
-extra/schroedinger 1.0.11-7
-    An implemenation of the Dirac video codec in ANSI C code
-extra/scummvm-tools 2.7.0-2
-    A set of tools that enable you to convert, compress and decode game datafiles for ScummVM
-extra/sdl_sound 1.0.3-12
-    A library to decode several popular sound file formats, such as .WAV and .MP3
-extra/serialdv 1.1.4-4
-    C++ interface to encode/decode audio with AMBE3000 based devices in packet mode
-extra/serpl 0.3.3-1
-    A simple TUI for search and replace, ala VS Code
-extra/shiboken6 6.8.0.2-1
-    Generates bindings for C++ libraries using CPython source code
-extra/silicon 0.5.3-1
-    Create beautiful images of your code
-extra/sloccount 2.26-11
-    Tools for counting physical source lines of code
-extra/smplayer 24.5.0-1 [installed]
-    Media player with built-in codecs that can play virtually all video and audio formats
-extra/source-highlight 3.1.9-13
-    Convert source code to syntax highlighted document
-extra/speex 1.2.1-2 [installed]
-    A free codec for free speech
-extra/stylish-haskell 0.14.3.0-25
-    Haskell code prettifier
-extra/stylua 2.0.1-1
-    Deterministic code formatter for Lua
-extra/svt-av1 2.2.1-1 [installed]
-    Scalable Video Technology AV1 encoder and decoder
-extra/svt-hevc 1.5.1-3
-    Scalable Video Technology HEVC encoder
-extra/svt-vp9 0.3.0-3
-    Scalable Video Technology VP9 encoder
-extra/swig 4.2.1-3
-    Generate scripting interfaces to C/C++ code
-extra/syntax-highlighting 6.8.0-1 (kf6) [installed]
-    Syntax highlighting engine for structured text and code
-extra/syntax-highlighting5 5.116.0-1 (kf5)
-    Syntax highlighting engine for structured text and code
-extra/tangler 0.3.0-1
-    Extracts (tangles) code fragments from Markdown documents
-extra/terraform 1.10.0-1
-    HashiCorp tool for building and updating infrastructure as code idempotently
-extra/texlive-basic 2024.2-3 (texlive)
-    TeX Live - Essential programs and files
-extra/texlive-fontsextra 2024.2-3 (texlive)
-    TeX Live - Additional fonts
-extra/texlive-langfrench 2024.2-3 (texlive-lang)
-    TeX Live - French
-extra/texlive-langother 2024.2-3 (texlive-lang)
-    TeX Live - Other languages
+extra/blur-effect 1.1.3-3
+    Off-screen image blurring utility using OpenGL ES 3.0
+extra/boinctui 2.7.1-1
+    Curses based fullscreen BOINC manager
+extra/budgie-screensaver 5.1.0-3 (budgie)
+    Screensaver for the Budgie Desktop
+extra/caribou 0.4.21+75+g8ad9883-6
+    A text entry and UI navigation application (on-screen keyboard)
+extra/cinnamon-screensaver 6.4.0-1
+    Screensaver designed to integrate well with the Cinnamon desktop.
+extra/cmatrix 2.0-3
+    A curses-based scrolling 'Matrix'-like screen
+extra/cosmic-osd 1.0.0.alpha.3-1 (cosmic)
+    COSMIC On-Screen Display
+extra/cosmic-screenshot 1.0.0.alpha.3-1 (cosmic)
+    Utility for capturing screenshots via XDG Desktop Portal
+extra/cutefish-launcher 0.8-2 (cutefish)
+    CutefishOS's full-screen application launcher
+extra/cutefish-screenlocker 0.5-2 (cutefish)
+    CutefishOS system screen locker
+extra/danmaq 0.2.3.2-2
+    A small client side Qt program to play danmaku on any screen
+extra/deepin-screen-recorder 5.12.18-1 (deepin-extra)
+    Deepin Screen Recorder
+extra/deepin-screensaver 5.0.18-1 (deepin)
+    Deepin screensaver viewer and tools
+extra/deepin-screensaver-pp 0.0.4-3 (deepin-extra)
+    Optional PP screensaver resource for deepin screensaver
+extra/fbgrab 1.5-3
+    A framebuffer screenshot grabber
+extra/flameshot 12.1.0-5 [installed]
+    Powerful yet simple to use screenshot software
+extra/gammastep 2.0.9-6
+    Adjust the color temperature of your screen according to your surroundings.
+extra/gdm 47.0-2 (gnome)
+    Display manager and login screen
+extra/gloobus-preview 0.4.5.336-7
+    GNOME application designed to enable a full screen preview of any kind of file
+extra/gnome-screenshot 41.0+r39+ga362197-2
+    Take pictures of your screen
+extra/gnome-shell-extension-caffeine 55-1
+    Extension for GNOME Shell to disable screensaver and auto suspend
+extra/grim 1.4.1-2
+    Screenshot utility for Wayland
+extra/gtk-session-lock 0.2.0-2
+    A library to create screen lockers for Wayland using the ext-session-lock protocol
+extra/gtklock 4.0.0-1
+    GTK-based lockscreen for Wayland
+extra/gtklock-playerctl-module 4.0.0-1
+    gtklock module adding media player controls to the lockscreen
+extra/gtklock-powerbar-module 4.0.0-1
+    gtklock module adding power controls to the lockscreen
+extra/gtklock-userinfo-module 4.0.0-1
+    gtklock module adding user info to the lockscreen
+extra/hacksaw 1.0.4-2
+    Lightweight selection tool for usage in screenshot scripts etc.
+extra/hyprlock 0.5.0-1
+    hyprland’s GPU-accelerated screen locking utility
+extra/i3lock 2.15-2 (i3)
+    Improved screenlocker based upon XCB and PAM
+extra/java-atk-wrapper-common 0.40.0-2
+    ATK wrapper for screen reader access to Java Swing applications - common files
+extra/java-atk-wrapper-openjdk 0.40.0-2
+    ATK wrapper for screen reader access to Java Swing applications - OpenJDK 19
+extra/java-atk-wrapper-openjdk11 0.40.0-2
+    ATK wrapper for screen reader access to Java Swing applications - OpenJDK 11
+extra/java-atk-wrapper-openjdk17 0.40.0-2
+    ATK wrapper for screen reader access to Java Swing applications - OpenJDK 17
+extra/java-atk-wrapper-openjdk8 0.40.0-2
+    ATK wrapper for screen reader access to Java Swing applications - OpenJDK 8
+extra/klipperscreen 0.4.4-1
+    GUI for Klipper
+extra/kmag 24.08.3-1 (kde-applications kde-accessibility)
+    Screen Magnifier
+extra/kodi-addon-screensaver-asteroids 1:20.2.0-10 (kodi-addons kodi-addons-screensaver)
+    Asteroids screensaver for Kodi
+extra/kodi-addon-screensaver-biogenesis 1:20.1.0-11 (kodi-addons kodi-addons-screensaver)
+    BioGenesis screensaver for Kodi
+extra/kodi-addon-screensaver-greynetic 1:20.2.0-10 (kodi-addons kodi-addons-screensaver)
+    Greynetic screensaver for Kodi
+extra/kodi-addon-screensaver-matrixtrails 1:20.1.0-11 (kodi-addons kodi-addons-screensaver)
+    Matrix trails screensaver for Kodi
+extra/kodi-addon-screensaver-pingpong 1:20.2.0-10 (kodi-addons kodi-addons-screensaver)
+    Ping-pong screensaver for Kodi
+extra/kodi-addon-screensaver-pyro 1:20.1.0-11 (kodi-addons kodi-addons-screensaver)
+    Pyro screensaver for Kodi
+extra/kodi-addon-screensaver-stars 1:20.1.0-11 (kodi-addons kodi-addons-screensaver)
+    Starfield screensaver for Kodi
+extra/kooha 2.3.0-6
+    Elegantly record your screen
+extra/kruler 24.08.3-1 (kde-applications kde-graphics)
+    Screen Ruler
+extra/kscreen 6.2.4-1 (plasma)
+    KDE screen management software
+extra/kscreenlocker 6.2.4-1 (plasma)
+    Library and components for secure lock screen architecture
+extra/kscreenlocker5 5.27.11-1
+    Qt 5 Library and components for secure lock screen architecture
+extra/ksnip 1.10.1-4
+    Qt-based screenshot tool that provides many annotation features
+extra/libgdm 47.0-2
+    Display manager and login screen - support library
+extra/libkscreen 6.2.4-1 (plasma)
+    KDE screen management software
+extra/libkscreen5 5.27.11-2
+    KDE screen management software
+extra/libutempter 1.2.1-4
+    Interface for terminal emulators such as screen and xterm to record user sessions to utmp and wtmp files
+extra/libxss 1.2.4-2 [installed]
+    X11 Screen Saver extension library
+extra/lximage-qt 2.1.0-1 (lxqt)
+    The LXQt image viewer and screenshot tool
+extra/maim 5.8.0-2 [installed]
+    Utility to take a screenshot using imlib2
+extra/mate-screensaver 1.28.0-3 (mate-extra)
+    Screensaver for MATE
+extra/mate-utils 1.28.0-2 (mate-extra)
+    Common MATE utilities for viewing disk usage, logs and fonts, taking screenshots, managing dictionaries and searching files
+extra/menyoki 1.7.0-2
+    Screen{shot,cast} and perform ImageOps on the command line
+extra/notify-osd 0.9.35+20.04.20191129-1
+    Canonical's on-screen-display notification agent, implementing the freedesktop.org Desktop Notifications Specification with semi-transparent click-through bubbles
+extra/onboard 1.4.1-9
+    On-screen keyboard useful on tablet PCs or for mobility impaired users
+extra/orca 47.2-1 (gnome)
+    Screen reader for individuals who are blind or visually impaired
+extra/pantheon-screenshot 8.0.0-1 (pantheon)
+    The Pantheon Screenshot Tool
+extra/peek 1.5.1-4
+    Simple screen recorder with an easy to use interface
+extra/perl-curses 1.45-2
+    Character screen handling and windowing
+extra/plymouth 24.004.60-9
+    Graphical boot splash screen
+extra/python-beautifulsoup4 4.12.3-2
+    A Python HTML/XML parser designed for quick turnaround projects like screen-scraping
+extra/python-blessed 1.20.0-6
+    A thin, practical wrapper around terminal styling, screen positioning, and keyboard input
+extra/python-mss 10.0.0-1
+    Ultra fast cross-platform multiple screenshots module
+extra/python-pudb 2022.1.3-3
+    A full-screen, console-based Python debugger
+extra/python-pyscreenshot 3.1-4
+    Copy the contents of the screen to a PIL or Pillow image memory
+extra/redshift 1.12-13
+    Adjusts the color temperature of your screen according to your surroundings.
+extra/satty 0.14.0-2
+    Modern screenshot annotation tool, inspired by Swappy and Flameshot
+extra/scenarist 0.7.2.rc15-1
+    Screenwriting software to create screenplays which oriented at international standards in the field of film production
+extra/screen 5.0.0-1
+    Full-screen window manager that multiplexes a physical terminal
+extra/screenfetch 3.9.9-1
+    CLI Bash script to show system/theme info in screenshots
+extra/screengrab 2.9.0-1 (lxqt)
+    Crossplatform tool for grabbing screenshots of your desktop.
+extra/screenkey 1.5-4
+    A screencast tool to display your keys inspired by Screenflick
+extra/scrot 1.11.1-1
+    Simple command-line screenshot utility for X
+extra/shotgun 2.5.1-2
+    Minimal X screenshot utility
+extra/shutter 0.99.5-3
+    The feature-rich screenshot tool
+extra/slock 1.5-3
+    A simple screen locker for X
+extra/speakup-utils 3.1.6-7
+    Tiny utilities for controlling the Speakup screenreader
+extra/spectacle 24.08.3-1 (kde-applications kde-graphics)
+    KDE screenshot capture utility
+extra/squeekboard 1.42.1-1
+    An on-screen-keyboard input method for Wayland
+extra/swaylock 1.8.0-1
+    Screen locker for Wayland
+extra/swell-foop 46.0-1 (gnome-extra)
+    Clear the screen by removing groups of colored and shaped tiles
+extra/texlive-humanities 2024.2-3 (texlive)
+    TeX Live - Humanities packages
 extra/texlive-latexextra 2024.2-3 (texlive)
     TeX Live - LaTeX additional packages
-extra/texlive-latexrecommended 2024.2-3 (texlive)
-    TeX Live - LaTeX recommended packages
-extra/texlive-luatex 2024.2-3 (texlive)
-    TeX Live - LuaTeX packages
 extra/texlive-mathscience 2024.2-3 (texlive)
     TeX Live - Mathematics, natural sciences, computer science packages
-extra/texlive-pictures 2024.2-3 (texlive)
-    TeX Live - Graphics, pictures, diagrams
-extra/texlive-plaingeneric 2024.2-3 (texlive)
-    TeX Live - Plain (La)TeX packages
-extra/texlive-pstricks 2024.2-3 (texlive)
-    TeX Live - PSTricks
-extra/texlive-xetex 2024.2-3 (texlive)
-    TeX Live - XeTeX and packages
-extra/texworks 0.6.9-3
-    Unicode-based, TeX-aware editor with integrated PDF viewer
-extra/tflint 0.54.0-1
-    A linter for Terraform code
-extra/the_silver_searcher 2.2.0-3 [installed]
-    Code searching tool similar to Ack, but faster
-extra/tidy 5.8.0-3
-    A tool to tidy down your HTML code to a clean style
-extra/tokei 12.1.2-2
-    A blazingly fast CLOC (Count Lines Of Code) program
-extra/tolua++ 1.0.93-5
-    Tool to integrate C/C++ code with Lua
-extra/toolame 02l-15
-    An optimized mpeg 1/2 layer 2 audio encoder
-extra/ttf-arphic-ukai 0.2.20080216.2-3
-    CJK Unicode font Kaiti style
-extra/ttf-arphic-uming 0.2.20080216.2-3
-    CJK Unicode font Ming style
-extra/ttf-cascadia-code 2407.24-1
-    A monospaced font by Microsoft that includes programming ligatures
-extra/ttf-cascadia-code-nerd 3.3.0-1 (nerd-fonts)
-    Patched font Cascadia Code (Caskaydia) from nerd fonts library
-extra/ttf-envycoder-nerd 3.3.0-1 (nerd-fonts)
-    Patched font Envy Code R from nerd fonts library
-extra/ttf-fira-code 6.2-2
-    Monospaced font with programming ligatures
-extra/ttf-firacode-nerd 3.3.0-1 (nerd-fonts)
-    Patched font Fira (Fura) Code from nerd fonts library
-extra/ttf-hanazono 20170904-4
-    A free Japanese kanji font, which contains about 78,685 characters (and 2 SPACEs) defined in ISO/IEC 10646 standard / the Unicode standard.
-extra/ttf-inconsolata 1:3.000-4
-    Monospace font for pretty code listings and for the terminal
-extra/ttf-input 20220502-6
-    Fonts for code from DJR & Font Bureau
-extra/ttf-junicode 2.209-1
-    Font for medievalists
-extra/ttf-junicode-variable 2.209-1
-    Font for medievalists
-extra/ttf-linux-libertine 5.3.0-10
-    Serif (Libertine) and Sans Serif (Biolinum) OpenType fonts with large Unicode coverage
-extra/ttf-monaspace-variable 1.101-1
-    An innovative superfamily of fonts for code, by GitHub
-extra/ttf-scheherazade-new 4.300-1
-    An Arabic Naskh-style Unicode typeface
-extra/ttf-sourcecodepro-nerd 3.3.0-1 (nerd-fonts)
-    Patched font Source Code Pro from nerd fonts library
-extra/ttf-tibetan-machine 1.901-12
-    Open-type unicode font for Tibetan
-extra/twolame 0.4.0-4
-    An optimized MPEG Audio Layer 2 (MP2) encoder
-extra/typos 1.28.0-1
-    Source code spell checker
-extra/uncrustify 0.78.1-2
-    A source code beautifier
-extra/unicode-character-database 15.1.0-1
-    Unicode Character Database
-extra/unicode-cldr 42.0-2
-    Unicode Common Locale Data Repository
-extra/unicode-cldr-annotations 42.0-2
-    Unicode Common Locale Data Repository (annotations only)
-extra/unicode-emoji 15.1-1
-    Unicode Emoji Data Files
-extra/uriparser 0.9.8-1
-    uriparser is a strictly RFC 3986 compliant URI parsing library. uriparser is cross-platform, fast, supports Unicode
-extra/urxvt-perls 2.3-3
-    URL and Mouseless text selection for rxvt-unicode
-extra/vbetool 1.2.2-8
-    Uses lrmi in order to run code from the video BIOS
-extra/vc 1.4.5-1
-    A library to ease explicit vectorization of C++ code
-extra/vim-jad 1.3_1329-6 (vim-plugins)
-    Automatically decompile Java class files and display Java code
-extra/vim-nerdcommenter 2.7.0-2 (vim-plugins)
-    Plugin that allows for easy commenting of code for many filetypes
-extra/virtme-ng 1.31-2
-    A tool that allows to easily and quickly recompile and test a Linux kernel, starting from the source code.
-extra/vivaldi-ffmpeg-codecs 130.0.6723.63-1
-    additional support for proprietary codecs for vivaldi
-extra/vscode-css-languageserver 1.95.1-1
-    CSS/LESS/SCSS language server
-extra/vscode-html-languageserver 1.95.1-1
-    HTML language server
-extra/vscode-json-languageserver 1.95.1-1
-    JSON language server
-extra/vulture 2.13-1
-    Finds dead code in Python projects
-extra/warp 0.8.0-1
-    Securely send files to each other via the internet or local network by exchanging a word-based code
-extra/wasm-bindgen 0.2.95-1
-    Interoperating JS and Rust code
-extra/woff-fira-code 6.2-2
-    Monospaced font with programming ligatures
-extra/woff2-cascadia-code 2407.24-1
-    A monospaced font by Microsoft that includes programming ligatures
-extra/woff2-fira-code 6.2-2
-    Monospaced font with programming ligatures
-extra/x264 3:0.164.r3108.31e19f9-2 [installed]
-    Open Source H264/AVC video encoder
-extra/x265 4.0-1 [installed]
-    Open Source H265/HEVC video encoder
-extra/xcb-util-keysyms 0.4.1-5 [installed]
-    Utility libraries for XC Binding - Standard X key constants and conversion to/from keycodes
-extra/xvidcore 1.3.7-3 [installed]
-    XviD is an open source MPEG-4 video codec
-extra/zbar 0.23.93-3
-    Application and library for reading bar codes from various sources
-extra/zbus_xmlgen 5.0.1-1
-    D-Bus XML interface code generator
-extra/zed 0.163.2-1
-    A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
-extra/zint 2.13.0-1
-    Barcode encoding library supporting over 50 symbologies
-extra/zint-qt 2.13.0-1
-    Zint Barcode Studio GUI
-extra/zxing-cpp 2.2.1-1
-    A C++ library to decode QRCode
-extra/zydis 4.1.0-1
-    Fast and lightweight x86/x86-64 disassembler and code generation library
+extra/tslib 1.23-1 [installed]
+    Touchscreen Access Library
+extra/ttysvr 0.3.4-1
+    Screen saver for your terminal
+extra/ukui-screensaver 3.0.2-8 (ukui)
+    Screensaver for UKUI desktop environment
+extra/vokoscreen 4.3.0-1
+    Easy to use screencast creator
+extra/waylock 1.3.0-1
+    A simple screenlocker for wayland compositors
+extra/wf-recorder 0.5.0-2
+    Screen recorder for wlroots-based compositors such as sway
+extra/xautolock 2.2-7
+    An automatic X screen-locker/screen-saver
+extra/xf86-input-elographics 1.4.4-1
+    X.org Elographics TouchScreen input driver
+extra/xfce4-screensaver 4.18.3-3 (xfce4-goodies)
+    Xfce Screensaver
+extra/xfce4-screenshooter 1.11.1-3 (xfce4-goodies)
+    An application to take screenshots
+extra/xlockmore 5.81-1
+    screen saver / locker for the X Window System
+extra/xorg-xmag 1.0.8-1
+    Magnify parts of the screen
+extra/xorg-xrefresh 1.1.0-1 (xorg-apps xorg) [installed]
+    Refresh all or part of an X screen
+extra/xosd 2.2.14-12
+    Displays text on your screen. On-Screen-Display-libs for some tools
+extra/xpra 6.2.0-1
+    multi-platform screen and application forwarding system screen for X11
+extra/xscreensaver 6.09-1
+    Screen saver and locker for the X Window System
+extra/xsecurelock 1.9.0-1
+    X11 screen lock utility with security in mind
+extra/xss-lock 0.3.0.r27.g0c562bf-1
+    Use external locker as X screen saver
+extra/xssstate 1.1-6
+    A simple tool to retrieve the X screensaver state
