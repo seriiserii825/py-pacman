@@ -1,6 +1,0 @@
-aur/rofimoji-git 6.2.0.r15.g473196a-1 (+0 0.00) 
-    Emoji, unicode and general character picker for rofi and rofi-likes
-aur/rofimoji-fuzzel-git 5.6.0.r0.gfd95a65-1 (+0 0.00) (Orphaned) (Out-of-date: 2022-11-21) 
-    Character picker for rofi (uses fuzzel instead of wofi)
-extra/rofimoji 6.5.0-2 (917.4 KiB 3.2 MiB) 
-    Emoji, unicode and general character picker for rofi and rofi-likes

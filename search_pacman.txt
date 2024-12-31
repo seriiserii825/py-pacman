@@ -1,2 +1,0 @@
-extra/rofimoji 6.5.0-2
-    Emoji, unicode and general character picker for rofi and rofi-likes
