@@ -1,0 +1,4 @@
+aur/ncduh-git 20240402-1 (+0 0.00) 
+    ncdu fork
+extra/ncdu 2.7-1 (225.5 KiB 525.4 KiB) 
+    Disk usage analyzer with an ncurses interface
