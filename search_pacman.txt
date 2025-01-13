@@ -1,2 +1,4 @@
-extra/ncdu 2.7-1
-    Disk usage analyzer with an ncurses interface
+extra/gpick 0.3-2
+    Advanced color picker written in C++ using GTK+ toolkit
+extra/progpick 0.2.0-2
+    Bruteforce with a stream of permutations of a specific pattern
