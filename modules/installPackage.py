@@ -1,5 +1,7 @@
 import os
 
+from classes.Package import Package
+
 # from modules.searchPackage import searchPackage
 # from config import CONFIG
 # PACMAN_SEARCH_PATH = CONFIG.SEARCH_PACMAN_PATH
@@ -13,9 +15,9 @@ import os
 #     package_name = package_name.split("/")[1]
 #     return package_name
 
-def installPackage(package = None):
-    pass
-    # searchPackage(package)
+def installPackage():
+    packages = Package()
+    packages.searchPackage()
     # choose = input("Install in pacman or yay? (p/y): ")
     # if choose == "p":
     #     package_name = getPackageByName(PACMAN_SEARCH_PATH)
