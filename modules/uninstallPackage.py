@@ -1,27 +1,24 @@
 import os
 from pyfzf.pyfzf import FzfPrompt
+from rich import print
 
-from modules.getAllInstalledPackages import getAllInstalledPackages
-from modules.saveInstalledPackagesToFiles import saveInstalledPackagesToFiles
+from classes.Package import Package
 fzf = FzfPrompt()
 user = os.getlogin()
-def uninstallPackage(package_name = None):
-    saveInstalledPackagesToFiles()
-    packages = getAllInstalledPackages()
-    all = packages["all"]
-    packages_from_pacman = packages["pacman"]
-    if not packages:
-        print("[red]No packages to uninstall")
-        return
-    if (package_name):
-        package = [package_name]
+def uninstallPackage():
+    packages = Package()
+    packages.getPackagesFromPacmanFile()
+    packages_from_pacman = packages.getPacmanPackages()
+    packages.getPackagesFromYayFile()
+    packages_from_yay = packages.getYayPackages()
+    all_packages = packages_from_pacman + packages_from_yay
+    package_name = fzf.prompt(all_packages)[0]
+    print(f"package_name: {package_name}")
+    if package_name in packages_from_pacman:
+        os.system(f"sudo pacman -R {package_name}")
+        print(f"[green]Uninstalled {package_name} with pacman")
+        packages.removePackageFromPacmanFile(package_name)
     else:
-        package = fzf.prompt(all)
-    if not package:
-        return
-    print(f"Uninstalling {package[0]}")
-    if package[0] in packages_from_pacman:
-        os.system(f"sudo pacman -R {package[0]}")
-    else:
-        os.system(f"yay -R {package[0]}")
-    saveInstalledPackagesToFiles()
+        os.system(f"yay -R {package_name}")
+        print(f"[green]Uninstalled {package_name} with yay")
+        packages.removePackageFromYayFile(package_name)
