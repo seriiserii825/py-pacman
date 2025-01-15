@@ -56,7 +56,6 @@ php-gd
 php-imagick
 polkit-gnome
 polybar
-postman-bin
 pulseaudio-control
 pyenv
 python

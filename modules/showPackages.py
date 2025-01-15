@@ -1,5 +1,6 @@
 from classes.Package import Package
 
-def installPackage():
+
+def showPackages():
     packages = Package()
-    packages.searchPackage()
+    packages.showInstalledPackages()

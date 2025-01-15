@@ -37,12 +37,28 @@ class Package():
             package = package.split("/")[1]
             command = f"sudo pacman -S --noconfirm {package}"
             os.system(command)
+            self.addPackageToFile(package, CONFIG.INSTALLED_PACMAN_PATH)
+            self.sortFile(CONFIG.INSTALLED_PACMAN_PATH)
         else:
             package = fzf.prompt(self.searched_yay)
             package = package[0].split(" ")[0]
             package = package.split("/")[1]
             command = f"yay -S {package}"
             os.system(command)
+            self.addPackageToFile(package, CONFIG.INSTALLED_YAY_PATH)
+            self.sortFile(CONFIG.INSTALLED_YAY_PATH)
+
+    def addPackageToFile(self, package, file_path):
+        with open(file_path, 'a') as f:
+            f.write(package + "\n")
+
+    def sortFile(self, file_path):
+        with open(file_path, 'r') as f:
+            lines = f.readlines()
+        with open(file_path, 'w') as f:
+            lines.sort()
+            for line in lines:
+                f.write(line)
 
     def removeLinesWithEmptySpaceAtStart(self, file_path):
         with open(file_path, 'r') as f:
@@ -81,4 +97,15 @@ class Package():
             for line in lines:
                 if line.strip("\n") != package:
                     f.write(line)
+
+    def showInstalledPackages(self):
+        self.getPackagesFromPacmanFile()
+        self.getPackagesFromYayFile()
+        package_type = input("Show pacman or yay packages? (p/y): ")
+        if package_type == "p":
+            print("[green]Pacman =====================")
+            os.system(f"bat {CONFIG.INSTALLED_PACMAN_PATH}")
+        else:
+            print("[blue]Yay =====================")
+            os.system(f"bat {CONFIG.INSTALLED_YAY_PATH}")
 
