@@ -2,9 +2,7 @@ import os
 from modules.customTable import customTable
 from modules.installDiff import installDiff
 from modules.installPackage import installPackage
-from modules.saveInstalledPackagesToFiles import saveInstalledPackagesToFiles
 from modules.showPackages import showPackages
-from modules.syncDiffWithInstalled import syncDiffWithInstalled
 from modules.uninstallPackage import uninstallPackage
 user = os.getlogin()
 
@@ -15,8 +13,7 @@ def mainMenu():
                        ['2', '[blue]Uninstall'],
                        ['3', '[yellow]Show installed packages'],
                        ['4', '[green]Install diff packages'],
-                       ['5', '[red]Sync diff with installed packages'],
-                       ['6', '[red]Exit']
+                       ['5', '[red]Exit']
                    ]
                    )
     menu_option = input("[green]Enter option: ")
@@ -33,5 +30,5 @@ def mainMenu():
     elif menu_option == '4':
         installDiff()
     elif menu_option == '5':
-        syncDiffWithInstalled()
+        exit()
 mainMenu()

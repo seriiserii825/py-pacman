@@ -12,7 +12,10 @@ class Package():
         self.installed_yay = []
         self.searched_pacman = []
         self.searched_yay = []
-        self.diff = []
+        self.diff_pacman = []
+        self.diff_yay = []
+        os.system(f"touch {CONFIG.DIFF_PACMAN_PATH}")
+        os.system(f"touch {CONFIG.DIFF_YAY_PATH}")
 
     def searchPackage(self):
         package = input("Enter package name: ")
@@ -79,6 +82,14 @@ class Package():
         with open(CONFIG.INSTALLED_YAY_PATH, 'r') as f:
             self.installed_yay = f.read().splitlines()
             
+    def getPackagesFromDiffPacmanFile(self):
+        with open(CONFIG.DIFF_PACMAN_PATH, 'r') as f:
+            self.diff_pacman = f.read().splitlines()
+
+    def getPackageFromDiffYayFile(self):
+        with open(CONFIG.DIFF_YAY_PATH, 'r') as f:
+            self.diff_yay = f.read().splitlines()
+
     def getYayPackages(self):
         return self.installed_yay
 
@@ -108,4 +119,44 @@ class Package():
         else:
             print("[blue]Yay =====================")
             os.system(f"bat {CONFIG.INSTALLED_YAY_PATH}")
+
+    def removePackageFromDiffPacmanFile(self, package):
+        with open(CONFIG.DIFF_PACMAN_PATH, 'r') as f:
+            lines = f.readlines()
+        with open(CONFIG.DIFF_PACMAN_PATH, 'w') as f:
+            for line in lines:
+                if line.strip("\n") != package:
+                    f.write(line)
+
+    def installDiffPacmanPackages(self):
+        self.getPackagesFromDiffPacmanFile()
+        if self.diff_pacman == []:
+            print("[red]No diff packages to install")
+            return
+        package = fzf.prompt(self.diff_pacman)
+        command = f"sudo pacman -S {package}"
+        os.system(command)
+        self.addPackageToFile(package, CONFIG.INSTALLED_PACMAN_PATH)
+        self.sortFile(CONFIG.INSTALLED_PACMAN_PATH)
+        self.removePackageFromDiffPacmanFile(package)
+
+    def removePackageFromDiffYayFile(self, package):
+        with open(CONFIG.DIFF_YAY_PATH, 'r') as f:
+            lines = f.readlines()
+        with open(CONFIG.DIFF_YAY_PATH, 'w') as f:
+            for line in lines:
+                if line.strip("\n") != package:
+                    f.write(line)
+
+    def installDiffYayPackages(self):
+        self.getPackageFromDiffYayFile()
+        if self.diff_yay == []:
+            print("[red]No diff packages to install")
+            return
+        package = fzf.prompt(self.diff_yay)
+        command = f"yay -S {package}"
+        os.system(command)
+        self.addPackageToFile(package, CONFIG.INSTALLED_YAY_PATH)
+        self.sortFile(CONFIG.INSTALLED_YAY_PATH)
+        self.removePackageFromDiffYayFile(package)
 
