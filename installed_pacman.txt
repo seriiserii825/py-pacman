@@ -19,6 +19,7 @@ chromedriver
 chromedriver
 copyq
 copyq
+cpufetch
 ctags
 ctags
 dmenu
@@ -31,6 +32,7 @@ efibootmgr
 efibootmgr
 eza
 eza
+fastfetch
 fd
 fd
 feh
@@ -90,6 +92,7 @@ mousepad
 mousepad
 ncdu
 ncdu
+neofetch
 neovim
 neovim
 networkmanager

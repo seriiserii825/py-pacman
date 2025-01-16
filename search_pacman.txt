@@ -1,1 +1,1 @@
-extra/atac 0.18.1-1
+extra/cpufetch 1.06-3
