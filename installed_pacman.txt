@@ -45,6 +45,7 @@ flameshot
 flameshot
 fzf
 fzf
+gimp
 git
 git
 gnome-keyring
