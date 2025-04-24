@@ -41,6 +41,7 @@ class Package():
             command = f"sudo pacman -S --noconfirm {package}"
             os.system(command)
             self.addPackageToFile(package, CONFIG.INSTALLED_PACMAN_PATH)
+            self.uniqueFile(CONFIG.INSTALLED_PACMAN_PATH)
             self.sortFile(CONFIG.INSTALLED_PACMAN_PATH)
         else:
             package = fzf.prompt(self.searched_yay)
@@ -49,6 +50,7 @@ class Package():
             command = f"yay -S {package} --noconfirm"
             os.system(command)
             self.addPackageToFile(package, CONFIG.INSTALLED_YAY_PATH)
+            self.uniqueFile(CONFIG.INSTALLED_YAY_PATH)
             self.sortFile(CONFIG.INSTALLED_YAY_PATH)
 
     def addPackageToFile(self, package, file_path):
@@ -60,6 +62,14 @@ class Package():
             lines = f.readlines()
         with open(file_path, 'w') as f:
             lines.sort()
+            for line in lines:
+                f.write(line)
+
+    def uniqueFile(self, file_path):
+        with open(file_path, 'r') as f:
+            lines = f.readlines()
+        with open(file_path, 'w') as f:
+            lines = list(set(lines))
             for line in lines:
                 f.write(line)
 
