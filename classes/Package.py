@@ -46,7 +46,7 @@ class Package():
             package = fzf.prompt(self.searched_yay)
             package = package[0].split(" ")[0]
             package = package.split("/")[1]
-            command = f"yay -S {package}"
+            command = f"yay -S {package} --noconfirm"
             os.system(command)
             self.addPackageToFile(package, CONFIG.INSTALLED_YAY_PATH)
             self.sortFile(CONFIG.INSTALLED_YAY_PATH)

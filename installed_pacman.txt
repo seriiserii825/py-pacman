@@ -53,6 +53,7 @@ gnome-keyring
 google-chrome
 google-chrome
 gpick
+gpick
 gvfs
 gvfs
 gvfs-gphoto2

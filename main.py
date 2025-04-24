@@ -4,31 +4,33 @@ from modules.installDiff import installDiff
 from modules.installPackage import installPackage
 from modules.showPackages import showPackages
 from modules.uninstallPackage import uninstallPackage
+from pyfzf.pyfzf import FzfPrompt
+
+from modules.updatePackages import updatePackages
 user = os.getlogin()
 
-def mainMenu():
-    customTable('Main Menu', ['Id', 'Option'], 
-                   [
-                       ['1', '[green]Install'],
-                       ['2', '[blue]Uninstall'],
-                       ['3', '[yellow]Show installed packages'],
-                       ['4', '[green]Install diff packages'],
-                       ['5', '[red]Exit']
-                   ]
-                   )
-    menu_option = input("[green]Enter option: ")
+menu_items = [
+        "Install",
+        "Uninstall",
+        "Show installed packages",
+        "Update",
+        "Exit"
+        ]
 
-    if menu_option == '':
-        print("[red]Invalid option")
-        exit()
-    if menu_option == '1':
-       installPackage()
-    elif menu_option == '2':
+fzf = FzfPrompt()
+menu_entry = fzf.prompt(menu_items)
+
+def mainMenu():
+    if menu_entry[0] == "Install":
+        installPackage()
+    elif menu_entry[0] == "Uninstall":
         uninstallPackage()
-    elif menu_option == '3':
+    elif menu_entry[0] == "Show installed packages":
         showPackages()
-    elif menu_option == '4':
-        installDiff()
-    elif menu_option == '5':
-        exit()
+    elif menu_entry[0] == "Update":
+        updatePackages()
+    elif menu_entry[0] == "Exit":
+        exit(0)
+    else:
+        print("Invalid option")
 mainMenu()
