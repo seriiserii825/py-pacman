@@ -12,6 +12,7 @@ copyq
 cpufetch
 ctags
 dmenu
+docker
 dosfstools
 dunst
 efibootmgr
