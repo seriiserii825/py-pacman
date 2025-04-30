@@ -4,6 +4,10 @@ venv
 *.py[cod]
 *.pyc
 
+installed_yay.txt
+search_pacman.txt
+search_yay.txt
+
 # C extensions
 *.so
 

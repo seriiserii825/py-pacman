@@ -7,9 +7,10 @@ local-by-flywheel-bin-debug
 ncurses5-compat-libs
 ncurses5-compat-libs-debug
 postman-bin
-postman-bin
+ps_mem
 pulseaudio-control
 skypeforlinux-bin
+smem
 st
 st-debug
 yay
