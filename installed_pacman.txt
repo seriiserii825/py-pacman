@@ -5,6 +5,7 @@ awesome-terminal-fonts
 base
 base-devel
 bat
+bind
 browserpass
 browserpass-chrome
 chromedriver
@@ -87,6 +88,7 @@ ttf-dejavu
 unzip
 vi
 vifm
+vlc
 wget
 woff2
 wp-cli
