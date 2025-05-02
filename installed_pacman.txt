@@ -88,7 +88,6 @@ ttf-dejavu
 unzip
 vi
 vifm
-vlc
 wget
 woff2
 wp-cli
