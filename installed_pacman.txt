@@ -1,3 +1,4 @@
+7zip
 ack
 alacritty
 android-file-transfer
@@ -16,6 +17,7 @@ dmenu
 docker
 dosfstools
 dunst
+dysk
 efibootmgr
 eza
 fastfetch
