@@ -10,6 +10,8 @@ bind
 browserpass
 browserpass-chrome
 chromedriver
+cmatrix
+cool-retro-term
 copyq
 cpufetch
 ctags
