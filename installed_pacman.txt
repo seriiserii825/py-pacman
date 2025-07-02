@@ -90,6 +90,7 @@ tk
 translate-shell
 ttf-dejavu
 unzip
+uv
 vi
 vifm
 wget
