@@ -78,6 +78,7 @@ ripgrep
 rofi
 rofimoji
 rsync
+ruff
 sddm
 skypeforlinux-bin
 smplayer

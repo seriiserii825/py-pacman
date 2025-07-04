@@ -1,12 +1,15 @@
 import os
-from rich import print
-from config import CONFIG
+
 from pyfzf.pyfzf import FzfPrompt
+from rich import print
+
+from config import CONFIG
 from modules.searchPackage import PACMAN_SEARCH_PATH, YAY_SEARCH_PATH
+
 fzf = FzfPrompt()
 
 
-class Package():
+class Package:
     def __init__(self):
         self.installed_pacman = []
         self.installed_yay = []
@@ -54,67 +57,68 @@ class Package():
             self.sortFile(CONFIG.INSTALLED_YAY_PATH)
 
     def addPackageToFile(self, package, file_path):
-        with open(file_path, 'a') as f:
+        with open(file_path, "a") as f:
             f.write(package + "\n")
 
     def sortFile(self, file_path):
-        with open(file_path, 'r') as f:
+        with open(file_path, "r") as f:
             lines = f.readlines()
-        with open(file_path, 'w') as f:
+        with open(file_path, "w") as f:
             lines.sort()
             for line in lines:
                 f.write(line)
 
     def uniqueFile(self, file_path):
-        with open(file_path, 'r') as f:
+        with open(file_path, "r") as f:
             lines = f.readlines()
-        with open(file_path, 'w') as f:
+        with open(file_path, "w") as f:
             lines = list(set(lines))
             for line in lines:
                 f.write(line)
 
     def removeLinesWithEmptySpaceAtStart(self, file_path):
-        with open(file_path, 'r') as f:
+        with open(file_path, "r") as f:
             lines = f.readlines()
-        with open(file_path, 'w') as f:
+        with open(file_path, "w") as f:
             for line in lines:
-                print(f'line: {line}')
+                print(f"line: {line}")
                 if not line.startswith(" "):
                     f.write(line)
 
     def getPackagesFromPacmanFile(self):
-        with open(CONFIG.INSTALLED_PACMAN_PATH, 'r') as f:
+        with open(CONFIG.INSTALLED_PACMAN_PATH, "r") as f:
             self.installed_pacman = f.read().splitlines()
+
     def getPacmanPackages(self):
         return self.installed_pacman
 
     def getPackagesFromYayFile(self):
-        with open(CONFIG.INSTALLED_YAY_PATH, 'r') as f:
+        with open(CONFIG.INSTALLED_YAY_PATH, "r") as f:
             self.installed_yay = f.read().splitlines()
-            
+
     def getPackagesFromDiffPacmanFile(self):
-        with open(CONFIG.DIFF_PACMAN_PATH, 'r') as f:
+        with open(CONFIG.DIFF_PACMAN_PATH, "r") as f:
             self.diff_pacman = f.read().splitlines()
 
     def getPackageFromDiffYayFile(self):
-        with open(CONFIG.DIFF_YAY_PATH, 'r') as f:
+        with open(CONFIG.DIFF_YAY_PATH, "r") as f:
             self.diff_yay = f.read().splitlines()
 
     def getYayPackages(self):
         return self.installed_yay
 
     def removePackageFromPacmanFile(self, package):
-        with open(CONFIG.INSTALLED_PACMAN_PATH, 'r') as f:
+        with open(CONFIG.INSTALLED_PACMAN_PATH, "r") as f:
             lines = f.readlines()
-        with open(CONFIG.INSTALLED_PACMAN_PATH, 'w') as f:
+        with open(CONFIG.INSTALLED_PACMAN_PATH, "w") as f:
             for line in lines:
                 if line.strip("\n") != package:
                     f.write(line)
 
     def removePackageFromYayFile(self, package):
-        with open(CONFIG.INSTALLED_YAY_PATH, 'r') as f:
+        with open(CONFIG.INSTALLED_YAY_PATH, "r") as f:
             lines = f.readlines()
-        with open(CONFIG.INSTALLED_YAY_PATH, 'w') as f:
+        with open(CONFIG.INSTALLED_YAY_PATH, "w") as f:
             for line in lines:
                 if line.strip("\n") != package:
                     f.write(line)
@@ -131,9 +135,9 @@ class Package():
             os.system(f"bat {CONFIG.INSTALLED_YAY_PATH}")
 
     def removePackageFromDiffPacmanFile(self, package):
-        with open(CONFIG.DIFF_PACMAN_PATH, 'r') as f:
+        with open(CONFIG.DIFF_PACMAN_PATH, "r") as f:
             lines = f.readlines()
-        with open(CONFIG.DIFF_PACMAN_PATH, 'w') as f:
+        with open(CONFIG.DIFF_PACMAN_PATH, "w") as f:
             for line in lines:
                 if line.strip("\n") != package:
                     f.write(line)
@@ -151,9 +155,9 @@ class Package():
         self.removePackageFromDiffPacmanFile(package)
 
     def removePackageFromDiffYayFile(self, package):
-        with open(CONFIG.DIFF_YAY_PATH, 'r') as f:
+        with open(CONFIG.DIFF_YAY_PATH, "r") as f:
             lines = f.readlines()
-        with open(CONFIG.DIFF_YAY_PATH, 'w') as f:
+        with open(CONFIG.DIFF_YAY_PATH, "w") as f:
             for line in lines:
                 if line.strip("\n") != package:
                     f.write(line)
@@ -169,4 +173,3 @@ class Package():
         self.addPackageToFile(package, CONFIG.INSTALLED_YAY_PATH)
         self.sortFile(CONFIG.INSTALLED_YAY_PATH)
         self.removePackageFromDiffYayFile(package)
-

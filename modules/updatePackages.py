@@ -1,4 +1,6 @@
 import os
+
+
 def updatePackages():
     pm = input("[green]Update pacman or yay packages? (p/y): ")
     if pm == "p":

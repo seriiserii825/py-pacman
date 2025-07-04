@@ -1,10 +1,14 @@
 import os
+
 from pyfzf.pyfzf import FzfPrompt
 from rich import print
 
 from classes.Package import Package
+
 fzf = FzfPrompt()
 user = os.getlogin()
+
+
 def uninstallPackage():
     packages = Package()
     packages.getPackagesFromPacmanFile()

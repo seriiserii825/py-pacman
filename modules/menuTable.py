@@ -1,6 +1,7 @@
 from rich.console import Console
 from rich.table import Table
 
+
 def menuTable():
     table = Table(title="[green]Choose an option")
 

@@ -1,24 +1,19 @@
 import os
-from modules.customTable import customTable
-from modules.installDiff import installDiff
+
+from pyfzf.pyfzf import FzfPrompt
+
 from modules.installPackage import installPackage
 from modules.showPackages import showPackages
 from modules.uninstallPackage import uninstallPackage
-from pyfzf.pyfzf import FzfPrompt
-
 from modules.updatePackages import updatePackages
+
 user = os.getlogin()
 
-menu_items = [
-        "Install",
-        "Uninstall",
-        "Show installed packages",
-        "Update",
-        "Exit"
-        ]
+menu_items = ["Install", "Uninstall", "Show installed packages", "Update", "Exit"]
 
 fzf = FzfPrompt()
 menu_entry = fzf.prompt(menu_items)
+
 
 def mainMenu():
     if menu_entry[0] == "Install":
@@ -33,4 +28,6 @@ def mainMenu():
         exit(0)
     else:
         print("Invalid option")
+
+
 mainMenu()

@@ -1,4 +1,6 @@
 from config import CONFIG
+
+
 def getAllInstalledPackages():
     with open(CONFIG.INSTALLED_PACMAN_PATH, "r") as f:
         lines = f.readlines()
@@ -11,7 +13,7 @@ def getAllInstalledPackages():
     lines = [line.strip() for line in lines]
     packages_from_yay = lines
     return {
-            "pacman": packages_from_pacman,
-            "yay": packages_from_yay,
-            "all": packages_from_pacman + packages_from_yay
-            }
+        "pacman": packages_from_pacman,
+        "yay": packages_from_yay,
+        "all": packages_from_pacman + packages_from_yay,
+    }

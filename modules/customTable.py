@@ -1,8 +1,8 @@
-def customTable(title = '', columns = [], rows = []):
+def customTable(title="", columns=[], rows=[]):
     from rich.console import Console
     from rich.table import Table
 
-    if title == '':
+    if title == "":
         table = Table(title=title)
     else:
         table = Table()
@@ -22,4 +22,3 @@ def customTable(title = '', columns = [], rows = []):
 
     console = Console()
     console.print(table)
-
