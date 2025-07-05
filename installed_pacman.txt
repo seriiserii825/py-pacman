@@ -80,6 +80,7 @@ rofimoji
 rsync
 ruff
 sddm
+shellcheck
 skypeforlinux-bin
 smplayer
 st
