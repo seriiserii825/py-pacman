@@ -91,6 +91,7 @@ the_silver_searcher
 tk
 translate-shell
 ttf-dejavu
+unrar
 unzip
 uv
 vi

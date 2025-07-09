@@ -1,27 +1,11 @@
 [project]
-name = "py-pacman"
+name = "my_project"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "serii burduja",email = "seriiburduja@gmail.com"}
-]
-readme = "README.md"
-requires-python = ">=3.10,<4.0"
 dependencies = [
-    "markdown-it-py==3.0.0",
-    "mccabe==0.7.0",
-    "mdurl==0.1.2",
-    "mypy-extensions==1.1.0",
-    "pathspec==0.12.1",
-    "pycodestyle==2.13.0",
-    "pyflakes==3.3.2",
-    "pyfzf==0.3.1",
-    "pygments==2.18.0",
-    "rich==13.7.1",
-    "ruff>=0.12.2",
-    "typing-extensions==4.14.0",
+    "pyfzf>=0.3.1",
+    "rich>=14.0.0",
 ]
-
 
 [tool.ruff]
 line-length = 88
@@ -37,6 +21,7 @@ exclude = [
     "__pycache__",
 ]
 fix = true
+unsafe-fixes = true
 target-version = "py312"  # <- specify Python 3.12 explicitly here
 
 [tool.ruff.lint]
