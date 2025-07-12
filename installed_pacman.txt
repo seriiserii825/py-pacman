@@ -53,12 +53,14 @@ local-by-flywheel-bin
 lxsession
 mariadb
 mousepad
+mupdf-gl
 ncdu
 neofetch
 neovim
 networkmanager
 nitrogen
 noto-fonts-emoji
+okularpart5
 openssh
 pass
 pavucontrol
