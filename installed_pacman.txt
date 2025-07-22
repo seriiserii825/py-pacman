@@ -63,6 +63,7 @@ nitrogen
 noto-fonts-emoji
 okularpart5
 openssh
+pandoc-cli
 pass
 pavucontrol
 perl-rename
