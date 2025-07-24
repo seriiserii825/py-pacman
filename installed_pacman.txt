@@ -88,6 +88,7 @@ shellcheck
 skypeforlinux-bin
 smplayer
 st
+sxiv
 telegram-desktop
 tesseract
 tesseract-data-eng
