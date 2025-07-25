@@ -55,6 +55,7 @@ lxsession
 mariadb
 mousepad
 mupdf-gl
+mypy
 ncdu
 neofetch
 neovim
