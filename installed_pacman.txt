@@ -77,13 +77,13 @@ postman-bin
 pulseaudio-control
 pyenv
 python
+python-debugpy
 python-pip
 python-pynvim
 ripgrep
 rofi
 rofimoji
 rsync
-ruff
 sddm
 shellcheck
 skypeforlinux-bin
@@ -101,7 +101,6 @@ unrar
 unzip
 uv
 vi
-vifm
 wget
 woff2
 wp-cli
