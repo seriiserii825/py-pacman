@@ -84,6 +84,7 @@ ripgrep
 rofi
 rofimoji
 rsync
+rtmpdump
 sddm
 shellcheck
 skypeforlinux-bin
