@@ -3,6 +3,7 @@ import os
 from pyfzf.pyfzf import FzfPrompt
 from rich import print
 
+from classes.Osc8 import Os8
 from config import CONFIG
 from modules.searchPackage import PACMAN_SEARCH_PATH, YAY_SEARCH_PATH
 
@@ -31,6 +32,13 @@ class Package:
         self.removeLinesWithEmptySpaceAtStart(YAY_SEARCH_PATH)
         self.searched_pacman = open(PACMAN_SEARCH_PATH, "r").read().split("\n")
         self.searched_yay = open(YAY_SEARCH_PATH, "r").read().split("\n")
+        # тут чистим OSC8
+        self.searched_pacman = [
+            Os8.clear_str(line) for line in self.searched_pacman if line.strip()
+        ]
+        self.searched_yay = [
+            Os8.clear_str(line) for line in self.searched_yay if line.strip()
+        ]
         print("[green]Pacman =====================")
         os.system(f"cat {PACMAN_SEARCH_PATH}")
         print("[blue]Yay =====================")
