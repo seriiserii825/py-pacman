@@ -9,6 +9,7 @@ bat
 bind
 browserpass
 browserpass-chrome
+btop
 chromedriver
 cmatrix
 cool-retro-term
