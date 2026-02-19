@@ -38,6 +38,7 @@ google-chrome
 gpick
 gvfs
 gvfs-gphoto2
+hyprlock
 i3-wm
 i3lock
 id3v2
