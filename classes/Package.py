@@ -1,13 +1,10 @@
 import os
 
-from pyfzf.pyfzf import FzfPrompt
+from py_libs.Select import Select
 from rich import print
 
 from classes.Osc8 import Os8
 from config import CONFIG
-from modules.searchPackage import PACMAN_SEARCH_PATH, YAY_SEARCH_PATH
-
-fzf = FzfPrompt()
 
 
 class Package:
@@ -26,12 +23,14 @@ class Package:
         if not package:
             print("Package name is required!")
             return
-        os.system(f"sudo pacman -Ss {package} > {PACMAN_SEARCH_PATH}")
-        os.system(f"yay -Ss {package} > {YAY_SEARCH_PATH}")
-        self.removeLinesWithEmptySpaceAtStart(PACMAN_SEARCH_PATH)
-        self.removeLinesWithEmptySpaceAtStart(YAY_SEARCH_PATH)
-        self.searched_pacman = open(PACMAN_SEARCH_PATH, "r").read().split("\n")
-        self.searched_yay = open(YAY_SEARCH_PATH, "r").read().split("\n")
+        os.system(f"sudo pacman -Ss {package} > {CONFIG.SEARCH_PACMAN_PATH}")
+        os.system(f"yay -Ss {package} > {CONFIG.SEARCH_YAY_PATH}")
+        self.removeLinesWithEmptySpaceAtStart(CONFIG.SEARCH_PACMAN_PATH)
+        self.removeLinesWithEmptySpaceAtStart(CONFIG.SEARCH_YAY_PATH)
+        with open(CONFIG.SEARCH_PACMAN_PATH, "r") as f:
+            self.searched_pacman = f.read().split("\n")
+        with open(CONFIG.SEARCH_YAY_PATH, "r") as f:
+            self.searched_yay = f.read().split("\n")
         # тут чистим OSC8
         self.searched_pacman = [
             Os8.clear_str(line) for line in self.searched_pacman if line.strip()
@@ -40,14 +39,16 @@ class Package:
             Os8.clear_str(line) for line in self.searched_yay if line.strip()
         ]
         print("[green]Pacman =====================")
-        os.system(f"cat {PACMAN_SEARCH_PATH}")
+        os.system(f"cat {CONFIG.SEARCH_PACMAN_PATH}")
         print("[blue]Yay =====================")
-        os.system(f"cat {YAY_SEARCH_PATH}")
+        os.system(f"cat {CONFIG.SEARCH_YAY_PATH}")
 
         choose = input("Install in pacman or yay? (p/y): ")
         if choose == "p":
-            package = fzf.prompt(self.searched_pacman)
-            package = package[0].split(" ")[0]
+            package = Select.select_fzf_one(self.searched_pacman)
+            if package is None:
+                return
+            package = package.split(" ")[0]
             package = package.split("/")[1]
             command = f"sudo pacman -S --noconfirm {package}"
             os.system(command)
@@ -55,8 +56,10 @@ class Package:
             self.uniqueFile(CONFIG.INSTALLED_PACMAN_PATH)
             self.sortFile(CONFIG.INSTALLED_PACMAN_PATH)
         else:
-            package = fzf.prompt(self.searched_yay)
-            package = package[0].split(" ")[0]
+            package = Select.select_fzf_one(self.searched_yay)
+            if package is None:
+                return
+            package = package.split(" ")[0]
             package = package.split("/")[1]
             command = f"yay -S {package} --noconfirm"
             os.system(command)
@@ -89,7 +92,6 @@ class Package:
             lines = f.readlines()
         with open(file_path, "w") as f:
             for line in lines:
-                print(f"line: {line}")
                 if not line.startswith(" "):
                     f.write(line)
 
@@ -155,7 +157,9 @@ class Package:
         if self.diff_pacman == []:
             print("[red]No diff packages to install")
             return
-        package = fzf.prompt(self.diff_pacman)
+        package = Select.select_fzf_one(self.diff_pacman)
+        if package is None:
+            return
         command = f"sudo pacman -S {package}"
         os.system(command)
         self.addPackageToFile(package, CONFIG.INSTALLED_PACMAN_PATH)
@@ -175,7 +179,9 @@ class Package:
         if self.diff_yay == []:
             print("[red]No diff packages to install")
             return
-        package = fzf.prompt(self.diff_yay)
+        package = Select.select_fzf_one(self.diff_yay)
+        if package is None:
+            return
         command = f"yay -S {package}"
         os.system(command)
         self.addPackageToFile(package, CONFIG.INSTALLED_YAY_PATH)

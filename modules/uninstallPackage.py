@@ -1,11 +1,10 @@
 import os
 
-from pyfzf.pyfzf import FzfPrompt
+from py_libs.Select import Select
 from rich import print
 
 from classes.Package import Package
 
-fzf = FzfPrompt()
 user = os.getlogin()
 
 
@@ -16,7 +15,9 @@ def uninstallPackage():
     packages.getPackagesFromYayFile()
     packages_from_yay = packages.getYayPackages()
     all_packages = packages_from_pacman + packages_from_yay
-    package_name = fzf.prompt(all_packages)[0]
+    package_name = Select.select_fzf_one(all_packages)
+    if package_name is None:
+        return
     print(f"package_name: {package_name}")
     if package_name in packages_from_pacman:
         os.system(f"sudo pacman -R {package_name}")
