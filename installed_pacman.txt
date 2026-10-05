@@ -107,6 +107,7 @@ vi
 wget
 woff2
 wp-cli
+wpscan
 xclip
 xf86-video-nouveau
 xf86-video-vesa
